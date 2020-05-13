@@ -1068,52 +1068,654 @@
             </stream>
         </palette>
     </palettes>
-    <cuelists />
+    <cuelists>
+        <cuelist label="ReleaseAfterMovement" loop="false" bounce="false" random="false" repeat="Off" precedence="LTP" chase="false" release_time="00-00-00-00">
+            <targets>
+                <target>Box 1.1</target>
+                <target>Box 1.2</target>
+                <target>Box 1.3</target>
+                <target>Box 1.4</target>
+                <target>Box 2.1</target>
+                <target>Box 2.2</target>
+                <target>Box 2.3</target>
+                <target>Box 2.4</target>
+                <target>Box 3.1</target>
+                <target>Box 3.2</target>
+                <target>Box 3.3</target>
+                <target>Box 3.4</target>
+                <target>Brug 2 Luik 8</target>
+                <target>Brug 2 Luik 9</target>
+                <target>Brug 2 Luik 10</target>
+                <target>Brug 2 Luik 11</target>
+                <target>Brug 2 Luik 12</target>
+                <target>Brug 2 Luik 13</target>
+                <target>Brug 2 Luik 14</target>
+                <target>Brug 1 Luik 1</target>
+                <target>Brug 1 Luik 2</target>
+                <target>Brug 1 Luik 3</target>
+                <target>Brug 1 Luik 4</target>
+                <target>Brug 1 Luik 5</target>
+                <target>Brug 1 Luik 6</target>
+                <target>Brug 1 Luik 7</target>
+                <target>Wand L 1.1</target>
+                <target>Wand L 1.2</target>
+                <target>Wand L 1.3</target>
+                <target>Wand L 2.1</target>
+                <target>Wand L 2.2</target>
+                <target>Wand L 3.1</target>
+                <target>Wand L 3.2</target>
+                <target>Wand L 3.3</target>
+                <target>Wand R 1.1</target>
+                <target>Wand R 1.2</target>
+                <target>Wand R 1.3</target>
+                <target>Wand R 2.1</target>
+                <target>Wand R 2.2</target>
+                <target>Wand R 3.1</target>
+                <target>Wand R 3.2</target>
+                <target>Wand R 3.3</target>
+            </targets>
+            <cues>
+                <cue number="1.0" condition="Halt" wait="00-00-00-00" delay="00-00-00-00" fade_in="00-00-00-00" fade_out="00-00-00-00">
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                </cue>
+                <cue number="2.0" condition="Follow" wait="00-00-00-00" delay="00-00-05-00" fade_in="00-00-00-00" fade_out="00-00-00-00">
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                </cue>
+                <cue number="3.0" condition="Follow" wait="00-00-00-00" delay="00-00-01-00" fade_in="00-00-00-00" fade_out="00-00-00-00">
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <action label="">
+                        <tasks>
+                            <task type="Programmer" feature="Clear Selection" function="Set" />
+                        </tasks>
+                    </action>
+                </cue>
+                <cue number="4.0" condition="Follow" wait="00-00-00-00" delay="00-00-00-00" fade_in="00-00-00-00" fade_out="00-00-00-00">
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <action label="">
+                        <tasks>
+                            <task type="Group" feature="Select" function="Set">
+                                <argument type="Bool">On</argument>
+                            </task>
+                        </tasks>
+                    </action>
+                </cue>
+                <cue number="5.0" condition="Follow" wait="00-00-00-00" delay="00-00-00-00" fade_in="00-00-00-00" fade_out="00-00-00-00">
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                </cue>
+            </cues>
+        </cuelist>
+    </cuelists>
     <stacklists />
     <playbacks>
         <faders>
             <bank label="" />
         </faders>
         <buttons>
-            <bank label="" />
+            <bank label="asdf">
+                <playback index="4" attack="0.000000"></playback>
+                <playback index="6" attack="0.000000"></playback>
+                <playback index="7" attack="0.000000" function_button_primair="Go+">ReleaseAfterMovement</playback>
+            </bank>
         </buttons>
     </playbacks>
     <actions>
-        <actionlist enabled="true" label="OSC INPUT" source="OSC">
+        <actionlist enabled="true" label="Commands" source="OSC">
             <identifier>
                 <argument type="Unsigned">0</argument>
             </identifier>
-            <action label="STOP">
-                <trigger type="String" flank="Change">/STOP</trigger>
-                <tasks>
-                    <task type="Palette" identifier="0x9" feature="Activate" function="Set" />
-                </tasks>
-            </action>
             <action label="OPEN">
                 <trigger type="String" flank="Change">/OPEN</trigger>
                 <tasks>
-                    <task type="Palette" identifier="0x2" feature="Activate" function="Set" />
+                    <task type="Dashboard Palette Grid" identifier="0x2" feature="ButtonPrimair" function="Set">
+                        <argument type="Bool">On</argument>
+                    </task>
+                    <task type="Playback Button" feature="Jump" function="Set">
+                        <identifier>
+                            <argument type="String">1.8</argument>
+                        </identifier>
+                        <argument type="Unsigned">1</argument>
+                    </task>
+                    <task type="Dashboard Palette Grid" identifier="0x2" feature="ButtonPrimair" function="Set">
+                        <argument type="Bool">Off</argument>
+                    </task>
                 </tasks>
             </action>
             <action label="DICHT">
                 <trigger type="String" flank="Change">/DICHT</trigger>
                 <tasks>
-                    <task type="Palette" identifier="0xA" feature="Activate" function="Set" />
-                </tasks>
-            </action>
-            <action label="select none">
-                <trigger type="String" flank="Down"></trigger>
-                <tasks>
-                    <task type="Group" feature="Activate" function="Set">
+                    <task type="Dashboard Palette Grid" identifier="0xA" feature="ButtonPrimair" function="Set">
                         <argument type="Bool">On</argument>
+                    </task>
+                    <task type="Playback Button" feature="Jump" function="Set">
+                        <identifier>
+                            <argument type="String">1.8</argument>
+                        </identifier>
+                        <argument type="Unsigned">1</argument>
+                    </task>
+                    <task type="Dashboard Palette Grid" identifier="0xA" feature="ButtonPrimair" function="Set">
+                        <argument type="Bool">Off</argument>
                     </task>
                 </tasks>
             </action>
-            <action label="Action01">
-                <trigger type="String" flank="Down"></trigger>
+            <action label="STOP">
+                <trigger type="String" flank="Change">/STOP</trigger>
                 <tasks>
-                    <task type="Group" identifier="0x3F" feature="Activate" function="Set">
-                        <argument type="Bool">On</argument>
+                    <task type="Programmer" feature="Clear" function="Set" />
+                </tasks>
+            </action>
+        </actionlist>
+        <actionlist enabled="false" label="test feedback" source="GPI">
+            <identifier>
+                <argument type="IpAddress">192.168.2.11:16945</argument>
+            </identifier>
+            <action label="Action01">
+                <trigger type="Channel" flank="Change">1</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Unsigned" function="Set">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/SelAll</argument>
+                        <argument type="Unsigned">0</argument>
                     </task>
                 </tasks>
             </action>

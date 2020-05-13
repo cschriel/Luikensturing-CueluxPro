@@ -1078,7 +1078,47 @@
             <bank label="" />
         </buttons>
     </playbacks>
-    <actions />
+    <actions>
+        <actionlist enabled="true" label="OSC INPUT" source="OSC">
+            <identifier>
+                <argument type="Unsigned">0</argument>
+            </identifier>
+            <action label="STOP">
+                <trigger type="String" flank="Change">/STOP</trigger>
+                <tasks>
+                    <task type="Palette" identifier="0x9" feature="Activate" function="Set" />
+                </tasks>
+            </action>
+            <action label="OPEN">
+                <trigger type="String" flank="Change">/OPEN</trigger>
+                <tasks>
+                    <task type="Palette" identifier="0x2" feature="Activate" function="Set" />
+                </tasks>
+            </action>
+            <action label="DICHT">
+                <trigger type="String" flank="Change">/DICHT</trigger>
+                <tasks>
+                    <task type="Palette" identifier="0xA" feature="Activate" function="Set" />
+                </tasks>
+            </action>
+            <action label="select none">
+                <trigger type="String" flank="Down"></trigger>
+                <tasks>
+                    <task type="Group" feature="Activate" function="Set">
+                        <argument type="Bool">On</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Action01">
+                <trigger type="String" flank="Down"></trigger>
+                <tasks>
+                    <task type="Group" identifier="0x3F" feature="Activate" function="Set">
+                        <argument type="Bool">On</argument>
+                    </task>
+                </tasks>
+            </action>
+        </actionlist>
+    </actions>
     <patterns>
         <page label="Page01">
             <pattern type="Static Fill" label="Static Fill" />
@@ -1335,6 +1375,50 @@
         </group>
         <group label="7" index="55">
             <member>Brug 1 Luik 7</member>
+        </group>
+        <group label="ALL LUIK" index="63">
+            <member>Box 1.1</member>
+            <member>Box 1.2</member>
+            <member>Box 1.3</member>
+            <member>Box 1.4</member>
+            <member>Box 2.1</member>
+            <member>Box 2.2</member>
+            <member>Box 2.3</member>
+            <member>Box 2.4</member>
+            <member>Box 3.1</member>
+            <member>Box 3.2</member>
+            <member>Box 3.3</member>
+            <member>Box 3.4</member>
+            <member>Brug 2 Luik 8</member>
+            <member>Brug 2 Luik 9</member>
+            <member>Brug 2 Luik 10</member>
+            <member>Brug 2 Luik 11</member>
+            <member>Brug 2 Luik 12</member>
+            <member>Brug 2 Luik 13</member>
+            <member>Brug 2 Luik 14</member>
+            <member>Brug 1 Luik 1</member>
+            <member>Brug 1 Luik 2</member>
+            <member>Brug 1 Luik 3</member>
+            <member>Brug 1 Luik 4</member>
+            <member>Brug 1 Luik 5</member>
+            <member>Brug 1 Luik 6</member>
+            <member>Brug 1 Luik 7</member>
+            <member>Wand L 1.1</member>
+            <member>Wand L 1.2</member>
+            <member>Wand L 1.3</member>
+            <member>Wand L 2.1</member>
+            <member>Wand L 2.2</member>
+            <member>Wand L 3.1</member>
+            <member>Wand L 3.2</member>
+            <member>Wand L 3.3</member>
+            <member>Wand R 1.1</member>
+            <member>Wand R 1.2</member>
+            <member>Wand R 1.3</member>
+            <member>Wand R 2.1</member>
+            <member>Wand R 2.2</member>
+            <member>Wand R 3.1</member>
+            <member>Wand R 3.2</member>
+            <member>Wand R 3.3</member>
         </group>
         <group label="L1.1" index="64">
             <member>Wand L 1.1</member>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<personalities>
+    <manufacturer label="a Chris" revision="2">
+        <model label="Luik v2" alias="Luik v2">
+            <changelogs>
+                <change username="Christiaan Schriel" notes="Initial version" date="2020-05-13" time="00-00-00-00" />
+            </changelogs>
+            <part attribute="Custom" label="OPEN">
+                <range function="Control" offset="0">0,255</range>
+            </part>
+            <part attribute="Custom" label="CLOSE">
+                <range function="Control" offset="1">0,255</range>
+            </part>
+        </model>
+    </manufacturer>
+</personalities>

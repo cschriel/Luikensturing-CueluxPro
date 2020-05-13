@@ -52,7 +52,1022 @@
         <layers />
         <members />
     </matrix>
-    <palettes />
+    <palettes>
+        <palette label="Open" index="2">
+            <stream fixture="Box 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 8">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 9">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 10">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 11">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 12">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 13">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 14">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 3">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 4">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 5">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 6">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 7">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+        </palette>
+        <palette label="STOP" index="9">
+            <stream fixture="Box 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 8">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 9">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 10">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 11">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 12">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 13">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 14">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 4">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 5">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 6">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 7">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+        </palette>
+        <palette label="Close" index="10">
+            <stream fixture="Box 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 8">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 9">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 10">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 11">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 12">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 13">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 14">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 4">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 5">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 6">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 7">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+        </palette>
+    </palettes>
     <cuelists />
     <stacklists />
     <playbacks>
@@ -269,7 +1284,7 @@
             <member>Brug 2 Luik 13</member>
             <member>Brug 2 Luik 14</member>
         </group>
-        <group label="8" index="33">
+        <group label="8 - Copy" index="33">
             <member>Brug 2 Luik 8</member>
         </group>
         <group label="9" index="34">
@@ -315,7 +1330,7 @@
         <group label="5" index="53">
             <member>Brug 1 Luik 5</member>
         </group>
-        <group label="6" index="54">
+        <group label="6 - Copy" index="54">
             <member>Brug 1 Luik 6</member>
         </group>
         <group label="7" index="55">
@@ -369,7 +1384,7 @@
         <group label="R1.3" index="86">
             <member>Wand R 1.3</member>
         </group>
-        <group label="Alle boxen" index="88" />
+        <group label="Alle boxen - Copy" index="88" />
         <group label="Wand Links" index="89">
             <member>Wand L 1.1</member>
             <member>Wand L 1.2</member>

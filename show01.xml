@@ -208,5 +208,205 @@
             </pattern>
         </page>
     </patterns>
-    <groups />
+    <groups>
+        <group label="Box 3.1" index="1">
+            <member>Box 3.1</member>
+        </group>
+        <group label="Box 3.2" index="3">
+            <member>Box 3.2</member>
+        </group>
+        <group label="Box 3.3" index="5">
+            <member>Box 3.3</member>
+        </group>
+        <group label="Box 3.4" index="7">
+            <member>Box 3.4</member>
+        </group>
+        <group label="Box 2.1" index="9">
+            <member>Box 2.1</member>
+        </group>
+        <group label="Box 2.2" index="11">
+            <member>Box 2.2</member>
+        </group>
+        <group label="Box 2.3" index="13">
+            <member>Box 2.3</member>
+        </group>
+        <group label="Box 2.4" index="15">
+            <member>Box 2.4</member>
+        </group>
+        <group label="Alle boxen" index="16">
+            <member>Box 1.1</member>
+            <member>Box 1.2</member>
+            <member>Box 1.3</member>
+            <member>Box 1.4</member>
+            <member>Box 2.1</member>
+            <member>Box 2.2</member>
+            <member>Box 2.3</member>
+            <member>Box 2.4</member>
+            <member>Box 3.1</member>
+            <member>Box 3.2</member>
+            <member>Box 3.3</member>
+            <member>Box 3.4</member>
+        </group>
+        <group label="Box 1.1" index="17">
+            <member>Box 1.1</member>
+        </group>
+        <group label="Box 1.2" index="19">
+            <member>Box 1.2</member>
+        </group>
+        <group label="Box 1.3" index="21">
+            <member>Box 1.3</member>
+        </group>
+        <group label="Box 1.4" index="23">
+            <member>Box 1.4</member>
+        </group>
+        <group label="8" index="25" />
+        <group label="Brug 2" index="32">
+            <member>Brug 2 Luik 8</member>
+            <member>Brug 2 Luik 9</member>
+            <member>Brug 2 Luik 10</member>
+            <member>Brug 2 Luik 11</member>
+            <member>Brug 2 Luik 12</member>
+            <member>Brug 2 Luik 13</member>
+            <member>Brug 2 Luik 14</member>
+        </group>
+        <group label="8" index="33">
+            <member>Brug 2 Luik 8</member>
+        </group>
+        <group label="9" index="34">
+            <member>Brug 2 Luik 9</member>
+        </group>
+        <group label="10" index="35">
+            <member>Brug 2 Luik 10</member>
+        </group>
+        <group label="11" index="36">
+            <member>Brug 2 Luik 11</member>
+        </group>
+        <group label="12" index="37">
+            <member>Brug 2 Luik 12</member>
+        </group>
+        <group label="13" index="38">
+            <member>Brug 2 Luik 13</member>
+        </group>
+        <group label="14" index="39">
+            <member>Brug 2 Luik 14</member>
+        </group>
+        <group label="6" index="46" />
+        <group label="Brug 1" index="48">
+            <member>Brug 1 Luik 1</member>
+            <member>Brug 1 Luik 2</member>
+            <member>Brug 1 Luik 3</member>
+            <member>Brug 1 Luik 4</member>
+            <member>Brug 1 Luik 5</member>
+            <member>Brug 1 Luik 6</member>
+            <member>Brug 1 Luik 7</member>
+        </group>
+        <group label="1" index="49">
+            <member>Brug 1 Luik 1</member>
+        </group>
+        <group label="2" index="50">
+            <member>Brug 1 Luik 2</member>
+        </group>
+        <group label="3" index="51">
+            <member>Brug 1 Luik 3</member>
+        </group>
+        <group label="4" index="52">
+            <member>Brug 1 Luik 4</member>
+        </group>
+        <group label="5" index="53">
+            <member>Brug 1 Luik 5</member>
+        </group>
+        <group label="6" index="54">
+            <member>Brug 1 Luik 6</member>
+        </group>
+        <group label="7" index="55">
+            <member>Brug 1 Luik 7</member>
+        </group>
+        <group label="L1.1" index="64">
+            <member>Wand L 1.1</member>
+        </group>
+        <group label="L2.1" index="65">
+            <member>Wand L 2.1</member>
+        </group>
+        <group label="L3.1" index="66">
+            <member>Wand L 3.1</member>
+        </group>
+        <group label="R3.1" index="68">
+            <member>Wand R 3.1</member>
+        </group>
+        <group label="R2.1" index="69">
+            <member>Wand R 2.1</member>
+        </group>
+        <group label="R1.1" index="70">
+            <member>Wand R 1.1</member>
+        </group>
+        <group label="L1.2" index="72">
+            <member>Wand L 1.2</member>
+        </group>
+        <group label="L2.2" index="73">
+            <member>Wand L 2.2</member>
+        </group>
+        <group label="L3.2" index="74">
+            <member>Wand L 3.2</member>
+        </group>
+        <group label="R3.2" index="76">
+            <member>Wand R 3.2</member>
+        </group>
+        <group label="R2.2" index="77">
+            <member>Wand R 2.2</member>
+        </group>
+        <group label="R1.2" index="78">
+            <member>Wand R 1.2</member>
+        </group>
+        <group label="L1.3" index="80">
+            <member>Wand L 1.3</member>
+        </group>
+        <group label="L3.3" index="82">
+            <member>Wand L 3.3</member>
+        </group>
+        <group label="R3.3" index="84">
+            <member>Wand R 3.3</member>
+        </group>
+        <group label="R1.3" index="86">
+            <member>Wand R 1.3</member>
+        </group>
+        <group label="Alle boxen" index="88" />
+        <group label="Wand Links" index="89">
+            <member>Wand L 1.1</member>
+            <member>Wand L 1.2</member>
+            <member>Wand L 1.3</member>
+            <member>Wand L 2.1</member>
+            <member>Wand L 2.2</member>
+            <member>Wand L 3.1</member>
+            <member>Wand L 3.2</member>
+            <member>Wand L 3.3</member>
+        </group>
+        <group label="Wand Rechts" index="93">
+            <member>Wand R 1.1</member>
+            <member>Wand R 1.2</member>
+            <member>Wand R 1.3</member>
+            <member>Wand R 2.1</member>
+            <member>Wand R 2.2</member>
+            <member>Wand R 3.1</member>
+            <member>Wand R 3.2</member>
+            <member>Wand R 3.3</member>
+        </group>
+        <group label="Alle Wanden" index="99">
+            <member>Wand L 1.1</member>
+            <member>Wand L 1.2</member>
+            <member>Wand L 1.3</member>
+            <member>Wand L 2.1</member>
+            <member>Wand L 2.2</member>
+            <member>Wand L 3.1</member>
+            <member>Wand L 3.2</member>
+            <member>Wand L 3.3</member>
+            <member>Wand R 1.1</member>
+            <member>Wand R 1.2</member>
+            <member>Wand R 1.3</member>
+            <member>Wand R 2.1</member>
+            <member>Wand R 2.2</member>
+            <member>Wand R 3.1</member>
+            <member>Wand R 3.2</member>
+            <member>Wand R 3.3</member>
+        </group>
+    </groups>
 </show>

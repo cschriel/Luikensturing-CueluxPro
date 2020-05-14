@@ -1703,6 +1703,22 @@
                 </tasks>
             </action>
         </actionlist>
+        <actionlist enabled="true" label="Status return to Kiosc" source="Dashboard Fixture">
+            <identifier>
+                <argument type="Unsigned">0</argument>
+            </identifier>
+            <action label="Action01">
+                <trigger type="ButtonPrimair" flank="Change">13</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/test</argument>
+                    </task>
+                </tasks>
+            </action>
+        </actionlist>
     </actions>
     <patterns>
         <page label="Page01">

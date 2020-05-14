@@ -1703,23 +1703,6 @@
                 </tasks>
             </action>
         </actionlist>
-        <actionlist enabled="false" label="test feedback" source="GPI">
-            <identifier>
-                <argument type="IpAddress">192.168.2.11:16945</argument>
-            </identifier>
-            <action label="Action01">
-                <trigger type="Channel" flank="Change">1</trigger>
-                <tasks>
-                    <task type="OSC" feature="Send Message Unsigned" function="Set">
-                        <identifier>
-                            <argument type="IpAddress">192.168.2.11:8000</argument>
-                        </identifier>
-                        <argument type="String">/SelAll</argument>
-                        <argument type="Unsigned">0</argument>
-                    </task>
-                </tasks>
-            </action>
-        </actionlist>
     </actions>
     <patterns>
         <page label="Page01">

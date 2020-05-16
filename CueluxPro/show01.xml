@@ -1702,19 +1702,30 @@
                     <task type="Programmer" feature="Clear" function="Set" />
                 </tasks>
             </action>
+            <action label="Deselect All">
+                <trigger type="String" flank="Change">/DeselectAll</trigger>
+                <tasks>
+                    <task type="Playback Button" feature="Jump" function="Set">
+                        <identifier>
+                            <argument type="String">1.8</argument>
+                        </identifier>
+                        <argument type="Unsigned">3</argument>
+                    </task>
+                </tasks>
+            </action>
         </actionlist>
         <actionlist enabled="true" label="Status return to Kiosc" source="Dashboard Fixture">
             <identifier>
                 <argument type="Unsigned">0</argument>
             </identifier>
             <action label="Action01">
-                <trigger type="ButtonPrimair" flank="Change">13</trigger>
+                <trigger type="ButtonPrimair" flank="Change">12</trigger>
                 <tasks>
                     <task type="OSC" feature="Send Message Bool" function="Control">
                         <identifier>
                             <argument type="IpAddress">192.168.2.11:8000</argument>
                         </identifier>
-                        <argument type="String">/test</argument>
+                        <argument type="String">/L1V</argument>
                     </task>
                 </tasks>
             </action>

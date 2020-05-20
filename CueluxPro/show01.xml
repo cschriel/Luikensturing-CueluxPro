@@ -47,6 +47,43 @@
         <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand R 3.1" address="1:79" virtual_dimmer="false" />
         <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand R 3.2" address="1:81" virtual_dimmer="false" />
         <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand R 3.3" address="1:83" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS TP Warp" address="2:451" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS TP Warp" address="2:452" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS TP Warp" address="2:453" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS TP Warp" address="2:454" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS TP Warp" address="2:455" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS TP Warp" address="2:458" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS TP Warp" address="2:463" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS TP Warp" address="2:466" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS TP Robe" address="2:456" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS TP Robe" address="2:457" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS TP Robe" address="2:465" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS TP Robe" address="2:466" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS TP Robe" address="2:468" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS TP Robe" address="2:469" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Box Warp" address="2:471" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Box Warp" address="2:472" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Box Warp" address="2:473" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Box Warp" address="2:474" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Box Warp" address="2:475" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Box Warp" address="2:476" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Box Warp" address="2:477" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Box Warp" address="2:478" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Box Warp" address="2:479" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Box Warp" address="2:480" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Box Warp" address="2:481" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Box Warp" address="2:482" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Zij Warp" address="2:485" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Zij Warp" address="2:488" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Zij Warp" address="2:489" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Zij Warp" address="2:493" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Zij Warp" address="2:496" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Switchpack 01x" label="VS Zij Warp" address="2:497" virtual_dimmer="false" />
+
+
+
+
+
     </fixtures>
     <matrix width="20" height="10" mix="Blend">
         <layers />

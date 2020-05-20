@@ -7,39 +7,55 @@
         <pages>
             <page id="page_1" label="Luiken" background_image="" background_colour="0x000000" visible_in_selector="true">
                 <elements>
+                    <element id="line_1_copy_1_copy_1" type="Line" width="942" height="39" top="362" left="69" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="Line" defaults="-" />
+                        <tags />
+                    </element>
+                    <element id="line_1" type="Line" width="22" height="397" top="121" left="427" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="Line" defaults="-" />
+                        <tags />
+                    </element>
+                    <element id="line_3_copy_1" type="Line" width="20" height="399" top="123" left="684" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="Line" defaults="-" />
+                        <tags />
+                    </element>
+                    <element id="line_3" type="Line" width="20" height="399" top="123" left="429" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="Line" defaults="-" />
+                        <tags />
+                    </element>
+                    <element id="line_2" type="Line" width="1024" height="42" top="104" left="0" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="Line" defaults="-" />
+                        <tags />
+                    </element>
+                    <element id="line_1_copy_1" type="Line" width="945" height="39" top="240" left="69" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="Line" defaults="-" />
+                        <tags />
+                    </element>
                     <element id="line_0_copy_1" type="Line" width="746" height="43" top="483" left="3" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
                         <value_properties type="Unknown" label="Line" defaults="-" />
                         <tags />
                     </element>
-                    <element id="button_0" type="Button" width="196" height="159" top="19" left="704" font_size="40" font_colour="0xFF0000" colour="0xFF0000" special_property="false">
-                        <value_properties type="Bool" label="STOP" defaults="Off" />
-                        <tags osc="/STOP" />
+                    <element id="label_0" type="Label" width="306" height="37" top="511" left="704" font_size="23" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="TIJDENS BEWEGING NIKS (DE)SELECTEREN" defaults="-" />
+                        <tags />
                     </element>
-                    <element id="button_0_copy_1" type="Button" width="100" height="100" top="1" left="900" font_size="25" font_colour="0xE6FAFF" colour="0xDBFFC9" special_property="false">
+                    <element id="button_0_copy_1" type="Button" width="100" height="100" top="537" left="897" font_size="25" font_colour="0xE6FAFF" colour="0xDBFFC9" special_property="false">
                         <value_properties type="Bool" label="Open" defaults="Off" />
                         <tags osc="/OPEN" />
                     </element>
-                    <element id="button_0_copy_1_copy_1" type="Button" width="100" height="100" top="100" left="900" font_size="25" font_colour="0xEBFFFA" colour="0xF0FFE2" special_property="false">
+                    <element id="button_0_copy_1_copy_1" type="Button" width="100" height="100" top="635" left="897" font_size="25" font_colour="0xEBFFFA" colour="0xF0FFE2" special_property="false">
                         <value_properties type="Bool" label="Dicht" defaults="Off" />
                         <tags osc="/DICHT" />
                     </element>
-                    <element id="button_1" type="Button" width="104" height="88" top="195" left="806" font_size="25" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
-                        <value_properties type="Bool" label="nosel" defaults="Off" />
-                        <tags osc="/DeselectAll" />
-                    </element>
-                    <element id="button_2" type="Button" width="80" height="80" top="680" left="102" font_size="35" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                    <element id="button_2" type="Button" width="80" height="80" top="680" left="102" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
                         <value_properties type="Bool" label="1" defaults="Off" />
                         <tags osc="/L1" />
-                    </element>
-                    <element id="label_0" type="Label" width="100" height="100" top="668" left="1" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
-                        <value_properties type="Unknown" label="Brug 1" defaults="-" />
-                        <tags osc="/B1" />
                     </element>
                     <element id="line_0" type="Line" width="746" height="43" top="613" left="1" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
                         <value_properties type="Unknown" label="Line" defaults="-" />
                         <tags />
                     </element>
-                    <element id="button_2_copy_1" type="Button" width="80" height="80" top="680" left="186" font_size="35" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                    <element id="button_2_copy_1" type="Button" width="80" height="80" top="680" left="186" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
                         <value_properties type="Bool" label="2" defaults="Off" />
                         <tags osc="/L2" />
                     </element>
@@ -47,19 +63,19 @@
                         <value_properties type="Unknown" label="joe" defaults="-" />
                         <tags udp="test" osc="/L2V" />
                     </element>
-                    <element id="button_2_copy_2" type="Button" width="80" height="80" top="680" left="270" font_size="35" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                    <element id="button_2_copy_2" type="Button" width="80" height="80" top="680" left="269" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
                         <value_properties type="Bool" label="3" defaults="Off" />
                         <tags osc="/L3" />
                     </element>
-                    <element id="button_2_copy_3" type="Button" width="80" height="80" top="680" left="354" font_size="35" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                    <element id="button_2_copy_3" type="Button" width="80" height="80" top="680" left="354" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
                         <value_properties type="Bool" label="4" defaults="Off" />
                         <tags osc="/L4" />
                     </element>
-                    <element id="button_2_copy_4" type="Button" width="80" height="80" top="680" left="438" font_size="35" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                    <element id="button_2_copy_4" type="Button" width="80" height="80" top="680" left="438" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
                         <value_properties type="Bool" label="5" defaults="Off" />
                         <tags osc="/L5" />
                     </element>
-                    <element id="button_2_copy_5" type="Button" width="80" height="80" top="680" left="522" font_size="35" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                    <element id="button_2_copy_5" type="Button" width="80" height="80" top="680" left="522" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
                         <value_properties type="Bool" label="6" defaults="Off" />
                         <tags osc="/L6" />
                     </element>
@@ -83,7 +99,7 @@
                         <value_properties type="Unknown" label="joe" defaults="-" />
                         <tags udp="test" osc="/L6V" />
                     </element>
-                    <element id="button_2_copy_6" type="Button" width="80" height="80" top="680" left="606" font_size="35" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                    <element id="button_2_copy_6" type="Button" width="80" height="80" top="680" left="606" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
                         <value_properties type="Bool" label="7" defaults="Off" />
                         <tags osc="/L7" />
                     </element>
@@ -91,11 +107,7 @@
                         <value_properties type="Unknown" label="joe" defaults="-" />
                         <tags udp="test" osc="/L7V" />
                     </element>
-                    <element id="label_0_copy_1" type="Label" width="100" height="100" top="533" left="1" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
-                        <value_properties type="Unknown" label="Brug 2" defaults="-" />
-                        <tags osc="/B2" />
-                    </element>
-                    <element id="button_2_copy_7" type="Button" width="80" height="80" top="551" left="102" font_size="35" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                    <element id="button_2_copy_7" type="Button" width="80" height="80" top="551" left="102" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
                         <value_properties type="Bool" label="8" defaults="Off" />
                         <tags osc="/L8" />
                     </element>
@@ -103,7 +115,7 @@
                         <value_properties type="Unknown" label="joe" defaults="-" />
                         <tags udp="test" osc="/L8V" />
                     </element>
-                    <element id="button_2_copy_7_copy_1" type="Button" width="80" height="80" top="550" left="186" font_size="35" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                    <element id="button_2_copy_7_copy_1" type="Button" width="80" height="80" top="550" left="186" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
                         <value_properties type="Bool" label="9" defaults="Off" />
                         <tags osc="/L9" />
                     </element>
@@ -111,7 +123,7 @@
                         <value_properties type="Unknown" label="joe" defaults="-" />
                         <tags udp="test" osc="/L9V" />
                     </element>
-                    <element id="button_2_copy_7_copy_2" type="Button" width="80" height="80" top="550" left="270" font_size="35" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                    <element id="button_2_copy_7_copy_2" type="Button" width="80" height="80" top="550" left="269" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
                         <value_properties type="Bool" label="10" defaults="Off" />
                         <tags osc="/L10" />
                     </element>
@@ -119,7 +131,7 @@
                         <value_properties type="Unknown" label="joe" defaults="-" />
                         <tags udp="test" osc="/L10V" />
                     </element>
-                    <element id="button_2_copy_7_copy_3" type="Button" width="80" height="80" top="550" left="354" font_size="35" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                    <element id="button_2_copy_7_copy_3" type="Button" width="80" height="80" top="550" left="354" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
                         <value_properties type="Bool" label="11" defaults="Off" />
                         <tags osc="/L11" />
                     </element>
@@ -127,7 +139,7 @@
                         <value_properties type="Unknown" label="joe" defaults="-" />
                         <tags udp="test" osc="/L11V" />
                     </element>
-                    <element id="button_2_copy_7_copy_4" type="Button" width="80" height="80" top="550" left="438" font_size="35" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                    <element id="button_2_copy_7_copy_4" type="Button" width="80" height="80" top="550" left="438" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
                         <value_properties type="Bool" label="12" defaults="Off" />
                         <tags osc="/L12" />
                     </element>
@@ -135,7 +147,7 @@
                         <value_properties type="Unknown" label="joe" defaults="-" />
                         <tags udp="test" osc="/L12V" />
                     </element>
-                    <element id="button_2_copy_7_copy_5" type="Button" width="80" height="80" top="550" left="522" font_size="35" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                    <element id="button_2_copy_7_copy_5" type="Button" width="80" height="80" top="550" left="522" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
                         <value_properties type="Bool" label="13" defaults="Off" />
                         <tags osc="/L13" />
                     </element>
@@ -143,13 +155,285 @@
                         <value_properties type="Unknown" label="joe" defaults="-" />
                         <tags udp="test" osc="/L13V" />
                     </element>
-                    <element id="button_2_copy_7_copy_6" type="Button" width="80" height="80" top="550" left="606" font_size="35" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                    <element id="button_2_copy_7_copy_6" type="Button" width="80" height="80" top="550" left="606" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
                         <value_properties type="Bool" label="14" defaults="Off" />
                         <tags osc="/L14" />
                     </element>
                     <element id="indicator_0_copy_7_copy_6" type="Indicator" width="45" height="45" top="509" left="623" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
                         <value_properties type="Unknown" label="joe" defaults="-" />
                         <tags udp="test" osc="/L14V" />
+                    </element>
+                    <element id="label_0_copy_1" type="Label" width="56" height="40" top="513" left="11" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="Brug 2" defaults="-" />
+                        <tags />
+                    </element>
+                    <element id="label_0_copy_1_copy_1" type="Label" width="56" height="40" top="644" left="11" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="Brug 1" defaults="-" />
+                        <tags />
+                    </element>
+                    <element id="button_2_copy_7_copy_7" type="Button" width="80" height="80" top="551" left="1" font_size="20" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="alle" defaults="Off" />
+                        <tags osc="/B2" />
+                    </element>
+                    <element id="button_2_copy_7_copy_7_copy_1" type="Button" width="80" height="80" top="680" left="1" font_size="20" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="alle" defaults="Off" />
+                        <tags osc="/B1" />
+                    </element>
+                    <element id="button_0" type="Button" width="196" height="159" top="554" left="700" font_size="40" font_colour="0xFF0000" colour="0xFF0000" special_property="false">
+                        <value_properties type="Bool" label="STOP" defaults="Off" />
+                        <tags osc="/STOP" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8" type="Button" width="80" height="80" top="423" left="102" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="1.1" defaults="Off" />
+                        <tags osc="/B11" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7" type="Indicator" width="45" height="45" top="383" left="120" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/B11V" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_1" type="Button" width="80" height="80" top="423" left="186" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="1.2" defaults="Off" />
+                        <tags osc="/B12" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_2" type="Button" width="80" height="80" top="423" left="269" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="1.3" defaults="Off" />
+                        <tags osc="/B13" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_3" type="Button" width="80" height="80" top="423" left="354" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="1.4" defaults="Off" />
+                        <tags osc="/B14" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_1" type="Indicator" width="45" height="45" top="383" left="204" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/B12V" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_2" type="Indicator" width="45" height="45" top="383" left="287" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/B13V" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_3" type="Indicator" width="45" height="45" top="383" left="371" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/B14V" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4" type="Button" width="80" height="80" top="300" left="102" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="2.1" defaults="Off" />
+                        <tags osc="/B21" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4" type="Indicator" width="45" height="45" top="261" left="120" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/B21V" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_1" type="Button" width="80" height="80" top="300" left="186" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="2.2" defaults="Off" />
+                        <tags osc="/B22" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_2" type="Button" width="80" height="80" top="300" left="269" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="2.3" defaults="Off" />
+                        <tags osc="/B23" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_3" type="Button" width="80" height="80" top="300" left="354" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="2.4" defaults="Off" />
+                        <tags osc="/B24" />
+                    </element>
+                    <element id="button_2_copy_7_copy_7_copy_2" type="Button" width="80" height="80" top="300" left="1" font_size="20" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="alle" defaults="Off" />
+                        <tags osc="/BOX" />
+                    </element>
+                    <element id="label_0_copy_1_copy_2" type="Label" width="56" height="40" top="266" left="14" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="BOXEN" defaults="-" />
+                        <tags />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4" type="Button" width="80" height="80" top="179" left="102" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="3.1" defaults="Off" />
+                        <tags osc="/B31" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_1" type="Button" width="80" height="80" top="179" left="186" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="3.2" defaults="Off" />
+                        <tags osc="/B32" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_2" type="Button" width="80" height="80" top="179" left="269" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="3.3" defaults="Off" />
+                        <tags osc="/B33" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3" type="Button" width="80" height="80" top="179" left="354" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="3.4" defaults="Off" />
+                        <tags osc="/B34" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_1" type="Indicator" width="45" height="45" top="261" left="204" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/B22V" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_2" type="Indicator" width="45" height="45" top="261" left="287" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/B23V" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_3" type="Indicator" width="45" height="45" top="261" left="371" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/B24V" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_4" type="Indicator" width="45" height="45" top="140" left="120" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/B31V" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_4_copy_1" type="Indicator" width="45" height="45" top="140" left="204" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/B32V" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_4_copy_2" type="Indicator" width="45" height="45" top="140" left="287" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/B33V" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_4_copy_3" type="Indicator" width="45" height="45" top="140" left="371" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/B34V" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1" type="Button" width="80" height="80" top="179" left="440" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="L1.1" defaults="Off" />
+                        <tags osc="/L11Z" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1_copy_1" type="Button" width="80" height="80" top="179" left="524" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="L2.1" defaults="Off" />
+                        <tags osc="/L21Z" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1_copy_2" type="Button" width="80" height="80" top="179" left="608" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="L3.1" defaults="Off" />
+                        <tags osc="/L31Z" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1_copy_3" type="Button" width="80" height="80" top="179" left="698" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="R3.1" defaults="Off" />
+                        <tags osc="/R31Z" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1_copy_4" type="Button" width="80" height="80" top="179" left="781" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="R2.1" defaults="Off" />
+                        <tags osc="/R21Z" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1_copy_4_copy_1" type="Button" width="80" height="80" top="179" left="864" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="R1.1" defaults="Off" />
+                        <tags osc="/R11Z" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1_copy_4_copy_1_copy_1" type="Button" width="80" height="80" top="300" left="440" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="L1.2" defaults="Off" />
+                        <tags osc="/L12Z" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1_copy_4_copy_1_copy_1_copy_6" type="Button" width="80" height="80" top="423" left="440" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="L1.3" defaults="Off" />
+                        <tags osc="/L13Z" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1_copy_4_copy_1_copy_1_copy_1" type="Button" width="80" height="80" top="300" left="524" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="L2.2" defaults="Off" />
+                        <tags osc="/L22Z" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1_copy_4_copy_1_copy_1_copy_2" type="Button" width="80" height="80" top="300" left="608" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="L3.2" defaults="Off" />
+                        <tags osc="/L32Z" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1_copy_4_copy_1_copy_1_copy_3" type="Button" width="80" height="80" top="300" left="696" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="R3.2" defaults="Off" />
+                        <tags osc="/R32Z" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1_copy_4_copy_1_copy_1_copy_4" type="Button" width="80" height="80" top="300" left="780" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="R2.2" defaults="Off" />
+                        <tags osc="/R22Z" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1_copy_4_copy_1_copy_1_copy_5" type="Button" width="80" height="80" top="300" left="864" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="R1.2" defaults="Off" />
+                        <tags osc="/R12Z" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1_copy_4_copy_1_copy_1_copy_6_copy_2" type="Button" width="80" height="80" top="423" left="608" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="L3.3" defaults="Off" />
+                        <tags osc="/L33Z" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1_copy_4_copy_1_copy_1_copy_6_copy_3" type="Button" width="80" height="80" top="423" left="696" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="R3.3" defaults="Off" />
+                        <tags osc="/R33Z" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1_copy_4_copy_1_copy_1_copy_6_copy_5" type="Button" width="80" height="80" top="423" left="864" font_size="30" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="R1.3" defaults="Off" />
+                        <tags osc="/R13Z" />
+                    </element>
+                    <element id="button_2_copy_7_copy_7_copy_2_copy_1" type="Button" width="80" height="80" top="300" left="943" font_size="20" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="alle" defaults="Off" />
+                        <tags osc="/WAND" />
+                    </element>
+                    <element id="label_0_copy_1_copy_2_copy_1" type="Label" width="69" height="38" top="268" left="949" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="WANDEN" defaults="-" />
+                        <tags />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_4_copy_3_copy_1" type="Indicator" width="45" height="45" top="140" left="457" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/L11VZ" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_3_copy_1" type="Indicator" width="45" height="45" top="261" left="458" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/L12VZ" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_3_copy_1" type="Indicator" width="45" height="45" top="383" left="458" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/L13VZ" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_4_copy_3_copy_1_copy_1" type="Indicator" width="45" height="45" top="140" left="543" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/L21VZ" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_4_copy_3_copy_1_copy_2" type="Indicator" width="45" height="45" top="140" left="627" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/L31VZ" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_4_copy_3_copy_1_copy_3" type="Indicator" width="45" height="45" top="140" left="717" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/R31VZ" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_4_copy_3_copy_1_copy_4" type="Indicator" width="45" height="45" top="140" left="799" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/R21VZ" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_4_copy_3_copy_1_copy_5" type="Indicator" width="45" height="45" top="140" left="882" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/R11VZ" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_3_copy_1_copy_1" type="Indicator" width="45" height="45" top="261" left="543" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/L22VZ" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_3_copy_1_copy_2" type="Indicator" width="45" height="45" top="261" left="627" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/L32VZ" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_3_copy_1_copy_3" type="Indicator" width="45" height="45" top="261" left="715" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/R32VZ" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_3_copy_1_copy_4" type="Indicator" width="45" height="45" top="261" left="799" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/R22VZ" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_4_copy_3_copy_1_copy_5" type="Indicator" width="45" height="45" top="261" left="882" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/R12VZ" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_3_copy_1_copy_1" type="Indicator" width="45" height="45" top="383" left="627" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/L33VZ" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_3_copy_1_copy_2" type="Indicator" width="45" height="45" top="383" left="715" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/R33VZ" />
+                    </element>
+                    <element id="indicator_0_copy_7_copy_7_copy_3_copy_1_copy_3" type="Indicator" width="45" height="45" top="383" left="882" font_size="25" font_colour="0x81FF6A" colour="0xFF7823">
+                        <value_properties type="Unknown" label="joe" defaults="-" />
+                        <tags udp="test" osc="/R13VZ" />
+                    </element>
+                    <element id="label_1" type="Label" width="94" height="36" top="7" left="472" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="Selecteer" defaults="-" />
+                        <tags />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1_copy_1_copy_1" type="Button" width="80" height="80" top="33" left="436" font_size="25" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="Alles" defaults="Off" />
+                        <tags osc="/SelectAll" />
+                    </element>
+                    <element id="button_2_copy_7_copy_8_copy_4_copy_4_copy_3_copy_1_copy_1_copy_1_copy_1" type="Button" width="80" height="80" top="33" left="520" font_size="25" font_colour="0xA6A6A6" colour="0xF0FFE2" special_property="false">
+                        <value_properties type="Bool" label="Niets" defaults="Off" />
+                        <tags osc="/DeselectAll" />
                     </element>
                 </elements>
             </page>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<options>
+    <log kiosc_version="1.8.15" os="Windows" />
+    <language name="Nederlands" />
+    <window_size width="1920" height="1018" max="false" />
+    <grid size="20" snap_to_grid="false" />
+</options>

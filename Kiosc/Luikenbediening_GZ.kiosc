@@ -439,9 +439,9 @@
             </page>
             <page id="page_0" label="Vaste Spanning" background_image="" background_colour="0x000000" visible_in_selector="true">
                 <elements>
-                    <element id="checkbox_0" type="Checkbox" width="200" height="75" top="272" left="217" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
-                        <value_properties type="Bool" label="Checkbox" defaults="Off" />
-                        <tags osc="/test" />
+                    <element id="indicator_0" type="Indicator" width="50" height="50" top="254" left="333" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="Indicator" defaults="-" />
+                        <tags osc="/WarpTPV" />
                     </element>
                 </elements>
             </page>

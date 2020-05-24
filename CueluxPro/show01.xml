@@ -1489,7 +1489,7 @@
                         </change>
                     </stream>
                 </cue>
-                <cue number="2.0" condition="Follow" wait="00-00-00-00" delay="00-00-05-00" fade_in="00-00-00-00" fade_out="00-00-00-00">
+                <cue number="2.0" label="Wachttijd" condition="Follow" wait="00-00-00-00" delay="00-01-00-00" fade_in="00-00-00-00" fade_out="00-00-00-00">
                     <stream>
                         <change attribute="Custom 1">
                             <argument type="Float">0.0000</argument>
@@ -2236,8 +2236,8 @@
             <bank label="" />
         </faders>
         <buttons>
-            <bank label="asdf">
-                <playback index="2" attack="0.000000">VS Warp TP</playback>
+            <bank label="Chris is Koning">
+                <playback index="2" attack="0.000000" function_button_primair="Go+">VS Warp TP</playback>
                 <playback index="3" attack="0.000000">VS Robe TP</playback>
                 <playback index="4" attack="0.000000">VS Box</playback>
                 <playback index="5" attack="0.000000">VS Warp Zij</playback>
@@ -2301,6 +2301,10 @@
                         <argument type="Unsigned">3</argument>
                     </task>
                 </tasks>
+            </action>
+            <action label="SelectAll">
+                <trigger type="String" flank="Down"></trigger>
+                <tasks />
             </action>
         </actionlist>
         <actionlist enabled="true" label="Kiosc Luikenselectie" source="OSC">
@@ -2389,6 +2393,283 @@
                 <trigger type="String" flank="Change">/L14</trigger>
                 <tasks>
                     <task type="Dashboard Fixture Grid" identifier="0x19" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 1.1">
+                <trigger type="String" flank="Change">/B11</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 1.2">
+                <trigger type="String" flank="Change">/B12</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x1" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 1.3">
+                <trigger type="String" flank="Change">/B13</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x2" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 1.4">
+                <trigger type="String" flank="Change">/B14</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x3" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 2.1">
+                <trigger type="String" flank="Change">/B21</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x4" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 2.2">
+                <trigger type="String" flank="Change">/B22</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x5" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 2.3">
+                <trigger type="String" flank="Change">/B23</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x6" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 2.4">
+                <trigger type="String" flank="Change">/B24</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x7" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 3.1">
+                <trigger type="String" flank="Change">/B31</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x8" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 3.2">
+                <trigger type="String" flank="Change">/B32</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x9" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 3.3">
+                <trigger type="String" flank="Change">/B33</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0xA" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 3.4">
+                <trigger type="String" flank="Change">/B34</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0xB" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand L1.1">
+                <trigger type="String" flank="Change">/L11Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x1A" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand L1.2">
+                <trigger type="String" flank="Change">/L12Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x1B" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand L1.3">
+                <trigger type="String" flank="Change">/L13Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x1C" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand L2.1">
+                <trigger type="String" flank="Change">/L21Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x1D" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand L2.2">
+                <trigger type="String" flank="Change">/L22Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x1E" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand L3.1">
+                <trigger type="String" flank="Change">/L31Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x1F" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand L3.2">
+                <trigger type="String" flank="Change">/L32Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x20" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand L3.3">
+                <trigger type="String" flank="Change">/L33Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x21" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand R3.1">
+                <trigger type="String" flank="Change">/R31Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x27" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand R3.2">
+                <trigger type="String" flank="Change">/R32Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x28" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand R3.3">
+                <trigger type="String" flank="Change">/R33Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x29" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand R2.1">
+                <trigger type="String" flank="Change">/R21Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x25" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand R2.2">
+                <trigger type="String" flank="Change">/R22Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x26" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand R1.1">
+                <trigger type="String" flank="Change">/R11Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x22" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand R1.2">
+                <trigger type="String" flank="Change">/R12Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x23" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand R1.3">
+                <trigger type="String" flank="Change">/R13Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x24" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Brug 1">
+                <trigger type="String" flank="Change">/B1</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0xC" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xD" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xE" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xF" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x10" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x11" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x12" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Brug 2">
+                <trigger type="String" flank="Change">/B2</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x13" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x14" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x15" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x16" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x17" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x18" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x19" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Boxen">
+                <trigger type="String" flank="Change">/BOX</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x2" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x3" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x4" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x5" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x6" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x7" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x8" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x9" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xA" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xB" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wanden">
+                <trigger type="String" flank="Change">/WAND</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x1A" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1B" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1C" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1D" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1E" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1F" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x20" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x21" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x27" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x28" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x29" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x25" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x26" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x22" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x23" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x24" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select All">
+                <trigger type="String" flank="Change">/SelectAll</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1A" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1B" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1C" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1D" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1E" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1F" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x20" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x21" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x27" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x28" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x29" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x25" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x26" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x22" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x23" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x24" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x2" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x3" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x4" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x5" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x6" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x7" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x8" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x9" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xA" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xB" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x13" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x14" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x15" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x16" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x17" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x18" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x19" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xC" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xD" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xE" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xF" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x10" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x11" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x12" feature="ButtonPrimair" function="Control" />
                 </tasks>
             </action>
         </actionlist>
@@ -2547,6 +2828,448 @@
                             <argument type="IpAddress">192.168.2.11:8000</argument>
                         </identifier>
                         <argument type="String">/L14V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 1.1">
+                <trigger type="ButtonPrimair" flank="Change">0</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B11V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 1.2">
+                <trigger type="ButtonPrimair" flank="Change">1</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B12V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 1.3">
+                <trigger type="ButtonPrimair" flank="Change">2</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B13V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 1.4">
+                <trigger type="ButtonPrimair" flank="Change">3</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B14V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 2.1">
+                <trigger type="ButtonPrimair" flank="Change">4</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B21V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 2.2">
+                <trigger type="ButtonPrimair" flank="Change">5</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B22V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 2.3">
+                <trigger type="ButtonPrimair" flank="Change">6</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B23V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 2.4">
+                <trigger type="ButtonPrimair" flank="Change">7</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B24V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 3.1">
+                <trigger type="ButtonPrimair" flank="Change">8</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B31V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 3.2">
+                <trigger type="ButtonPrimair" flank="Change">9</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B32V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 3.3">
+                <trigger type="ButtonPrimair" flank="Change">10</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B33V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 3.4">
+                <trigger type="ButtonPrimair" flank="Change">11</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B34V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij L1.1">
+                <trigger type="ButtonPrimair" flank="Change">26</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L11VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij L1.2">
+                <trigger type="ButtonPrimair" flank="Change">27</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L12VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij L1.3">
+                <trigger type="ButtonPrimair" flank="Change">28</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L13VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij L2.1">
+                <trigger type="ButtonPrimair" flank="Change">29</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L21VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij L2.2">
+                <trigger type="ButtonPrimair" flank="Change">30</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L22VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij L3.1">
+                <trigger type="ButtonPrimair" flank="Change">31</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L31VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij L3.2">
+                <trigger type="ButtonPrimair" flank="Change">32</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L32VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij L3.3">
+                <trigger type="ButtonPrimair" flank="Change">33</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L33VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij R1.1">
+                <trigger type="ButtonPrimair" flank="Change">34</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/R11VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij R1.2">
+                <trigger type="ButtonPrimair" flank="Change">35</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/R12VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij R1.3">
+                <trigger type="ButtonPrimair" flank="Change">36</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/R13VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij R2.1">
+                <trigger type="ButtonPrimair" flank="Change">37</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/R21VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij R2.2">
+                <trigger type="ButtonPrimair" flank="Change">38</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/R22VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij R3.1">
+                <trigger type="ButtonPrimair" flank="Change">39</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/R31VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij R3.2">
+                <trigger type="ButtonPrimair" flank="Change">40</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/R32VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij R3.3">
+                <trigger type="ButtonPrimair" flank="Change">41</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/R33VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+        </actionlist>
+        <actionlist enabled="true" label="Vaste Spanning selectie" source="OSC">
+            <identifier>
+                <argument type="Unsigned">0</argument>
+            </identifier>
+            <action label="Vaste Spanning">
+                <trigger type="String" flank="Change">/WarpTP</trigger>
+                <tasks />
+            </action>
+        </actionlist>
+        <actionlist enabled="true" label="VS return to Kiosc" source="Playback Button">
+            <identifier>
+                <argument type="Unsigned">0</argument>
+            </identifier>
+            <action label="WarpTP aan">
+                <trigger type="Go+" flank="Change">0.2</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Set">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/WarpTPV</argument>
+                        <argument type="Bool">On</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="WarpTP uit">
+                <trigger type="Release" flank="Change">0.2</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Set">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/WarpTPV</argument>
+                        <argument type="Bool">Off</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="RobeTP aan">
+                <trigger type="Go+" flank="Change">0.3</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Set">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/RobeTPV</argument>
+                        <argument type="Bool">On</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="RobeTP uit">
+                <trigger type="Release" flank="Change">0.3</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Set">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/RobeTPV</argument>
+                        <argument type="Bool">Off</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="WarpBOX aan">
+                <trigger type="Go+" flank="Change">0.4</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Set">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/WarpBOXV</argument>
+                        <argument type="Bool">On</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="WarpBOX uit">
+                <trigger type="Release" flank="Change">0.4</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Set">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/WarpBOXV</argument>
+                        <argument type="Bool">Off</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="WarpZij aan">
+                <trigger type="Go+" flank="Change">0.5</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Set">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/WarpZIJV</argument>
+                        <argument type="Bool">On</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="WarpZij uit">
+                <trigger type="Release" flank="Change">0.5</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Set">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/WarpZIJV</argument>
+                        <argument type="Bool">Off</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Lessenaar aan">
+                <trigger type="Go+" flank="Change">0.6</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Set">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/LessV</argument>
+                        <argument type="Bool">On</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Lessenaar uit">
+                <trigger type="Release" flank="Change">0.6</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Set">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/LessV</argument>
+                        <argument type="Bool">Off</argument>
                     </task>
                 </tasks>
             </action>

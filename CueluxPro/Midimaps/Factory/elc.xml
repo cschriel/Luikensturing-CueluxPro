@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<show application="Cuelux" revision="1">
+  <midimaps>
+    <OLDmidimap label="ELC SideKick Fader 10">
+      <actionlist label="control buttons" source="Midi">
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 30</trigger>
+          <tasks>
+            <task type="Playback Button 1" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 31</trigger>
+          <tasks>
+            <task type="Playback Button 2" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 32</trigger>
+          <tasks>
+            <task type="Playback Button 3" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 33</trigger>
+          <tasks>
+            <task type="Playback Button 4" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 34</trigger>
+          <tasks>
+            <task type="Playback Button 5" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 35</trigger>
+          <tasks>
+            <task type="Playback Button 6" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 36</trigger>
+          <tasks>
+            <task type="Playback Button 7" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 37</trigger>
+          <tasks>
+            <task type="Playback Button 8" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+      </actionlist>
+      <actionlist label="fader level pri" source="Midi">
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 0</trigger>
+          <tasks>
+            <task type="Playback Fader 1" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 1</trigger>
+          <tasks>
+            <task type="Playback Fader 2" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 2</trigger>
+          <tasks>
+            <task type="Playback Fader 3" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 3</trigger>
+          <tasks>
+            <task type="Playback Fader 4" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 4</trigger>
+          <tasks>
+            <task type="Playback Fader 5" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 5</trigger>
+          <tasks>
+            <task type="Playback Fader 6" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 6</trigger>
+          <tasks>
+            <task type="Playback Fader 7" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Playback Fader 8" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+      </actionlist>
+      <actionlist label="fader flash" source="Midi">
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 10</trigger>
+          <tasks>
+            <task type="Playback Fader 1" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 11</trigger>
+          <tasks>
+            <task type="Playback Fader 2" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 12</trigger>
+          <tasks>
+            <task type="Playback Fader 3" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 13</trigger>
+          <tasks>
+            <task type="Playback Fader 4" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 14</trigger>
+          <tasks>
+            <task type="Playback Fader 5" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 15</trigger>
+          <tasks>
+            <task type="Playback Fader 6" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 16</trigger>
+          <tasks>
+            <task type="Playback Fader 7" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 17</trigger>
+          <tasks>
+            <task type="Playback Fader 8" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+      </actionlist>
+      <actionlist label="fader button sec" source="Midi">
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 20</trigger>
+          <tasks>
+            <task type="Playback Fader 1" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 21</trigger>
+          <tasks>
+            <task type="Playback Fader 2" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 22</trigger>
+          <tasks>
+            <task type="Playback Fader 3" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 23</trigger>
+          <tasks>
+            <task type="Playback Fader 4" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 24</trigger>
+          <tasks>
+            <task type="Playback Fader 5" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 25</trigger>
+          <tasks>
+            <task type="Playback Fader 6" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 26</trigger>
+          <tasks>
+            <task type="Playback Fader 7" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 27</trigger>
+          <tasks>
+            <task type="Playback Fader 8" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+      </actionlist>
+      <actionlist label="control rest" source="Midi">
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 44</trigger>
+          <tasks>
+            <task type="Global Fog" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 45</trigger>
+          <tasks>
+            <task type="Global Strobe" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 46</trigger>
+          <tasks>
+            <task type="Global Blinder" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 9</trigger>
+          <tasks>
+            <task type="Special" feature="Grand Master" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Down">Channel 0 - Message 11 - Index 19</trigger>
+          <tasks>
+            <task type="Special" feature="Blackout" function="Toggle"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 42</trigger>
+          <tasks>
+            <task type="Special" feature="Tempo Tap" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 40</trigger>
+          <tasks>
+            <task type="Special" function="Control" feature="Tempo Break"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 41</trigger>
+          <tasks>
+            <task type="Playback Fader 1" feature="Bank" function="Increment"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 43</trigger>
+          <tasks>
+            <task type="Playback Fader 1" feature="Bank" function="Decrement"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Down">Channel 0 - Message 11 - Index 39</trigger>
+          <tasks>
+            <task type="Playback Button 1" feature="Bank" function="Increment"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Down">Channel 0 - Message 11 - Index 29</trigger>
+          <tasks>
+            <task type="Playback Button 1" feature="Bank" function="Decrement"/>
+          </tasks>
+        </action>
+      </actionlist>
+    </OLDmidimap>
+  </midimaps>
+</show>

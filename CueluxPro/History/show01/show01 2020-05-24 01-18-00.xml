@@ -1,0 +1,3533 @@
+<?xml version="1.0" ?>
+<show application="CueluxPro" version="1.4.47">
+    <universes>
+        <universe label="Luiken" core="192.168.2.11:A" artnet="false" sacn="false" sacn_universe="1" ip="255.255.255.255" sub="0" />
+        <universe label="Verlichting" core="192.168.2.11:B" artnet="false" sacn="false" sacn_universe="1" ip="255.255.255.255" sub="0" />
+    </universes>
+    <fixtures>
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Box 1.1" address="1:1" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Box 1.2" address="1:3" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Box 1.3" address="1:5" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Box 1.4" address="1:7" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Box 2.1" address="1:9" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Box 2.2" address="1:11" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Box 2.3" address="1:13" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Box 2.4" address="1:15" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Box 3.1" address="1:17" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Box 3.2" address="1:19" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Box 3.3" address="1:21" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Box 3.4" address="1:23" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Brug 1 Luik 1" address="1:25" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Brug 1 Luik 2" address="1:27" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Brug 1 Luik 3" address="1:29" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Brug 1 Luik 4" address="1:31" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Brug 1 Luik 5" address="1:33" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Brug 1 Luik 6" address="1:35" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Brug 1 Luik 7" address="1:37" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Brug 2 Luik 8" address="1:39" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Brug 2 Luik 9" address="1:41" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Brug 2 Luik 10" address="1:43" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Brug 2 Luik 11" address="1:45" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Brug 2 Luik 12" address="1:47" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Brug 2 Luik 13" address="1:49" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Brug 2 Luik 14" address="1:51" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand L 1.1" address="1:53" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand L 1.2" address="1:55" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand L 1.3" address="1:57" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand L 2.1" address="1:59" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand L 2.2" address="1:61" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand L 3.1" address="1:63" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand L 3.2" address="1:65" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand L 3.3" address="1:67" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand R 1.1" address="1:69" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand R 1.2" address="1:71" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand R 1.3" address="1:73" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand R 2.1" address="1:75" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand R 2.2" address="1:77" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand R 3.1" address="1:79" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand R 3.2" address="1:81" virtual_dimmer="false" />
+        <fixture user="true" manufacturer="a Chris" model="Luik v2" label="Wand R 3.3" address="1:83" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS TP Warp" address="2:451" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS TP Warp - Copy" address="2:452" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS TP Warp - Copy (2)" address="2:453" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS TP Warp - Copy (3)" address="2:454" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS TP Warp - Copy (4)" address="2:455" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS TP Warp - Copy (5)" address="2:458" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS TP Warp - Copy (6)" address="2:463" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS TP Warp - Copy (7)" address="2:466" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS TP Robe" address="2:456" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS TP Robe - Copy" address="2:457" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS TP Robe - Copy (2)" address="2:465" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS TP Robe - Copy (3)" address="2:466" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS TP Robe - Copy (4)" address="2:468" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS TP Robe - Copy (5)" address="2:469" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Box Warp" address="2:471" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Box Warp - Copy" address="2:472" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Box Warp - Copy (2)" address="2:473" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Box Warp - Copy (3)" address="2:474" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Box Warp - Copy (4)" address="2:475" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Box Warp - Copy (5)" address="2:476" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Box Warp - Copy (6)" address="2:477" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Box Warp - Copy (7)" address="2:478" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Box Warp - Copy (8)" address="2:479" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Box Warp - Copy (9)" address="2:480" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Box Warp - Copy (10)" address="2:481" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Box Warp - Copy (11)" address="2:482" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Zij Warp" address="2:485" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Zij Warp - Copy" address="2:488" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Zij Warp - Copy (2)" address="2:489" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Zij Warp - Copy (3)" address="2:493" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Zij Warp - Copy (4)" address="2:496" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="VS Zij Warp - Copy (5)" address="2:497" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="Lessenaar01" address="2:313" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="Lessenaar02" address="2:314" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="Lessenaar03" address="2:315" virtual_dimmer="false" />
+        <fixture user="false" manufacturer="Generic" model="Dimmer 01x" label="Lessenaar04" address="2:316" virtual_dimmer="false" />
+    </fixtures>
+    <matrix width="20" height="10" mix="Blend">
+        <layers />
+        <members />
+    </matrix>
+    <palettes>
+        <palette label="Open" index="2">
+            <stream fixture="Box 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 8">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 9">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 10">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 11">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 12">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 13">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 14">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 3">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 4">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 5">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 6">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 7">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">1.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+        </palette>
+        <palette label="STOP" index="9">
+            <stream fixture="Box 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 8">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 9">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 10">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 11">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 12">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 13">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 14">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 4">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 5">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 6">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 7">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">0.0000</argument>
+                </change>
+            </stream>
+        </palette>
+        <palette label="Close" index="10">
+            <stream fixture="Box 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 1.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 2.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Box 3.4">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 8">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 9">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 10">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 11">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 12">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 13">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 2 Luik 14">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 4">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 5">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 6">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Brug 1 Luik 7">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand L 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 1.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 2.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 2.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.1">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.2">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+            <stream fixture="Wand R 3.3">
+                <change attribute="Custom 1">
+                    <argument type="Float">0.0000</argument>
+                </change>
+                <change attribute="Custom 2">
+                    <argument type="Float">1.0000</argument>
+                </change>
+            </stream>
+        </palette>
+    </palettes>
+    <cuelists>
+        <cuelist label="ReleaseAfterMovement" loop="false" bounce="false" random="false" repeat="Off" precedence="LTP" chase="false" release_time="00-00-00-00">
+            <targets>
+                <target>Box 1.1</target>
+                <target>Box 1.2</target>
+                <target>Box 1.3</target>
+                <target>Box 1.4</target>
+                <target>Box 2.1</target>
+                <target>Box 2.2</target>
+                <target>Box 2.3</target>
+                <target>Box 2.4</target>
+                <target>Box 3.1</target>
+                <target>Box 3.2</target>
+                <target>Box 3.3</target>
+                <target>Box 3.4</target>
+                <target>Brug 2 Luik 8</target>
+                <target>Brug 2 Luik 9</target>
+                <target>Brug 2 Luik 10</target>
+                <target>Brug 2 Luik 11</target>
+                <target>Brug 2 Luik 12</target>
+                <target>Brug 2 Luik 13</target>
+                <target>Brug 2 Luik 14</target>
+                <target>Brug 1 Luik 1</target>
+                <target>Brug 1 Luik 2</target>
+                <target>Brug 1 Luik 3</target>
+                <target>Brug 1 Luik 4</target>
+                <target>Brug 1 Luik 5</target>
+                <target>Brug 1 Luik 6</target>
+                <target>Brug 1 Luik 7</target>
+                <target>Wand L 1.1</target>
+                <target>Wand L 1.2</target>
+                <target>Wand L 1.3</target>
+                <target>Wand L 2.1</target>
+                <target>Wand L 2.2</target>
+                <target>Wand L 3.1</target>
+                <target>Wand L 3.2</target>
+                <target>Wand L 3.3</target>
+                <target>Wand R 1.1</target>
+                <target>Wand R 1.2</target>
+                <target>Wand R 1.3</target>
+                <target>Wand R 2.1</target>
+                <target>Wand R 2.2</target>
+                <target>Wand R 3.1</target>
+                <target>Wand R 3.2</target>
+                <target>Wand R 3.3</target>
+            </targets>
+            <cues>
+                <cue number="1.0" condition="Halt" wait="00-00-00-00" delay="00-00-00-00" fade_in="00-00-00-00" fade_out="00-00-00-00">
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                </cue>
+                <cue number="2.0" condition="Follow" wait="00-00-00-00" delay="00-01-00-00" fade_in="00-00-00-00" fade_out="00-00-00-00">
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Custom 1">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                        <change attribute="Custom 2">
+                            <argument type="Float">0.0000</argument>
+                        </change>
+                    </stream>
+                </cue>
+                <cue number="3.0" condition="Follow" wait="00-00-00-00" delay="00-00-01-00" fade_in="00-00-00-00" fade_out="00-00-00-00">
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <action label="">
+                        <tasks>
+                            <task type="Programmer" feature="Clear Selection" function="Set" />
+                        </tasks>
+                    </action>
+                </cue>
+                <cue number="4.0" condition="Follow" wait="00-00-00-00" delay="00-00-00-00" fade_in="00-00-00-00" fade_out="00-00-00-00">
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <action label="">
+                        <tasks>
+                            <task type="Group" feature="Select" function="Set">
+                                <argument type="Bool">On</argument>
+                            </task>
+                        </tasks>
+                    </action>
+                </cue>
+                <cue number="5.0" condition="Follow" wait="00-00-00-00" delay="00-00-00-00" fade_in="00-00-00-00" fade_out="00-00-00-00">
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                    <stream />
+                </cue>
+            </cues>
+        </cuelist>
+        <cuelist label="Lessenaar" loop="true" bounce="false" random="false" repeat="Loop" precedence="LTP" chase="false" release_time="00-00-00-00">
+            <targets>
+                <target>Lessenaar01</target>
+                <target>Lessenaar02</target>
+                <target>Lessenaar03</target>
+                <target>Lessenaar04</target>
+            </targets>
+            <cues>
+                <cue number="1.0" condition="Halt" wait="00-00-00-00" delay="00-00-00-00" fade_in="00-00-00-00" fade_out="00-00-00-00">
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                </cue>
+            </cues>
+        </cuelist>
+        <cuelist label="VS Warp Zij" loop="true" bounce="false" random="false" repeat="Loop" precedence="LTP" chase="false" release_time="00-00-00-00">
+            <targets>
+                <target>VS Zij Warp - Copy (5)</target>
+                <target>VS Zij Warp - Copy (4)</target>
+                <target>VS Zij Warp - Copy (3)</target>
+                <target>VS Zij Warp - Copy (2)</target>
+                <target>VS Zij Warp - Copy</target>
+                <target>VS Zij Warp</target>
+            </targets>
+            <cues>
+                <cue number="1.0" condition="Halt" wait="00-00-00-00" delay="00-00-00-00" fade_in="00-00-00-00" fade_out="00-00-00-00">
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                </cue>
+            </cues>
+        </cuelist>
+        <cuelist label="VS Box" loop="true" bounce="false" random="false" repeat="Loop" precedence="LTP" chase="false" release_time="00-00-00-00">
+            <targets>
+                <target>VS Box Warp - Copy (11)</target>
+                <target>VS Box Warp - Copy (10)</target>
+                <target>VS Box Warp - Copy (9)</target>
+                <target>VS Box Warp - Copy (8)</target>
+                <target>VS Box Warp - Copy (7)</target>
+                <target>VS Box Warp - Copy (5)</target>
+                <target>VS Box Warp - Copy (6)</target>
+                <target>VS Box Warp - Copy (4)</target>
+                <target>VS Box Warp - Copy (3)</target>
+                <target>VS Box Warp - Copy (2)</target>
+                <target>VS Box Warp - Copy</target>
+                <target>VS Box Warp</target>
+            </targets>
+            <cues>
+                <cue number="1.0" condition="Halt" wait="00-00-00-00" delay="00-00-00-00" fade_in="00-00-00-00" fade_out="00-00-00-00">
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                </cue>
+            </cues>
+        </cuelist>
+        <cuelist label="VS Robe TP" loop="true" bounce="false" random="false" repeat="Loop" precedence="LTP" chase="false" release_time="00-00-00-00">
+            <targets>
+                <target>VS TP Robe - Copy (5)</target>
+                <target>VS TP Robe - Copy (4)</target>
+                <target>VS TP Robe - Copy (3)</target>
+                <target>VS TP Robe - Copy (2)</target>
+                <target>VS TP Robe - Copy</target>
+                <target>VS TP Robe</target>
+            </targets>
+            <cues>
+                <cue number="1.0" condition="Halt" wait="00-00-00-00" delay="00-00-00-00" fade_in="00-00-00-00" fade_out="00-00-00-00">
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                </cue>
+            </cues>
+        </cuelist>
+        <cuelist label="VS Warp TP" loop="true" bounce="false" random="false" repeat="Loop" precedence="LTP" chase="false" release_time="00-00-00-00">
+            <targets>
+                <target>VS TP Warp - Copy (7)</target>
+                <target>VS TP Warp - Copy (6)</target>
+                <target>VS TP Warp - Copy (5)</target>
+                <target>VS TP Warp - Copy (4)</target>
+                <target>VS TP Warp - Copy (3)</target>
+                <target>VS TP Warp - Copy (2)</target>
+                <target>VS TP Warp - Copy</target>
+                <target>VS TP Warp</target>
+            </targets>
+            <cues>
+                <cue number="1.0" condition="Halt" wait="00-00-00-00" delay="00-00-00-00" fade_in="00-00-00-00" fade_out="00-00-00-00">
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                    <stream>
+                        <change attribute="Dimmer">
+                            <argument type="Float">1.0000</argument>
+                        </change>
+                    </stream>
+                </cue>
+            </cues>
+        </cuelist>
+    </cuelists>
+    <stacklists />
+    <playbacks>
+        <faders>
+            <bank label="" />
+        </faders>
+        <buttons>
+            <bank label="asdf">
+                <playback index="2" attack="0.000000">VS Warp TP</playback>
+                <playback index="3" attack="0.000000">VS Robe TP</playback>
+                <playback index="4" attack="0.000000">VS Box</playback>
+                <playback index="5" attack="0.000000">VS Warp Zij</playback>
+                <playback index="6" attack="0.000000">Lessenaar</playback>
+                <playback index="7" attack="0.000000" function_button_primair="Go+">ReleaseAfterMovement</playback>
+            </bank>
+        </buttons>
+    </playbacks>
+    <actions>
+        <actionlist enabled="true" label="Commands" source="OSC">
+            <identifier>
+                <argument type="Unsigned">0</argument>
+            </identifier>
+            <action label="OPEN">
+                <trigger type="String" flank="Change">/OPEN</trigger>
+                <tasks>
+                    <task type="Dashboard Palette Grid" identifier="0x2" feature="ButtonPrimair" function="Set">
+                        <argument type="Bool">On</argument>
+                    </task>
+                    <task type="Playback Button" feature="Jump" function="Set">
+                        <identifier>
+                            <argument type="String">1.8</argument>
+                        </identifier>
+                        <argument type="Unsigned">1</argument>
+                    </task>
+                    <task type="Dashboard Palette Grid" identifier="0x2" feature="ButtonPrimair" function="Set">
+                        <argument type="Bool">Off</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="DICHT">
+                <trigger type="String" flank="Change">/DICHT</trigger>
+                <tasks>
+                    <task type="Dashboard Palette Grid" identifier="0xA" feature="ButtonPrimair" function="Set">
+                        <argument type="Bool">On</argument>
+                    </task>
+                    <task type="Playback Button" feature="Jump" function="Set">
+                        <identifier>
+                            <argument type="String">1.8</argument>
+                        </identifier>
+                        <argument type="Unsigned">1</argument>
+                    </task>
+                    <task type="Dashboard Palette Grid" identifier="0xA" feature="ButtonPrimair" function="Set">
+                        <argument type="Bool">Off</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="STOP">
+                <trigger type="String" flank="Change">/STOP</trigger>
+                <tasks>
+                    <task type="Programmer" feature="Clear" function="Set" />
+                </tasks>
+            </action>
+            <action label="Deselect All">
+                <trigger type="String" flank="Change">/DeselectAll</trigger>
+                <tasks>
+                    <task type="Playback Button" feature="Jump" function="Set">
+                        <identifier>
+                            <argument type="String">1.8</argument>
+                        </identifier>
+                        <argument type="Unsigned">3</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="SelectAll">
+                <trigger type="String" flank="Down"></trigger>
+                <tasks />
+            </action>
+        </actionlist>
+        <actionlist enabled="true" label="Kiosc Luikenselectie" source="OSC">
+            <identifier>
+                <argument type="Unsigned">0</argument>
+            </identifier>
+            <action label="Select Luik 1">
+                <trigger type="String" flank="Change">/L1</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0xC" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Luik 2">
+                <trigger type="String" flank="Change">/L2</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0xD" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Luik 3">
+                <trigger type="String" flank="Change">/L3</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0xE" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Luik 4">
+                <trigger type="String" flank="Change">/L4</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0xF" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Luik 5">
+                <trigger type="String" flank="Change">/L5</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x10" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Luik 6">
+                <trigger type="String" flank="Change">/L6</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x11" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Luik 7">
+                <trigger type="String" flank="Change">/L7</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x12" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Luik 8">
+                <trigger type="String" flank="Change">/L8</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x13" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Luik 9">
+                <trigger type="String" flank="Change">/L9</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x14" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Luik 10">
+                <trigger type="String" flank="Change">/L10</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x15" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Luik 11">
+                <trigger type="String" flank="Change">/L11</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x16" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Luik 12">
+                <trigger type="String" flank="Change">/L12</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x17" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Luik 13">
+                <trigger type="String" flank="Change">/L13</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x18" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Luik 14">
+                <trigger type="String" flank="Change">/L14</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x19" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 1.1">
+                <trigger type="String" flank="Change">/B11</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 1.2">
+                <trigger type="String" flank="Change">/B12</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x1" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 1.3">
+                <trigger type="String" flank="Change">/B13</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x2" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 1.4">
+                <trigger type="String" flank="Change">/B14</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x3" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 2.1">
+                <trigger type="String" flank="Change">/B21</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x4" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 2.2">
+                <trigger type="String" flank="Change">/B22</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x5" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 2.3">
+                <trigger type="String" flank="Change">/B23</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x6" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 2.4">
+                <trigger type="String" flank="Change">/B24</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x7" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 3.1">
+                <trigger type="String" flank="Change">/B31</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x8" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 3.2">
+                <trigger type="String" flank="Change">/B32</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x9" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 3.3">
+                <trigger type="String" flank="Change">/B33</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0xA" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Box 3.4">
+                <trigger type="String" flank="Change">/B34</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0xB" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand L1.1">
+                <trigger type="String" flank="Change">/L11Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x1A" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand L1.2">
+                <trigger type="String" flank="Change">/L12Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x1B" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand L1.3">
+                <trigger type="String" flank="Change">/L13Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x1C" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand L2.1">
+                <trigger type="String" flank="Change">/L21Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x1D" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand L2.2">
+                <trigger type="String" flank="Change">/L22Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x1E" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand L3.1">
+                <trigger type="String" flank="Change">/L31Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x1F" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand L3.2">
+                <trigger type="String" flank="Change">/L32Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x20" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand L3.3">
+                <trigger type="String" flank="Change">/L33Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x21" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand R3.1">
+                <trigger type="String" flank="Change">/R31Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x27" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand R3.2">
+                <trigger type="String" flank="Change">/R32Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x28" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand R3.3">
+                <trigger type="String" flank="Change">/R33Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x29" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand R2.1">
+                <trigger type="String" flank="Change">/R21Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x25" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand R2.2">
+                <trigger type="String" flank="Change">/R22Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x26" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand R1.1">
+                <trigger type="String" flank="Change">/R11Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x22" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand R1.2">
+                <trigger type="String" flank="Change">/R12Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x23" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wand R1.3">
+                <trigger type="String" flank="Change">/R13Z</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x24" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Brug 1">
+                <trigger type="String" flank="Change">/B1</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0xC" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xD" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xE" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xF" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x10" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x11" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x12" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Brug 2">
+                <trigger type="String" flank="Change">/B2</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x13" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x14" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x15" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x16" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x17" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x18" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x19" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Boxen">
+                <trigger type="String" flank="Change">/BOX</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x2" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x3" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x4" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x5" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x6" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x7" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x8" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x9" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xA" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xB" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select Wanden">
+                <trigger type="String" flank="Change">/WAND</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" identifier="0x1A" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1B" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1C" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1D" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1E" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1F" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x20" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x21" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x27" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x28" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x29" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x25" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x26" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x22" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x23" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x24" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+            <action label="Select All">
+                <trigger type="String" flank="Change">/SelectAll</trigger>
+                <tasks>
+                    <task type="Dashboard Fixture Grid" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1A" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1B" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1C" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1D" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1E" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1F" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x20" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x21" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x27" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x28" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x29" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x25" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x26" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x22" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x23" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x24" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x1" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x2" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x3" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x4" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x5" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x6" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x7" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x8" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x9" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xA" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xB" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x13" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x14" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x15" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x16" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x17" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x18" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x19" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xC" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xD" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xE" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0xF" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x10" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x11" feature="ButtonPrimair" function="Control" />
+                    <task type="Dashboard Fixture Grid" identifier="0x12" feature="ButtonPrimair" function="Control" />
+                </tasks>
+            </action>
+        </actionlist>
+        <actionlist enabled="true" label="Status return to Kiosc" source="Dashboard Fixture">
+            <identifier>
+                <argument type="Unsigned">0</argument>
+            </identifier>
+            <action label="Luik View 1">
+                <trigger type="ButtonPrimair" flank="Change">12</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L1V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik View 2">
+                <trigger type="ButtonPrimair" flank="Change">13</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L2V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik View 3">
+                <trigger type="ButtonPrimair" flank="Change">14</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L3V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik View 4">
+                <trigger type="ButtonPrimair" flank="Change">15</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L4V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik View 5">
+                <trigger type="ButtonPrimair" flank="Change">16</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L5V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik View 6">
+                <trigger type="ButtonPrimair" flank="Change">17</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L6V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik View 7">
+                <trigger type="ButtonPrimair" flank="Change">18</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L7V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik View 8">
+                <trigger type="ButtonPrimair" flank="Change">19</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L8V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik View 9">
+                <trigger type="ButtonPrimair" flank="Change">20</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L9V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik View 10">
+                <trigger type="ButtonPrimair" flank="Change">21</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L10V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik View 11">
+                <trigger type="ButtonPrimair" flank="Change">22</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L11V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik View 12">
+                <trigger type="ButtonPrimair" flank="Change">23</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L12V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik View 13">
+                <trigger type="ButtonPrimair" flank="Change">24</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L13V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik View 14">
+                <trigger type="ButtonPrimair" flank="Change">25</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L14V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 1.1">
+                <trigger type="ButtonPrimair" flank="Change">0</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B11V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 1.2">
+                <trigger type="ButtonPrimair" flank="Change">1</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B12V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 1.3">
+                <trigger type="ButtonPrimair" flank="Change">2</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B13V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 1.4">
+                <trigger type="ButtonPrimair" flank="Change">3</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B14V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 2.1">
+                <trigger type="ButtonPrimair" flank="Change">4</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B21V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 2.2">
+                <trigger type="ButtonPrimair" flank="Change">5</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B22V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 2.3">
+                <trigger type="ButtonPrimair" flank="Change">6</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B23V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 2.4">
+                <trigger type="ButtonPrimair" flank="Change">7</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B24V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 3.1">
+                <trigger type="ButtonPrimair" flank="Change">8</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B31V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 3.2">
+                <trigger type="ButtonPrimair" flank="Change">9</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B32V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 3.3">
+                <trigger type="ButtonPrimair" flank="Change">10</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B33V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Luik Box 3.4">
+                <trigger type="ButtonPrimair" flank="Change">11</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/B34V</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij L1.1">
+                <trigger type="ButtonPrimair" flank="Change">26</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L11VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij L1.2">
+                <trigger type="ButtonPrimair" flank="Change">27</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L12VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij L1.3">
+                <trigger type="ButtonPrimair" flank="Change">28</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L13VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij L2.1">
+                <trigger type="ButtonPrimair" flank="Change">29</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L21VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij L2.2">
+                <trigger type="ButtonPrimair" flank="Change">30</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L22VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij L3.1">
+                <trigger type="ButtonPrimair" flank="Change">31</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L31VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij L3.2">
+                <trigger type="ButtonPrimair" flank="Change">32</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L32VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij L3.3">
+                <trigger type="ButtonPrimair" flank="Change">33</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/L33VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij R1.1">
+                <trigger type="ButtonPrimair" flank="Change">34</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/R11VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij R1.2">
+                <trigger type="ButtonPrimair" flank="Change">35</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/R12VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij R1.3">
+                <trigger type="ButtonPrimair" flank="Change">36</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/R13VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij R2.1">
+                <trigger type="ButtonPrimair" flank="Change">37</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/R21VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij R2.2">
+                <trigger type="ButtonPrimair" flank="Change">38</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/R22VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij R3.1">
+                <trigger type="ButtonPrimair" flank="Change">39</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/R31VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij R3.2">
+                <trigger type="ButtonPrimair" flank="Change">40</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/R32VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+            <action label="Zij R3.3">
+                <trigger type="ButtonPrimair" flank="Change">41</trigger>
+                <tasks>
+                    <task type="OSC" feature="Send Message Bool" function="Control">
+                        <identifier>
+                            <argument type="IpAddress">192.168.2.11:8000</argument>
+                        </identifier>
+                        <argument type="String">/R33VZ</argument>
+                    </task>
+                </tasks>
+            </action>
+        </actionlist>
+    </actions>
+    <patterns>
+        <page label="Page01">
+            <pattern type="Static Fill" label="Static Fill" />
+            <pattern type="Static Streak" label="Static Streak" />
+            <pattern type="Static Swirl" label="Static Swirl" />
+            <pattern type="Gradient Radial" label="Gradient Radial">
+                <parameter label="Background">
+                    <argument type="Colour">rgbcwau00000000000000</argument>
+                </parameter>
+            </pattern>
+            <pattern type="Gradient Spiral" label="Gradient Spiral">
+                <parameter label="Background">
+                    <argument type="Colour">rgbcwau00000000000000</argument>
+                </parameter>
+            </pattern>
+            <pattern type="Gradient Circular" label="Gradient Circular">
+                <parameter label="Background">
+                    <argument type="Colour">rgbcwau00000000000000</argument>
+                </parameter>
+            </pattern>
+            <pattern type="Gradient Square" label="Gradient Square">
+                <parameter label="Background">
+                    <argument type="Colour">rgbcwau00000000000000</argument>
+                </parameter>
+            </pattern>
+            <pattern type="Gradient Scan" label="Gradient Scan">
+                <parameter label="Background">
+                    <argument type="Colour">rgbcwau00000000000000</argument>
+                </parameter>
+                <parameter label="Bounce">
+                    <argument type="Bool">Off</argument>
+                </parameter>
+            </pattern>
+            <pattern type="Gradient Streak" label="Gradient Streak">
+                <parameter label="Background">
+                    <argument type="Colour">rgbcwau00000000000000</argument>
+                </parameter>
+            </pattern>
+            <pattern type="Gradient Blinds" label="Gradient Blinds">
+                <parameter label="Background">
+                    <argument type="Colour">rgbcwau00000000000000</argument>
+                </parameter>
+                <parameter label="Bounce">
+                    <argument type="Bool">Off</argument>
+                </parameter>
+            </pattern>
+            <pattern type="Rainbow Fill" label="Rainbow Fill" />
+            <pattern type="Rainbow Linear" label="Rainbow Linear" />
+            <pattern type="Rainbow Radial" label="Rainbow Radial" />
+            <pattern type="Rainbow Spiral" label="Rainbow Spiral" />
+            <pattern type="Rainbow Circular" label="Rainbow Circular" />
+            <pattern type="Rainbow Square" label="Rainbow Square" />
+            <pattern type="Rainbow Scan" label="Rainbow Scan">
+                <parameter label="Bounce">
+                    <argument type="Bool">Off</argument>
+                </parameter>
+            </pattern>
+            <pattern type="Rainbow Streak" label="Rainbow Streak" />
+            <pattern type="Rainbow Blinds" label="Rainbow Blinds" />
+            <pattern type="Matrix" label="Matrix">
+                <parameter label="Thickness">
+                    <argument type="Float">0.0000</argument>
+                </parameter>
+                <parameter label="Overlap">
+                    <argument type="Bool">On</argument>
+                </parameter>
+            </pattern>
+            <pattern type="Twinkle" label="Twinkle" />
+            <pattern type="Sinus" label="Sinus" />
+            <pattern type="Text Static" label="Text Static">
+                <parameter label="Font">
+                    <argument type="String">Arial</argument>
+                </parameter>
+                <parameter label="Text">
+                    <argument type="String">CueluxPro</argument>
+                </parameter>
+                <parameter label="Vertical">
+                    <argument type="Bool">Off</argument>
+                </parameter>
+            </pattern>
+            <pattern type="Text Scrolling" label="Text Scrolling">
+                <parameter label="Font">
+                    <argument type="String">Arial</argument>
+                </parameter>
+                <parameter label="Text">
+                    <argument type="String">CueluxPro</argument>
+                </parameter>
+                <parameter label="Vertical">
+                    <argument type="Bool">Off</argument>
+                </parameter>
+                <parameter label="Orientation">
+                    <argument type="Unsigned">0</argument>
+                </parameter>
+            </pattern>
+            <pattern type="Checkerboard" label="Checkerboard" />
+            <pattern type="Fire" label="Fire" />
+            <pattern type="Confetti" label="Confetti">
+                <parameter label="Random colour">
+                    <argument type="Bool">On</argument>
+                </parameter>
+            </pattern>
+            <pattern type="Equalizer" label="Equalizer">
+                <parameter label="Random">
+                    <argument type="Bool">On</argument>
+                </parameter>
+                <parameter label="Grayscale">
+                    <argument type="Bool">On</argument>
+                </parameter>
+            </pattern>
+            <pattern type="Image" label="Image">
+                <parameter label="Path">
+                    <argument type="Path"></argument>
+                </parameter>
+                <parameter label="Stretch">
+                    <argument type="Bool">Off</argument>
+                </parameter>
+            </pattern>
+            <pattern type="Movie" label="Movie">
+                <parameter label="Path">
+                    <argument type="Path"></argument>
+                </parameter>
+                <parameter label="Repeat">
+                    <argument type="Bool">Off</argument>
+                </parameter>
+                <parameter label="Stretch">
+                    <argument type="Bool">On</argument>
+                </parameter>
+                <parameter label="Saturation">
+                    <argument type="Float">0.0000</argument>
+                </parameter>
+            </pattern>
+            <pattern type="Video Capture" label="Video Capture">
+                <parameter label="Input">
+                    <argument type="Unsigned">0</argument>
+                </parameter>
+                <parameter label="Stretch">
+                    <argument type="Bool">On</argument>
+                </parameter>
+                <parameter label="Saturation">
+                    <argument type="Float">0.0000</argument>
+                </parameter>
+            </pattern>
+        </page>
+    </patterns>
+    <groups>
+        <group label="Box 3.1" index="1">
+            <member>Box 3.1</member>
+        </group>
+        <group label="Box 3.2" index="3">
+            <member>Box 3.2</member>
+        </group>
+        <group label="Box 3.3" index="5">
+            <member>Box 3.3</member>
+        </group>
+        <group label="Box 3.4" index="7">
+            <member>Box 3.4</member>
+        </group>
+        <group label="Box 2.1" index="9">
+            <member>Box 2.1</member>
+        </group>
+        <group label="Box 2.2" index="11">
+            <member>Box 2.2</member>
+        </group>
+        <group label="Box 2.3" index="13">
+            <member>Box 2.3</member>
+        </group>
+        <group label="Box 2.4" index="15">
+            <member>Box 2.4</member>
+        </group>
+        <group label="Alle boxen" index="16">
+            <member>Box 1.1</member>
+            <member>Box 1.2</member>
+            <member>Box 1.3</member>
+            <member>Box 1.4</member>
+            <member>Box 2.1</member>
+            <member>Box 2.2</member>
+            <member>Box 2.3</member>
+            <member>Box 2.4</member>
+            <member>Box 3.1</member>
+            <member>Box 3.2</member>
+            <member>Box 3.3</member>
+            <member>Box 3.4</member>
+        </group>
+        <group label="Box 1.1" index="17">
+            <member>Box 1.1</member>
+        </group>
+        <group label="Box 1.2" index="19">
+            <member>Box 1.2</member>
+        </group>
+        <group label="Box 1.3" index="21">
+            <member>Box 1.3</member>
+        </group>
+        <group label="Box 1.4" index="23">
+            <member>Box 1.4</member>
+        </group>
+        <group label="8" index="25" />
+        <group label="Brug 2" index="32">
+            <member>Brug 2 Luik 8</member>
+            <member>Brug 2 Luik 9</member>
+            <member>Brug 2 Luik 10</member>
+            <member>Brug 2 Luik 11</member>
+            <member>Brug 2 Luik 12</member>
+            <member>Brug 2 Luik 13</member>
+            <member>Brug 2 Luik 14</member>
+        </group>
+        <group label="8 - Copy" index="33">
+            <member>Brug 2 Luik 8</member>
+        </group>
+        <group label="9" index="34">
+            <member>Brug 2 Luik 9</member>
+        </group>
+        <group label="10" index="35">
+            <member>Brug 2 Luik 10</member>
+        </group>
+        <group label="11" index="36">
+            <member>Brug 2 Luik 11</member>
+        </group>
+        <group label="12" index="37">
+            <member>Brug 2 Luik 12</member>
+        </group>
+        <group label="13" index="38">
+            <member>Brug 2 Luik 13</member>
+        </group>
+        <group label="14" index="39">
+            <member>Brug 2 Luik 14</member>
+        </group>
+        <group label="6" index="46" />
+        <group label="Brug 1" index="48">
+            <member>Brug 1 Luik 1</member>
+            <member>Brug 1 Luik 2</member>
+            <member>Brug 1 Luik 3</member>
+            <member>Brug 1 Luik 4</member>
+            <member>Brug 1 Luik 5</member>
+            <member>Brug 1 Luik 6</member>
+            <member>Brug 1 Luik 7</member>
+        </group>
+        <group label="1" index="49">
+            <member>Brug 1 Luik 1</member>
+        </group>
+        <group label="2" index="50">
+            <member>Brug 1 Luik 2</member>
+        </group>
+        <group label="3" index="51">
+            <member>Brug 1 Luik 3</member>
+        </group>
+        <group label="4" index="52">
+            <member>Brug 1 Luik 4</member>
+        </group>
+        <group label="5" index="53">
+            <member>Brug 1 Luik 5</member>
+        </group>
+        <group label="6 - Copy" index="54">
+            <member>Brug 1 Luik 6</member>
+        </group>
+        <group label="7" index="55">
+            <member>Brug 1 Luik 7</member>
+        </group>
+        <group label="ALL LUIK" index="63">
+            <member>Box 1.1</member>
+            <member>Box 1.2</member>
+            <member>Box 1.3</member>
+            <member>Box 1.4</member>
+            <member>Box 2.1</member>
+            <member>Box 2.2</member>
+            <member>Box 2.3</member>
+            <member>Box 2.4</member>
+            <member>Box 3.1</member>
+            <member>Box 3.2</member>
+            <member>Box 3.3</member>
+            <member>Box 3.4</member>
+            <member>Brug 2 Luik 8</member>
+            <member>Brug 2 Luik 9</member>
+            <member>Brug 2 Luik 10</member>
+            <member>Brug 2 Luik 11</member>
+            <member>Brug 2 Luik 12</member>
+            <member>Brug 2 Luik 13</member>
+            <member>Brug 2 Luik 14</member>
+            <member>Brug 1 Luik 1</member>
+            <member>Brug 1 Luik 2</member>
+            <member>Brug 1 Luik 3</member>
+            <member>Brug 1 Luik 4</member>
+            <member>Brug 1 Luik 5</member>
+            <member>Brug 1 Luik 6</member>
+            <member>Brug 1 Luik 7</member>
+            <member>Wand L 1.1</member>
+            <member>Wand L 1.2</member>
+            <member>Wand L 1.3</member>
+            <member>Wand L 2.1</member>
+            <member>Wand L 2.2</member>
+            <member>Wand L 3.1</member>
+            <member>Wand L 3.2</member>
+            <member>Wand L 3.3</member>
+            <member>Wand R 1.1</member>
+            <member>Wand R 1.2</member>
+            <member>Wand R 1.3</member>
+            <member>Wand R 2.1</member>
+            <member>Wand R 2.2</member>
+            <member>Wand R 3.1</member>
+            <member>Wand R 3.2</member>
+            <member>Wand R 3.3</member>
+        </group>
+        <group label="L1.1" index="64">
+            <member>Wand L 1.1</member>
+        </group>
+        <group label="L2.1" index="65">
+            <member>Wand L 2.1</member>
+        </group>
+        <group label="L3.1" index="66">
+            <member>Wand L 3.1</member>
+        </group>
+        <group label="R3.1" index="68">
+            <member>Wand R 3.1</member>
+        </group>
+        <group label="R2.1" index="69">
+            <member>Wand R 2.1</member>
+        </group>
+        <group label="R1.1" index="70">
+            <member>Wand R 1.1</member>
+        </group>
+        <group label="L1.2" index="72">
+            <member>Wand L 1.2</member>
+        </group>
+        <group label="L2.2" index="73">
+            <member>Wand L 2.2</member>
+        </group>
+        <group label="L3.2" index="74">
+            <member>Wand L 3.2</member>
+        </group>
+        <group label="R3.2" index="76">
+            <member>Wand R 3.2</member>
+        </group>
+        <group label="R2.2" index="77">
+            <member>Wand R 2.2</member>
+        </group>
+        <group label="R1.2" index="78">
+            <member>Wand R 1.2</member>
+        </group>
+        <group label="L1.3" index="80">
+            <member>Wand L 1.3</member>
+        </group>
+        <group label="L3.3" index="82">
+            <member>Wand L 3.3</member>
+        </group>
+        <group label="R3.3" index="84">
+            <member>Wand R 3.3</member>
+        </group>
+        <group label="R1.3" index="86">
+            <member>Wand R 1.3</member>
+        </group>
+        <group label="Alle boxen - Copy" index="88" />
+        <group label="Wand Links" index="89">
+            <member>Wand L 1.1</member>
+            <member>Wand L 1.2</member>
+            <member>Wand L 1.3</member>
+            <member>Wand L 2.1</member>
+            <member>Wand L 2.2</member>
+            <member>Wand L 3.1</member>
+            <member>Wand L 3.2</member>
+            <member>Wand L 3.3</member>
+        </group>
+        <group label="Wand Rechts" index="93">
+            <member>Wand R 1.1</member>
+            <member>Wand R 1.2</member>
+            <member>Wand R 1.3</member>
+            <member>Wand R 2.1</member>
+            <member>Wand R 2.2</member>
+            <member>Wand R 3.1</member>
+            <member>Wand R 3.2</member>
+            <member>Wand R 3.3</member>
+        </group>
+        <group label="Alle Wanden" index="99">
+            <member>Wand L 1.1</member>
+            <member>Wand L 1.2</member>
+            <member>Wand L 1.3</member>
+            <member>Wand L 2.1</member>
+            <member>Wand L 2.2</member>
+            <member>Wand L 3.1</member>
+            <member>Wand L 3.2</member>
+            <member>Wand L 3.3</member>
+            <member>Wand R 1.1</member>
+            <member>Wand R 1.2</member>
+            <member>Wand R 1.3</member>
+            <member>Wand R 2.1</member>
+            <member>Wand R 2.2</member>
+            <member>Wand R 3.1</member>
+            <member>Wand R 3.2</member>
+            <member>Wand R 3.3</member>
+        </group>
+    </groups>
+</show>

@@ -1,0 +1,724 @@
+[11:32:19] [Logger] Open
+[11:32:19] [SkinManager] Loading from "C:\Program Files (x86)\Visual Productions\CueluxPro10447\skin"
+[11:32:19] [SkinManager] 3 glyph pages loaded:
+[11:32:19] [SkinManager] Page "skin" loaded 50 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\skin
+[11:32:19] [SkinManager] Page "cueluxpro" loaded 1 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\skin\cueluxpro
+[11:32:19] [SkinManager] Page "emulationpro" loaded 1 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\skin\emulationpro
+[11:32:19] [GlyphManager] Loading from "C:\Program Files (x86)\Visual Productions\CueluxPro10447\glyphs"
+[11:32:19] [GlyphManager] 15 glyph pages loaded:
+[11:32:19] [GlyphManager] Page "attribute" loaded 90 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\glyphs\attribute
+[11:32:19] [GlyphManager] Page "class" loaded 20 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\glyphs\class
+[11:32:19] [GlyphManager] Page "device" loaded 78 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\glyphs\device
+[11:32:19] [GlyphManager] Page "display" loaded 55 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\glyphs\display
+[11:32:19] [GlyphManager] Page "gobo" loaded 0 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\glyphs\gobo
+[11:32:19] [GlyphManager] Page "language" loaded 23 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\glyphs\language
+[11:32:19] [GlyphManager] Page "mapping" loaded 14 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\glyphs\mapping
+[11:32:19] [GlyphManager] Page "order" loaded 5 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\glyphs\order
+[11:32:19] [GlyphManager] Page "part" loaded 24 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\glyphs\part
+[11:32:19] [GlyphManager] Page "pattern" loaded 75 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\glyphs\pattern
+[11:32:19] [GlyphManager] Page "prism" loaded 7 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\glyphs\prism
+[11:32:19] [GlyphManager] Page "range" loaded 71 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\glyphs\range
+[11:32:19] [GlyphManager] Page "shape" loaded 13 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\glyphs\shape
+[11:32:19] [GlyphManager] Page "source" loaded 22 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\glyphs\source
+[11:32:19] [GlyphManager] Page "touchscreentype" loaded 17 images from C:\Program Files (x86)\Visual Productions\CueluxPro10447\glyphs\touchscreentype
+[11:32:19] [App] Platform: Windows
+[11:32:19] [App] Number of logical CPU cores: 4
+[11:32:19] [App] Display #0 (1920x1080) offers mode #0 (1920x1080).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #1 (1920x1080).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #2 (1920x1080).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #3 (1920x1080).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #4 (1920x1080).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #5 (1920x1080).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #6 (1920x1080).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #7 (1920x1080).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #8 (1768x992).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #9 (1768x992).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #10 (1768x992).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #11 (1768x992).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #12 (1768x992).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #13 (1768x992).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #14 (1768x992).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #15 (1768x992).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #16 (1680x1050).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #17 (1680x1050).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #18 (1680x1050).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #19 (1680x1050).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #20 (1600x1024).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #21 (1600x1024).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #22 (1600x1024).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #23 (1600x1024).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #24 (1600x900).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #25 (1600x900).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #26 (1600x900).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #27 (1600x900).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #28 (1440x900).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #29 (1440x900).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #30 (1366x768).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #31 (1366x768).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #32 (1360x768).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #33 (1360x768).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #34 (1280x1024).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #35 (1280x1024).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #36 (1280x1024).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #37 (1280x1024).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #38 (1280x960).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #39 (1280x960).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #40 (1280x800).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #41 (1280x800).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #42 (1280x768).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #43 (1280x768).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #44 (1280x720).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #45 (1280x720).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #46 (1280x720).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #47 (1280x720).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #48 (1280x720).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #49 (1280x720).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #50 (1176x664).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #51 (1176x664).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #52 (1176x664).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #53 (1176x664).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #54 (1176x664).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #55 (1176x664).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #56 (1152x864).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #57 (1152x864).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #58 (1024x768).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #59 (1024x768).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #60 (1024x768).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #61 (1024x768).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #62 (1024x768).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #63 (1024x768).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #64 (800x600).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #65 (800x600).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #66 (800x600).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #67 (800x600).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #68 (800x600).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #69 (800x600).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #70 (800x600).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #71 (800x600).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #72 (720x576).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #73 (720x576).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #74 (720x480).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #75 (720x480).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #76 (720x480).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #77 (720x480).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #78 (640x480).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #79 (640x480).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #80 (640x480).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #81 (640x480).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #82 (640x480).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #83 (640x480).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #84 (640x480).
+[11:32:19] [App] Display #0 (1920x1080) offers mode #85 (640x480).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #0 (1920x1080).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #1 (1920x1080).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #2 (1920x1080).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #3 (1920x1080).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #4 (1920x1080).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #5 (1920x1080).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #6 (1920x1080).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #7 (1920x1080).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #8 (1920x1080).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #9 (1920x1080).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #10 (1920x1080).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #11 (1920x1080).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #12 (1920x1080).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #13 (1920x1080).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #14 (1768x992).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #15 (1768x992).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #16 (1768x992).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #17 (1768x992).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #18 (1768x992).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #19 (1768x992).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #20 (1680x1050).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #21 (1680x1050).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #22 (1680x1050).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #23 (1680x1050).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #24 (1600x1024).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #25 (1600x1024).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #26 (1600x1024).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #27 (1600x1024).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #28 (1600x900).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #29 (1600x900).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #30 (1600x900).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #31 (1600x900).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #32 (1440x900).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #33 (1440x900).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #34 (1366x768).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #35 (1366x768).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #36 (1360x768).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #37 (1360x768).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #38 (1280x1024).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #39 (1280x1024).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #40 (1280x1024).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #41 (1280x1024).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #42 (1280x960).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #43 (1280x960).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #44 (1280x800).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #45 (1280x800).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #46 (1280x768).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #47 (1280x768).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #48 (1280x720).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #49 (1280x720).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #50 (1280x720).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #51 (1280x720).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #52 (1280x720).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #53 (1280x720).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #54 (1176x664).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #55 (1176x664).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #56 (1176x664).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #57 (1176x664).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #58 (1176x664).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #59 (1176x664).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #60 (1152x864).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #61 (1152x864).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #62 (1024x768).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #63 (1024x768).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #64 (1024x768).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #65 (1024x768).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #66 (1024x768).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #67 (1024x768).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #68 (800x600).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #69 (800x600).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #70 (800x600).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #71 (800x600).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #72 (800x600).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #73 (800x600).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #74 (800x600).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #75 (800x600).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #76 (720x576).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #77 (720x576).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #78 (720x480).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #79 (720x480).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #80 (720x480).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #81 (720x480).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #82 (640x480).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #83 (640x480).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #84 (640x480).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #85 (640x480).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #86 (640x480).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #87 (640x480).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #88 (640x480).
+[11:32:19] [App] Display #1 (1920x1080) offers mode #89 (640x480).
+[11:32:19] [App] Binary path: C:\Program Files (x86)\Visual Productions\CueluxPro10447
+[11:32:19] [App] Application Data path: C:\Users\Christiaan Schriel\Documents\Visual Productions\CueluxPro
+[11:32:19] [App] Common Data path: C:\Users\Christiaan Schriel\Documents\Visual Productions\Common
+[11:32:19] [App] Resources Specific path: C:\Program Files (x86)\Visual Productions\CueluxPro10447
+[11:32:19] [App] Resources Shared path: C:\Program Files (x86)\Visual Productions\CueluxPro10447
+[11:32:19] [App] 2 IP addresses found:
+[11:32:19] [App] - 192.168.186.49
+[11:32:19] [App] - 192.168.2.18
+[11:32:19] [LanguageManager] Loading from "C:\Users\Christiaan Schriel\Documents\Visual Productions\Common"
+[11:32:19] [LanguageManager] Error loading file "C:\Users\Christiaan Schriel\Documents\Visual Productions\Common\Languages/Factory\romaji.xml", error = "Error reading Attributes."
+[11:32:19] [LanguageManager] 19 langauges loaded
+[11:32:19] [LanguageManager] "American" does not contain phrase "Arrange All"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Arrange All"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Arrange All"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Arrange All"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Backup"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Backup"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Backup"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Backup"
+[11:32:19] [LanguageManager] "Ελληνικά" does not contain phrase "Bounce"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Bounce"
+[11:32:19] [LanguageManager] "English" does not contain phrase "Bounce"
+[11:32:19] [LanguageManager] "Español" does not contain phrase "Bounce"
+[11:32:19] [LanguageManager] "Français" does not contain phrase "Bounce"
+[11:32:19] [LanguageManager] "Latviešu" does not contain phrase "Bounce"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Bounce"
+[11:32:19] [LanguageManager] "Norsk" does not contain phrase "Bounce"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Bounce"
+[11:32:19] [LanguageManager] "Română" does not contain phrase "Bounce"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Bounce"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Bounce"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "Bounce"
+[11:32:19] [LanguageManager] "Türkçe" does not contain phrase "Bounce"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Break"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Break"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Break"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Break"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Button Banks"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Button Banks"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Button Banks"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Button Banks"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Communication"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Communication"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Communication"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Communication"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Copy"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Copy"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Cores"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Cores"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Devices"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Devices"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Dump"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Dump"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Dump"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Dump"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Enabled"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "Enabled"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Fader Banks"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Fader Banks"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Fader Banks"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Fader Banks"
+[11:32:19] [LanguageManager] "American" does not contain phrase "File"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "File"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "File"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "File"
+[11:32:19] [LanguageManager] "Italiano" does not contain phrase "Function"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Function"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Function"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "Function"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "GPI Monitor"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "GPI Monitor"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "GPO Monitor"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "GPO Monitor"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Height"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Height"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Height"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Height"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Highlight"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Highlight"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Highlight"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Highlight"
+[11:32:19] [LanguageManager] "Italiano" does not contain phrase "IP Address"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "IP Address"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "IP Address"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "IP Address"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Internal"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Internal"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Internal"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Internal"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Knockout"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Knockout"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Knockout"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Knockout"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Latitude"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Latitude"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Latitude"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Latitude"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Layer"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Layer"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Layer"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Layer"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Layout"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Layout"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Layout"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Layout"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Learn"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Learn"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Learn"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Learn"
+[11:32:19] [LanguageManager] "Ελληνικά" does not contain phrase "Link"
+[11:32:19] [LanguageManager] "Español" does not contain phrase "Link"
+[11:32:19] [LanguageManager] "Latviešu" does not contain phrase "Link"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Link"
+[11:32:19] [LanguageManager] "Norsk" does not contain phrase "Link"
+[11:32:19] [LanguageManager] "Română" does not contain phrase "Link"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Link"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Link"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "Link"
+[11:32:19] [LanguageManager] "Türkçe" does not contain phrase "Link"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Local IP Address"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Local IP Address"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Local IP Address"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Local IP Address"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Longitude"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Longitude"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Longitude"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Longitude"
+[11:32:19] [LanguageManager] "American" does not contain phrase "MIDI Device"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "MIDI Device"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "MIDI Device"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "MIDI Device"
+[11:32:19] [LanguageManager] "American" does not contain phrase "MIDI Monitor (In)"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "MIDI Monitor (In)"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "MIDI Monitor (In)"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "MIDI Monitor (In)"
+[11:32:19] [LanguageManager] "American" does not contain phrase "MIDI Monitor (Out)"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "MIDI Monitor (Out)"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "MIDI Monitor (Out)"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "MIDI Monitor (Out)"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Memories"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Memories"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Memories"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Memories"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Move"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Move"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Move"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Move"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Move Fixture"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Move Fixture"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Move Fixture"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Move Fixture"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Network"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Network"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Network"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Network"
+[11:32:19] [LanguageManager] "American" does not contain phrase "OSC Monitor (In)"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "OSC Monitor (In)"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "OSC Monitor (In)"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "OSC Monitor (In)"
+[11:32:19] [LanguageManager] "American" does not contain phrase "OSC Monitor (Out)"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "OSC Monitor (Out)"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "OSC Monitor (Out)"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "OSC Monitor (Out)"
+[11:32:19] [LanguageManager] "American" does not contain phrase "OSC Port"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "OSC Port"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "OSC Port"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "OSC Port"
+[11:32:19] [LanguageManager] "American" does not contain phrase "On Change"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "On Change"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "On Change"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "On Change"
+[11:32:19] [LanguageManager] "American" does not contain phrase "On Down"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "On Down"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "On Down"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "On Down"
+[11:32:19] [LanguageManager] "American" does not contain phrase "On Up"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "On Up"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "On Up"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "On Up"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Operator"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Operator"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Operator"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Operator"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Output"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Output"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Output IP OSC"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "Output IP OSC"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Patch"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Patch"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Patch"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Patch"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Pattern"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Pattern"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Pattern"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Pattern"
+[11:32:19] [LanguageManager] "Ελληνικά" does not contain phrase "Phas"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Phas"
+[11:32:19] [LanguageManager] "English" does not contain phrase "Phas"
+[11:32:19] [LanguageManager] "Español" does not contain phrase "Phas"
+[11:32:19] [LanguageManager] "Français" does not contain phrase "Phas"
+[11:32:19] [LanguageManager] "Latviešu" does not contain phrase "Phas"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Phas"
+[11:32:19] [LanguageManager] "Norsk" does not contain phrase "Phas"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Phas"
+[11:32:19] [LanguageManager] "Română" does not contain phrase "Phas"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Phas"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Phas"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "Phas"
+[11:32:19] [LanguageManager] "Türkçe" does not contain phrase "Phas"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Pick"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Pick"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Pick"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Pick"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Playback"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Playback"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Playback"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Playback"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Power"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Power"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Power"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Power"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Prev"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Prev"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Prev"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Prev"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "RS-232 Monitor (In)"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "RS-232 Monitor (In)"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "RS-232 Monitor (Out)"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "RS-232 Monitor (Out)"
+[11:32:19] [LanguageManager] "Ελληνικά" does not contain phrase "Receiver"
+[11:32:19] [LanguageManager] "Español" does not contain phrase "Receiver"
+[11:32:19] [LanguageManager] "Latviešu" does not contain phrase "Receiver"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Receiver"
+[11:32:19] [LanguageManager] "Norsk" does not contain phrase "Receiver"
+[11:32:19] [LanguageManager] "Română" does not contain phrase "Receiver"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Receiver"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Receiver"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "Receiver"
+[11:32:19] [LanguageManager] "Türkçe" does not contain phrase "Receiver"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Record"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Record"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Record"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Record"
+[11:32:19] [LanguageManager] "Ελληνικά" does not contain phrase "Rename Layer"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Rename Layer"
+[11:32:19] [LanguageManager] "English" does not contain phrase "Rename Layer"
+[11:32:19] [LanguageManager] "Español" does not contain phrase "Rename Layer"
+[11:32:19] [LanguageManager] "Français" does not contain phrase "Rename Layer"
+[11:32:19] [LanguageManager] "Latviešu" does not contain phrase "Rename Layer"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Rename Layer"
+[11:32:19] [LanguageManager] "Norsk" does not contain phrase "Rename Layer"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Rename Layer"
+[11:32:19] [LanguageManager] "Română" does not contain phrase "Rename Layer"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Rename Layer"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Rename Layer"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "Rename Layer"
+[11:32:19] [LanguageManager] "Türkçe" does not contain phrase "Rename Layer"
+[11:32:19] [LanguageManager] "Ελληνικά" does not contain phrase "Rename Pattern"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Rename Pattern"
+[11:32:19] [LanguageManager] "English" does not contain phrase "Rename Pattern"
+[11:32:19] [LanguageManager] "Español" does not contain phrase "Rename Pattern"
+[11:32:19] [LanguageManager] "Français" does not contain phrase "Rename Pattern"
+[11:32:19] [LanguageManager] "Latviešu" does not contain phrase "Rename Pattern"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Rename Pattern"
+[11:32:19] [LanguageManager] "Norsk" does not contain phrase "Rename Pattern"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Rename Pattern"
+[11:32:19] [LanguageManager] "Română" does not contain phrase "Rename Pattern"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Rename Pattern"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Rename Pattern"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "Rename Pattern"
+[11:32:19] [LanguageManager] "Türkçe" does not contain phrase "Rename Pattern"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Restore"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Restore"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Restore"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Restore"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Rotate"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Rotate"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Rotate"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Rotate"
+[11:32:19] [LanguageManager] "Ελληνικά" does not contain phrase "Select Feature"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Select Feature"
+[11:32:19] [LanguageManager] "English" does not contain phrase "Select Feature"
+[11:32:19] [LanguageManager] "Español" does not contain phrase "Select Feature"
+[11:32:19] [LanguageManager] "Français" does not contain phrase "Select Feature"
+[11:32:19] [LanguageManager] "Latviešu" does not contain phrase "Select Feature"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Select Feature"
+[11:32:19] [LanguageManager] "Norsk" does not contain phrase "Select Feature"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Select Feature"
+[11:32:19] [LanguageManager] "Română" does not contain phrase "Select Feature"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Select Feature"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Select Feature"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "Select Feature"
+[11:32:19] [LanguageManager] "Türkçe" does not contain phrase "Select Feature"
+[11:32:19] [LanguageManager] "Ελληνικά" does not contain phrase "Select Task Type"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Select Task Type"
+[11:32:19] [LanguageManager] "English" does not contain phrase "Select Task Type"
+[11:32:19] [LanguageManager] "Español" does not contain phrase "Select Task Type"
+[11:32:19] [LanguageManager] "Français" does not contain phrase "Select Task Type"
+[11:32:19] [LanguageManager] "Latviešu" does not contain phrase "Select Task Type"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Select Task Type"
+[11:32:19] [LanguageManager] "Norsk" does not contain phrase "Select Task Type"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Select Task Type"
+[11:32:19] [LanguageManager] "Română" does not contain phrase "Select Task Type"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Select Task Type"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Select Task Type"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "Select Task Type"
+[11:32:19] [LanguageManager] "Türkçe" does not contain phrase "Select Task Type"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Serial"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Serial"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Set"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Set"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Set"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Set"
+[11:32:19] [LanguageManager] "Ελληνικά" does not contain phrase "Set DMX Channel"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Set DMX Channel"
+[11:32:19] [LanguageManager] "English" does not contain phrase "Set DMX Channel"
+[11:32:19] [LanguageManager] "Español" does not contain phrase "Set DMX Channel"
+[11:32:19] [LanguageManager] "Français" does not contain phrase "Set DMX Channel"
+[11:32:19] [LanguageManager] "Latviešu" does not contain phrase "Set DMX Channel"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Set DMX Channel"
+[11:32:19] [LanguageManager] "Norsk" does not contain phrase "Set DMX Channel"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Set DMX Channel"
+[11:32:19] [LanguageManager] "Română" does not contain phrase "Set DMX Channel"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Set DMX Channel"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Set DMX Channel"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "Set DMX Channel"
+[11:32:19] [LanguageManager] "Türkçe" does not contain phrase "Set DMX Channel"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Set Date & Time"
+[11:32:19] [LanguageManager] "Dansk" does not contain phrase "Set Date & Time"
+[11:32:19] [LanguageManager] "Français" does not contain phrase "Set Date & Time"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Set Date & Time"
+[11:32:19] [LanguageManager] "Norsk" does not contain phrase "Set Date & Time"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Set Date & Time"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Set Date & Time"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "Set Date & Time"
+[11:32:19] [LanguageManager] "Ελληνικά" does not contain phrase "Set Palette"
+[11:32:19] [LanguageManager] "Español" does not contain phrase "Set Palette"
+[11:32:19] [LanguageManager] "Latviešu" does not contain phrase "Set Palette"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Set Palette"
+[11:32:19] [LanguageManager] "Norsk" does not contain phrase "Set Palette"
+[11:32:19] [LanguageManager] "Română" does not contain phrase "Set Palette"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Set Palette"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Set Palette"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "Set Palette"
+[11:32:19] [LanguageManager] "Türkçe" does not contain phrase "Set Palette"
+[11:32:19] [LanguageManager] "Ελληνικά" does not contain phrase "Shapes"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Shapes"
+[11:32:19] [LanguageManager] "English" does not contain phrase "Shapes"
+[11:32:19] [LanguageManager] "Español" does not contain phrase "Shapes"
+[11:32:19] [LanguageManager] "Français" does not contain phrase "Shapes"
+[11:32:19] [LanguageManager] "Latviešu" does not contain phrase "Shapes"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Shapes"
+[11:32:19] [LanguageManager] "Norsk" does not contain phrase "Shapes"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Shapes"
+[11:32:19] [LanguageManager] "Română" does not contain phrase "Shapes"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Shapes"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Shapes"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "Shapes"
+[11:32:19] [LanguageManager] "Türkçe" does not contain phrase "Shapes"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Shift"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Shift"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Shift"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Shift"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Snap to Previous"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Snap to Previous"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Snap to Previous"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Snap to Previous"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Start RTC Calibration"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Start RTC Calibration"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Start RTC Calibration"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Start RTC Calibration"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Status"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Status"
+[11:32:19] [LanguageManager] "Čeština" does not contain phrase "Subnet"
+[11:32:19] [LanguageManager] "Ελληνικά" does not contain phrase "Subnet"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Subnet"
+[11:32:19] [LanguageManager] "English" does not contain phrase "Subnet"
+[11:32:19] [LanguageManager] "Español" does not contain phrase "Subnet"
+[11:32:19] [LanguageManager] "Français" does not contain phrase "Subnet"
+[11:32:19] [LanguageManager] "Italiano" does not contain phrase "Subnet"
+[11:32:19] [LanguageManager] "Latviešu" does not contain phrase "Subnet"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "Subnet"
+[11:32:19] [LanguageManager] "Norsk" does not contain phrase "Subnet"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Subnet"
+[11:32:19] [LanguageManager] "Română" does not contain phrase "Subnet"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Subnet"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Subnet"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "Subnet"
+[11:32:19] [LanguageManager] "Türkçe" does not contain phrase "Subnet"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Sunrise"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Sunrise"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Sunrise"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Sunrise"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Sunset"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Sunset"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Sunset"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Sunset"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Timecode Source"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Timecode Source"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Timecode Source"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Timecode Source"
+[11:32:19] [LanguageManager] "Ελληνικά" does not contain phrase "UDP Monitor (In)"
+[11:32:19] [LanguageManager] "American" does not contain phrase "UDP Monitor (In)"
+[11:32:19] [LanguageManager] "English" does not contain phrase "UDP Monitor (In)"
+[11:32:19] [LanguageManager] "Español" does not contain phrase "UDP Monitor (In)"
+[11:32:19] [LanguageManager] "Français" does not contain phrase "UDP Monitor (In)"
+[11:32:19] [LanguageManager] "Latviešu" does not contain phrase "UDP Monitor (In)"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "UDP Monitor (In)"
+[11:32:19] [LanguageManager] "Norsk" does not contain phrase "UDP Monitor (In)"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "UDP Monitor (In)"
+[11:32:19] [LanguageManager] "Română" does not contain phrase "UDP Monitor (In)"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "UDP Monitor (In)"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "UDP Monitor (In)"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "UDP Monitor (In)"
+[11:32:19] [LanguageManager] "Türkçe" does not contain phrase "UDP Monitor (In)"
+[11:32:19] [LanguageManager] "Ελληνικά" does not contain phrase "UDP Monitor (Out)"
+[11:32:19] [LanguageManager] "American" does not contain phrase "UDP Monitor (Out)"
+[11:32:19] [LanguageManager] "English" does not contain phrase "UDP Monitor (Out)"
+[11:32:19] [LanguageManager] "Español" does not contain phrase "UDP Monitor (Out)"
+[11:32:19] [LanguageManager] "Français" does not contain phrase "UDP Monitor (Out)"
+[11:32:19] [LanguageManager] "Latviešu" does not contain phrase "UDP Monitor (Out)"
+[11:32:19] [LanguageManager] "Nederlands" does not contain phrase "UDP Monitor (Out)"
+[11:32:19] [LanguageManager] "Norsk" does not contain phrase "UDP Monitor (Out)"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "UDP Monitor (Out)"
+[11:32:19] [LanguageManager] "Română" does not contain phrase "UDP Monitor (Out)"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "UDP Monitor (Out)"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "UDP Monitor (Out)"
+[11:32:19] [LanguageManager] "Svenska" does not contain phrase "UDP Monitor (Out)"
+[11:32:19] [LanguageManager] "Türkçe" does not contain phrase "UDP Monitor (Out)"
+[11:32:19] [LanguageManager] "American" does not contain phrase "UDP Port"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "UDP Port"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "UDP Port"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "UDP Port"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Upgrade"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Upgrade"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Upgrade"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Upgrade"
+[11:32:19] [LanguageManager] "American" does not contain phrase "Width"
+[11:32:19] [LanguageManager] "Polski" does not contain phrase "Width"
+[11:32:19] [LanguageManager] "Slovenčina" does not contain phrase "Width"
+[11:32:19] [LanguageManager] "Slovenščina" does not contain phrase "Width"
+[11:32:19] [AudioOutManager] Loading audios from "C:\Program Files (x86)\Visual Productions\CueluxPro10447\audio"
+[11:32:19] [AudioOutManager] 11 files loaded
+[11:32:19] [ColourManager] Copying files from C:\Program Files (x86)\Visual Productions\CueluxPro10447\colours
+[11:32:19] [CoreManager] Broadcasting to:
+[11:32:19] [CoreManager] - 255.255.255.255
+[11:32:19] [CoreManager] - 192.168.186.255
+[11:32:19] [CoreManager] - 192.168.2.255
+[11:32:19] [FirmwareManager] Loading from "C:\Users\Christiaan Schriel\Documents\Visual Productions\Common"
+[11:32:19] [FirmwareManager] 25 firmwares loaded
+[11:32:19] [BackupManager] Loading from "C:\Users\Christiaan Schriel\Documents\Visual Productions\Common\Backups"
+[11:32:19] [BackupManager] 0 files loaded
+[11:32:19] [MidiManager] Loading maps from "C:\Users\Christiaan Schriel\Documents\Visual Productions\CueluxPro\Midimaps"
+[11:32:19] [MidiManager] 20 maps loaded
+[11:32:19] [AudioInManager] PortAudio loaded [version 1899 'PortAudio V19-devel (built May 26 2013 16:03:28)']
+[11:32:19] [AudioInManager] Number of devices = 30
+[11:32:19] [AudioInManager] Device #0 "Microsoft Sound Mapper - Input" [Inputs:2 Outputs:0]
+[11:32:19] [AudioInManager] Device #1 "Microphone (Realtek High Defini" [Inputs:2 Outputs:0]
+[11:32:19] [AudioInManager] Device #2 "Microsoft Sound Mapper - Output" [Inputs:0 Outputs:2]
+[11:32:19] [AudioInManager] Device #3 "Speakers (Realtek High Definiti" [Inputs:0 Outputs:8]
+[11:32:19] [AudioInManager] Device #4 "Speakers (G560 Gaming Speaker)" [Inputs:0 Outputs:8]
+[11:32:19] [AudioInManager] Device #5 "Realtek Digital Output (Realtek" [Inputs:0 Outputs:2]
+[11:32:19] [AudioInManager] Device #6 "2590G5 (NVIDIA High Definition " [Inputs:0 Outputs:2]
+[11:32:19] [AudioInManager] Device #7 "2590G5 (NVIDIA High Definition " [Inputs:0 Outputs:2]
+[11:32:19] [AudioInManager] Device #8 "Primary Sound Capture Driver" [Inputs:2 Outputs:0]
+[11:32:19] [AudioInManager] Device #9 "Microphone (Realtek High Definition Audio)" [Inputs:2 Outputs:0]
+[11:32:19] [AudioInManager] Device #10 "Primary Sound Driver" [Inputs:0 Outputs:2]
+[11:32:19] [AudioInManager] Device #11 "Speakers (Realtek High Definition Audio)" [Inputs:0 Outputs:8]
+[11:32:19] [AudioInManager] Device #12 "Speakers (G560 Gaming Speaker)" [Inputs:0 Outputs:8]
+[11:32:19] [AudioInManager] Device #13 "Realtek Digital Output (Realtek High Definition Audio)" [Inputs:0 Outputs:2]
+[11:32:19] [AudioInManager] Device #14 "2590G5 (NVIDIA High Definition Audio)" [Inputs:0 Outputs:2]
+[11:32:19] [AudioInManager] Device #15 "2590G5 (NVIDIA High Definition Audio)" [Inputs:0 Outputs:2]
+[11:32:19] [AudioInManager] Device #16 "Speakers (Realtek High Definition Audio)" [Inputs:0 Outputs:2]
+[11:32:19] [AudioInManager] Device #17 "Speakers (G560 Gaming Speaker)" [Inputs:0 Outputs:8]
+[11:32:19] [AudioInManager] Device #18 "Realtek Digital Output (Realtek High Definition Audio)" [Inputs:0 Outputs:2]
+[11:32:19] [AudioInManager] Device #19 "2590G5 (NVIDIA High Definition Audio)" [Inputs:0 Outputs:2]
+[11:32:19] [AudioInManager] Device #20 "2590G5 (NVIDIA High Definition Audio)" [Inputs:0 Outputs:2]
+[11:32:19] [AudioInManager] Device #21 "Microphone (Realtek High Definition Audio)" [Inputs:2 Outputs:0]
+[11:32:19] [AudioInManager] Device #22 "Speakers (Realtek HD Audio output)" [Inputs:0 Outputs:8]
+[11:32:19] [AudioInManager] Device #23 "Line In (Realtek HD Audio Line input)" [Inputs:2 Outputs:0]
+[11:32:19] [AudioInManager] Device #24 "Microphone (Realtek HD Audio Mic input)" [Inputs:2 Outputs:0]
+[11:32:19] [AudioInManager] Device #25 "SPDIF Out (Realtek HDA SPDIF Out)" [Inputs:0 Outputs:2]
+[11:32:19] [AudioInManager] Device #26 "Stereo Mix (Realtek HD Audio Stereo input)" [Inputs:2 Outputs:0]
+[11:32:19] [AudioInManager] Device #27 "Output (NVIDIA High Definition Audio)" [Inputs:0 Outputs:2]
+[11:32:19] [AudioInManager] Device #28 "Output ()" [Inputs:0 Outputs:2]
+[11:32:19] [AudioInManager] Device #29 "Speakers (G560 Gaming Speaker)" [Inputs:0 Outputs:8]
+[11:32:19] [Options] No options file found
+[11:32:19] [CBaseUdpServer] Using IP: 192.168.186.49 port: 6454
+[11:32:19] [CBaseUdpServer] Using IP: 192.168.186.49 port: 5568
+[11:32:19] [CBaseUdpServer] Using IP: 192.168.186.49 port: 7000
+[11:32:19] [CBaseUdpServer] Using IP: 192.168.186.49 port: 8000
+[11:32:19] [CBaseUdpServer] Using IP: 192.168.186.49 port: 16945
+[11:32:19] [EngineThread] Open
+[11:32:19] [Schedular] Schedular set to 40 Hz
+[11:32:19] [ColourManager] Loading from "C:\Users\Christiaan Schriel\Documents\Visual Productions\Common\Colours"
+[11:32:19] [ColourManager] 6 families loaded (604 colours)
+[11:32:19] [GoboManager] Loading gobos from "C:\Program Files (x86)\Visual Productions\CueluxPro10447\glyphs/gobo"
+[11:32:19] [GoboManager] 26 libraries loaded (3055 gobos)
+[11:32:19] [PrxGoboManager] 26 libraries loaded
+[11:32:19] [CGlyphManager] Could not find "" page
+[11:32:19] [CGlyphManager] Could not find "" page
+[11:32:28] [PersonalityManager] Loading XML from "C:\Users\Christiaan Schriel\Documents\Visual Productions\Common\Personalities"
+[11:32:31] [PersonalityManager] 423 Manufacturer(s) found
+[11:32:31] [CoreManager] Adding CueCore2 at 192.168.2.11 with firmware 1.36
+[11:32:41] [Options] Saved (C:\Users\Christiaan Schriel\Documents\Visual Productions\CueluxPro\options.xml)
+[11:45:44] [Options] Saved (C:\Users\Christiaan Schriel\Documents\Visual Productions\CueluxPro\options.xml)
+[11:46:24] [Options] Saved (C:\Users\Christiaan Schriel\Documents\Visual Productions\CueluxPro\options.xml)
+[11:47:45] [Options] Saved (C:\Users\Christiaan Schriel\Documents\Visual Productions\CueluxPro\options.xml)
+[11:51:00] [CGlyphManager] Could not find "" page
+[11:51:00] [CGlyphManager] Could not find "" page
+[11:51:05] [Options] Saved (C:\Users\Christiaan Schriel\Documents\Visual Productions\CueluxPro\options.xml)
+[11:51:06] [CGlyphManager] Could not find "" page
+[11:51:06] [CGlyphManager] Could not find "" page
+[11:51:15] [Options] Saved (C:\Users\Christiaan Schriel\Documents\Visual Productions\CueluxPro\options.xml)
+[12:03:28] [Core] Master of CueCore2 at 192.168.2.11 is set to 192.168.2.18
+[12:06:58] [Options] Saved (C:\Users\Christiaan Schriel\Documents\Visual Productions\CueluxPro\options.xml)
+[12:10:15] [App] debug counter = 2
+[12:10:15] [EngineThread] Close
+[12:10:15] [EngineThread] Engine received 19320 macros
+[12:10:15] [Schedular] Schedular average was 40 Hz
+[12:10:15] [Options] Saved (C:\Users\Christiaan Schriel\Documents\Visual Productions\CueluxPro\options.xml)
+[12:10:15] [AudioInManager] PortAudio closed.
+[12:10:15] [Logger] Close

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<show application="Cuelux" revision="1">
+  <midimaps>
+    <OLDmidimap label="Work Scan-1000 DMX">
+      <actionlist label="control" source="Midi">
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 0</trigger>
+          <tasks>
+            <task type="Playback Fader 1" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 1</trigger>
+          <tasks>
+            <task type="Playback Fader 2" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 2</trigger>
+          <tasks>
+            <task type="Playback Fader 3" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 3</trigger>
+          <tasks>
+            <task type="Playback Fader 4" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 4</trigger>
+          <tasks>
+            <task type="Playback Fader 5" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 5</trigger>
+          <tasks>
+            <task type="Playback Fader 6" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 6</trigger>
+          <tasks>
+            <task type="Playback Fader 7" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Playback Fader 8" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Down">Channel 0 - Message 9 - Index 12</trigger>
+          <tasks>
+            <task type="Playback Fader 1" feature="Play State" function="Set">
+              <argument type="Play State">Go</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Down">Channel 0 - Message 9 - Index 13</trigger>
+          <tasks>
+            <task type="Playback Fader 2" feature="Play State" function="Set">
+              <argument type="Play State">Go</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Down">Channel 0 - Message 9 - Index 14</trigger>
+          <tasks>
+            <task type="Playback Fader 3" feature="Play State" function="Set">
+              <argument type="Play State">Go</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Down">Channel 0 - Message 9 - Index 15</trigger>
+          <tasks>
+            <task type="Playback Fader 4" feature="Play State" function="Set">
+              <argument type="Play State">Go</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Down">Channel 0 - Message 9 - Index 16</trigger>
+          <tasks>
+            <task type="Playback Fader 5" feature="Play State" function="Set">
+              <argument type="Play State">Go</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Down">Channel 0 - Message 9 - Index 17</trigger>
+          <tasks>
+            <task type="Playback Fader 6" feature="Play State" function="Set">
+              <argument type="Play State">Go</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Down">Channel 0 - Message 9 - Index 18</trigger>
+          <tasks>
+            <task type="Playback Fader 7" feature="Play State" function="Set">
+              <argument type="Play State">Go</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Down">Channel 0 - Message 9 - Index 19</trigger>
+          <tasks>
+            <task type="Playback Fader 8" feature="Play State" function="Set">
+              <argument type="Play State">Go</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 46</trigger>
+          <tasks>
+            <task type="Special" feature="Grand Master" function="Control"/>
+          </tasks>
+        </action>
+      </actionlist>
+    </OLDmidimap>
+  </midimaps>
+</show>

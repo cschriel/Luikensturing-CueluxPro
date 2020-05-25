@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<show application="Cuelux" version="1.02 Build 14" revision="2">
+  <midimaps>
+    <OLDmidimap label="Logidy">
+      <actionlist label="control buttons" source="Midi">
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 60</trigger>
+          <tasks>
+            <task type="Playback Button 1" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 61</trigger>
+          <tasks>
+            <task type="Playback Button 2" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 62</trigger>
+          <tasks>
+            <task type="Playback Button 3" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+      </actionlist>
+    </OLDmidimap>
+  </midimaps>
+</show>

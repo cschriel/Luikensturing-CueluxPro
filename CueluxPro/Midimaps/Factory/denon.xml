@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<show application="Cuelux" revision="1">
+    <midimaps>
+        <OLDmidimap label="Denon MC 6000">
+            <actionlist label="control" source="Midi">
+                <action>
+                    <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 4</trigger>
+                    <tasks>
+                        <task type="Playback Fader 1" feature="LevelPrimair" function ="Control"/>
+                    </tasks>
+				</action>
+                <action>
+                    <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 11</trigger>
+                    <tasks>
+                        <task type="Playback Fader 2" feature="LevelPrimair" function ="Control"/>
+                    </tasks>
+				</action>
+                <action>
+                    <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 16</trigger>
+                    <tasks>
+                        <task type="Playback Fader 3" feature="LevelPrimair" function ="Control"/>
+                    </tasks>
+				</action>
+                <action>
+                    <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 21</trigger>
+                    <tasks>
+                        <task type="Playback Fader 4" feature="LevelPrimair" function ="Control"/>
+                    </tasks>
+				</action>
+            </actionlist>
+        </OLDmidimap>
+    </midimaps>
+</show>

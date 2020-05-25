@@ -439,9 +439,85 @@
             </page>
             <page id="page_0" label="Vaste Spanning" background_image="" background_colour="0x000000" visible_in_selector="true">
                 <elements>
-                    <element id="indicator_0" type="Indicator" width="50" height="50" top="254" left="333" font_size="25" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                    <element id="label_0_copy_2_copy_1" type="Label" width="172" height="32" top="354" left="265" font_size="35" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="Warp Zijwand" defaults="-" />
+                        <tags />
+                    </element>
+                    <element id="label_0_copy_4_copy_1" type="Label" width="302" height="31" top="426" left="249" font_size="35" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="Lessenaarverlichting" defaults="-" />
+                        <tags />
+                    </element>
+                    <element id="label_0_copy_1_copy_1" type="Label" width="172" height="32" top="282" left="247" font_size="35" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="Warp Boxen" defaults="-" />
+                        <tags />
+                    </element>
+                    <element id="label_0_copy_3_copy_1" type="Label" width="170" height="39" top="203" left="224" font_size="35" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="Robe TP" defaults="-" />
+                        <tags />
+                    </element>
+                    <element id="label_0_copy_5" type="Label" width="172" height="32" top="137" left="222" font_size="35" font_colour="0xA6A6A6" colour="0xC0C0C0">
+                        <value_properties type="Unknown" label="Warp TP" defaults="-" />
+                        <tags />
+                    </element>
+                    <element id="indicator_0" type="Indicator" width="50" height="50" top="124" left="53" font_size="25" font_colour="0xA6A6A6" colour="0xF68800">
                         <value_properties type="Unknown" label="Indicator" defaults="-" />
                         <tags osc="/WarpTPV" />
+                    </element>
+                    <element id="indicator_0_copy_1" type="Indicator" width="50" height="50" top="190" left="53" font_size="25" font_colour="0xA6A6A6" colour="0xF68800">
+                        <value_properties type="Unknown" label="Indicator" defaults="-" />
+                        <tags osc="/RobeTPV" />
+                    </element>
+                    <element id="indicator_0_copy_2" type="Indicator" width="50" height="50" top="266" left="58" font_size="25" font_colour="0xA6A6A6" colour="0xF68800">
+                        <value_properties type="Unknown" label="Indicator" defaults="-" />
+                        <tags osc="/WarpBOXV" />
+                    </element>
+                    <element id="indicator_0_copy_3" type="Indicator" width="50" height="50" top="340" left="60" font_size="25" font_colour="0xA6A6A6" colour="0xF68800">
+                        <value_properties type="Unknown" label="Indicator" defaults="-" />
+                        <tags osc="/WarpZIJV" />
+                    </element>
+                    <element id="indicator_0_copy_4" type="Indicator" width="50" height="50" top="411" left="56" font_size="25" font_colour="0xA6A6A6" colour="0xF68800">
+                        <value_properties type="Unknown" label="Indicator" defaults="-" />
+                        <tags osc="/LessV" />
+                    </element>
+                    <element id="button_0" type="Button" width="85" height="72" top="113" left="107" font_size="25" font_colour="0x1FF500" colour="0x31F300" special_property="false">
+                        <value_properties type="Bool" label="AAN" defaults="Off" />
+                        <tags />
+                    </element>
+                    <element id="button_0_copy_1" type="Button" width="85" height="72" top="113" left="179" font_size="25" font_colour="0xF51100" colour="0xF60800" special_property="false">
+                        <value_properties type="Bool" label="UIT" defaults="Off" />
+                        <tags />
+                    </element>
+                    <element id="button_0_copy_2" type="Button" width="85" height="72" top="182" left="108" font_size="25" font_colour="0x1FF500" colour="0x31F300" special_property="false">
+                        <value_properties type="Bool" label="AAN" defaults="Off" />
+                        <tags />
+                    </element>
+                    <element id="button_0_copy_2_copy_1" type="Button" width="85" height="72" top="261" left="110" font_size="25" font_colour="0x1FF500" colour="0x31F300" special_property="false">
+                        <value_properties type="Bool" label="AAN" defaults="Off" />
+                        <tags />
+                    </element>
+                    <element id="button_0_copy_2_copy_1_copy_1" type="Button" width="85" height="72" top="331" left="111" font_size="25" font_colour="0x1FF500" colour="0x31F300" special_property="false">
+                        <value_properties type="Bool" label="AAN" defaults="Off" />
+                        <tags />
+                    </element>
+                    <element id="button_0_copy_2_copy_1_copy_1_copy_1" type="Button" width="85" height="72" top="404" left="111" font_size="25" font_colour="0x1FF500" colour="0x31F300" special_property="false">
+                        <value_properties type="Bool" label="AAN" defaults="Off" />
+                        <tags />
+                    </element>
+                    <element id="button_0_copy_1_copy_1" type="Button" width="85" height="72" top="182" left="180" font_size="25" font_colour="0xF51100" colour="0xF60800" special_property="false">
+                        <value_properties type="Bool" label="UIT" defaults="Off" />
+                        <tags />
+                    </element>
+                    <element id="button_0_copy_1_copy_2" type="Button" width="85" height="72" top="261" left="182" font_size="25" font_colour="0xF51100" colour="0xF60800" special_property="false">
+                        <value_properties type="Bool" label="UIT" defaults="Off" />
+                        <tags />
+                    </element>
+                    <element id="button_0_copy_1_copy_3" type="Button" width="85" height="72" top="331" left="183" font_size="25" font_colour="0xF51100" colour="0xF60800" special_property="false">
+                        <value_properties type="Bool" label="UIT" defaults="Off" />
+                        <tags />
+                    </element>
+                    <element id="button_0_copy_1_copy_4" type="Button" width="85" height="72" top="404" left="183" font_size="25" font_colour="0xF51100" colour="0xF60800" special_property="false">
+                        <value_properties type="Bool" label="UIT" defaults="Off" />
+                        <tags />
                     </element>
                 </elements>
             </page>

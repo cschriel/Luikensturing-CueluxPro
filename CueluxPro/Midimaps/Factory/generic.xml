@@ -1,0 +1,2749 @@
+<?xml version="1.0" ?>
+<show application="CueluxPro" version="1.3.81" revision="1">
+    <midimaps>
+        <midimap label="Generic">
+            <actionlist enabled="true" label="control fader level pri" source="MIDI">
+                <identifier>
+                    <argument type="Unsigned">0</argument>
+                </identifier>
+                <action label="Action01">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 0</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">1.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action02">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 1</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">1.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action03">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 2</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">1.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action04">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 3</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">1.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action05">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 4</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">1.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action06">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 5</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">1.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action07">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 6</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">1.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action08">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 7</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">1.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action09">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 8</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">2.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action10">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 9</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">2.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action11">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 10</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">2.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action12">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 11</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">2.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action13">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 12</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">2.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action14">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 13</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">2.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action15">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 14</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">2.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action16">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 15</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">2.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action17">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 16</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">3.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action18">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 17</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">3.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action19">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 18</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">3.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action20">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 19</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">3.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action21">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 20</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">3.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action22">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 21</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">3.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action23">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 22</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">3.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action24">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 23</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">3.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action25">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 24</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">4.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action26">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 25</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">4.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action27">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 26</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">4.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action28">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 27</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">4.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action29">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 28</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">4.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action30">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 29</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">4.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action31">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 30</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">4.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action32">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 31</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">4.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action33">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 32</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">5.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action34">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 33</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">5.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action35">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 34</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">5.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action36">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 35</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">5.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action37">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 36</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">5.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action38">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 37</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">5.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action39">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 38</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">5.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action40">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 39</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">5.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action41">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 40</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">6.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action42">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 41</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">6.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action43">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 42</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">6.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action44">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 43</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">6.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action45">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 44</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">6.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action46">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 45</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">6.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action47">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 46</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">6.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action48">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 47</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">6.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action49">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 48</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">7.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action50">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 49</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">7.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action51">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 50</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">7.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action52">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 51</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">7.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action53">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 52</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">7.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action54">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 53</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">7.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action55">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 54</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">7.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action56">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 55</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">7.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action57">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 56</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">8.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action58">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 57</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">8.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action59">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 58</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">8.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action60">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 59</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">8.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action61">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 60</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">8.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action62">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 61</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">8.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action63">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 62</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">8.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action64">
+                    <trigger type="Message" flank="Change">Channel 0 - Message 11 - Index 63</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Intensity" function="Control">
+                            <identifier>
+                                <argument type="String">8.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+            </actionlist>
+            <actionlist enabled="true" label="misc" source="MIDI">
+                <identifier>
+                    <argument type="Unsigned">0</argument>
+                </identifier>
+                <action label="Action01">
+                    <trigger type="Message" flank="Change">Channel 15 - Message 11 - Index 0</trigger>
+                    <tasks>
+                        <task type="Dashboard Master" feature="LevelPrimair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action02">
+                    <trigger type="Message" flank="Change">Channel 15 - Message 11 - Index 1</trigger>
+                    <tasks>
+                        <task type="Dashboard Master" feature="ButtonPrimair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action03">
+                    <trigger type="Message" flank="Change">Channel 15 - Message 11 - Index 2</trigger>
+                    <tasks>
+                        <task type="Dashboard Tempo" feature="ButtonPrimair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action04">
+                    <trigger type="Message" flank="Change">Channel 15 - Message 11 - Index 3</trigger>
+                    <tasks>
+                        <task type="Dashboard Tempo" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+            </actionlist>
+            <actionlist enabled="true" label="control fader button sec" source="MIDI">
+                <identifier>
+                    <argument type="Unsigned">0</argument>
+                </identifier>
+                <action label="Action01">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 0</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action02">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 1</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x1" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action03">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 2</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x2" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action04">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 3</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x3" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action05">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 4</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x4" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action06">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 5</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x5" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action07">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 6</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x6" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action08">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 7</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x7" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action09">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 8</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x8" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action10">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 9</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x9" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action11">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 10</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0xA" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action12">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 11</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0xB" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action13">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 12</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0xC" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action14">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 13</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0xD" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action15">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 14</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0xE" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action16">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 15</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0xF" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action17">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 16</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x10" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action18">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 17</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x11" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action19">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 18</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x12" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action20">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 19</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x13" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action21">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 20</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x14" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action22">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 21</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x15" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action23">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 22</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x16" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action24">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 23</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x17" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action25">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 24</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x18" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action26">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 25</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x19" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action27">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 26</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x1A" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action28">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 27</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x1B" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action29">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 28</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x1C" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action30">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 29</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x1D" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action31">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 30</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x1E" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action32">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 31</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x1F" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action33">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 32</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x20" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action34">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 33</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x21" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action35">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 34</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x22" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action36">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 35</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x23" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action37">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 36</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x24" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action38">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 37</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x25" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action39">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 38</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x26" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action40">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 39</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x27" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action41">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 40</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x28" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action42">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 41</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x29" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action43">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 42</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x2A" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action44">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 43</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x2B" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action45">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 44</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x2C" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action46">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 45</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x2D" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action47">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 46</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x2E" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action48">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 47</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x2F" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action49">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 48</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x30" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action50">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 49</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x31" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action51">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 50</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x32" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action52">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 51</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x33" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action53">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 52</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x34" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action54">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 53</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x35" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action55">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 54</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x36" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action56">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 55</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x37" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action57">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 56</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x38" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action58">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 57</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x39" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action59">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 58</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x3A" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action60">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 59</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x3B" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action61">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 60</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x3C" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action62">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 61</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x3D" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action63">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 62</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x3E" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action64">
+                    <trigger type="Message" flank="Change">Channel 6 - Message 11 - Index 63</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x3F" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+            </actionlist>
+            <actionlist enabled="true" label="control fader button pri" source="MIDI">
+                <identifier>
+                    <argument type="Unsigned">0</argument>
+                </identifier>
+                <action label="Action01">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 0</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action02">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 1</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x1" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action03">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 2</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x2" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action04">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 3</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x3" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action05">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 4</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x4" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action06">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 5</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x5" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action07">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 6</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x6" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action08">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 7</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x7" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action09">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 8</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x8" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action10">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 9</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x9" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action11">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 10</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0xA" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action12">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 11</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0xB" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action13">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 12</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0xC" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action14">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 13</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0xD" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action15">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 14</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0xE" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action16">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 15</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0xF" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action17">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 16</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x10" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action18">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 17</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x11" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action19">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 18</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x12" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action20">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 19</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x13" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action21">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 20</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x14" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action22">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 21</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x15" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action23">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 22</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x16" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action24">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 23</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x17" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action25">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 24</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x18" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action26">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 25</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x19" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action27">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 26</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x1A" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action28">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 27</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x1B" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action29">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 28</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x1C" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action30">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 29</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x1D" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action31">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 30</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x1E" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action32">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 31</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x1F" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action33">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 32</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x20" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action34">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 33</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x21" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action35">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 34</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x22" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action36">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 35</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x23" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action37">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 36</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x24" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action38">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 37</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x25" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action39">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 38</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x26" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action40">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 39</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x27" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action41">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 40</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x28" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action42">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 41</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x29" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action43">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 42</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x2A" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action44">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 43</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x2B" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action45">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 44</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x2C" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action46">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 45</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x2D" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action47">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 46</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x2E" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action48">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 47</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x2F" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action49">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 48</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x30" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action50">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 49</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x31" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action51">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 50</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x32" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action52">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 51</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x33" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action53">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 52</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x34" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action54">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 53</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x35" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action55">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 54</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x36" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action56">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 55</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x37" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action57">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 56</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x38" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action58">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 57</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x39" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action59">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 58</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x3A" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action60">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 59</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x3B" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action61">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 60</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x3C" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action62">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 61</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x3D" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action63">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 62</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x3E" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+                <action label="Action64">
+                    <trigger type="Message" flank="Change">Channel 5 - Message 11 - Index 63</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0x3F" feature="ButtonSecundair" function="Control" />
+                    </tasks>
+                </action>
+            </actionlist>
+            <actionlist enabled="true" label="control fader level ter" source="MIDI">
+                <identifier>
+                    <argument type="Unsigned">0</argument>
+                </identifier>
+                <action label="Action01">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 0</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">1.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action02">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 1</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">1.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action03">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 2</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">1.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action04">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 3</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">1.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action05">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 4</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">1.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action06">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 5</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">1.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action07">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 6</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">1.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action08">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 7</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">1.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action09">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 8</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">2.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action10">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 9</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">2.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action11">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 10</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">2.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action12">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 11</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">2.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action13">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 12</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">2.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action14">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 13</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">2.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action15">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 14</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">2.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action16">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 15</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">2.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action17">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 16</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">3.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action18">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 17</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">3.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action19">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 18</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">3.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action20">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 19</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">3.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action21">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 20</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">3.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action22">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 21</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">3.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action23">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 22</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">3.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action24">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 23</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">3.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action25">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 24</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">4.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action26">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 25</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">4.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action27">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 26</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">4.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action28">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 27</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">4.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action29">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 28</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">4.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action30">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 29</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">4.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action31">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 30</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">4.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action32">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 31</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">4.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action33">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 32</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">5.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action34">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 33</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">5.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action35">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 34</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">5.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action36">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 35</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">5.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action37">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 36</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">5.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action38">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 37</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">5.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action39">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 38</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">5.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action40">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 39</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">5.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action41">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 40</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">6.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action42">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 41</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">6.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action43">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 42</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">6.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action44">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 43</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">6.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action45">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 44</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">6.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action46">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 45</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">6.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action47">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 46</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">6.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action48">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 47</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">6.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action49">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 48</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">7.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action50">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 49</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">7.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action51">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 50</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">7.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action52">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 51</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">7.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action53">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 52</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">7.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action54">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 53</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">7.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action55">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 54</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">7.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action56">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 55</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">7.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action57">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 56</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">8.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action58">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 57</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">8.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action59">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 58</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">8.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action60">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 59</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">8.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action61">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 60</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">8.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action62">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 61</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">8.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action63">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 62</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">8.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action64">
+                    <trigger type="Message" flank="Change">Channel 3 - Message 11 - Index 63</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Attack" function="Control">
+                            <identifier>
+                                <argument type="String">8.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+            </actionlist>
+            <actionlist enabled="true" label="control fader level sec" source="MIDI">
+                <identifier>
+                    <argument type="Unsigned">0</argument>
+                </identifier>
+                <action label="Action01">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 0</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">1.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action02">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 1</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">1.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action03">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 2</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">1.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action04">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 3</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">1.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action05">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 4</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">1.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action06">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 5</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">1.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action07">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 6</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">1.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action08">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 7</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">1.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action09">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 8</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">2.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action10">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 9</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">2.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action11">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 10</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">2.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action12">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 11</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">2.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action13">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 12</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">2.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action14">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 13</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">2.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action15">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 14</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">2.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action16">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 15</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">2.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action17">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 16</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">3.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action18">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 17</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">3.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action19">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 18</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">3.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action20">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 19</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">3.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action21">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 20</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">3.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action22">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 21</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">3.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action23">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 22</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">3.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action24">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 23</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">3.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action25">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 24</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">4.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action26">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 25</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">4.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action27">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 26</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">4.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action28">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 27</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">4.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action29">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 28</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">4.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action30">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 29</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">4.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action31">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 30</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">4.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action32">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 31</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">4.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action33">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 32</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">5.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action34">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 33</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">5.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action35">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 34</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">5.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action36">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 35</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">5.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action37">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 36</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">5.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action38">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 37</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">5.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action39">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 38</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">5.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action40">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 39</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">5.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action41">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 40</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">6.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action42">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 41</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">6.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action43">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 42</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">6.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action44">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 43</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">6.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action45">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 44</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">6.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action46">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 45</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">6.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action47">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 46</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">6.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action48">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 47</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">6.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action49">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 48</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">7.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action50">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 49</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">7.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action51">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 50</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">7.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action52">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 51</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">7.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action53">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 52</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">7.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action54">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 53</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">7.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action55">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 54</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">7.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action56">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 55</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">7.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action57">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 56</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">8.1</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action58">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 57</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">8.2</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action59">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 58</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">8.3</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action60">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 59</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">8.4</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action61">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 60</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">8.5</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action62">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 61</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">8.6</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action63">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 62</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">8.7</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action64">
+                    <trigger type="Message" flank="Change">Channel 1 - Message 11 - Index 63</trigger>
+                    <tasks>
+                        <task type="Playback Fader" feature="Speed" function="Control">
+                            <identifier>
+                                <argument type="String">8.8</argument>
+                            </identifier>
+                        </task>
+                    </tasks>
+                </action>
+            </actionlist>
+        </midimap>
+    </midimaps>
+</show>

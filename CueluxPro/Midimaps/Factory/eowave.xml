@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<show application="Cuelux" version="1.02 Build 14" revision="2">
+  <midimaps>
+    <OLDmidimap label="Eowave Foot Control">
+      <actionlist label="control" source="Midi">
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 0</trigger>
+          <tasks>
+            <task type="Special" feature="Tempo Tap" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 1</trigger>
+          <tasks>
+            <task type="Global Fog" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 2</trigger>
+          <tasks>
+            <task type="Global Strobe" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 11 - Index 3</trigger>
+          <tasks>
+            <task type="Global Blinder" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+      </actionlist>
+    </OLDmidimap>
+  </midimaps>
+</show>

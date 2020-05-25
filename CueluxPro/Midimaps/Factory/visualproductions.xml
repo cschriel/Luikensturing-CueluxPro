@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<show application="Cuelux" revision="1">
+  <midimaps>
+    <OLDmidimap label="Visual Productions GPI">
+      <actionlist label="channel 1 (default)" source="Midi">
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 0</trigger>
+          <tasks>
+            <task type="Playback Direct Button 01" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 1</trigger>
+          <tasks>
+            <task type="Playback Direct Button 02" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 2</trigger>
+          <tasks>
+            <task type="Playback Direct Button 03" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 3</trigger>
+          <tasks>
+            <task type="Playback Direct Button 04" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 4</trigger>
+          <tasks>
+            <task type="Playback Direct Button 05" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 5</trigger>
+          <tasks>
+            <task type="Playback Direct Button 06" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 6</trigger>
+          <tasks>
+            <task type="Playback Direct Button 07" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 0 - Message 9 - Index 7</trigger>
+          <tasks>
+            <task type="Playback Direct Button 08" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+      </actionlist>
+      <actionlist label="channel 2" source="Midi">
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 1 - Message 9 - Index 0</trigger>
+          <tasks>
+            <task type="Playback Direct Button 09" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 1 - Message 9 - Index 1</trigger>
+          <tasks>
+            <task type="Playback Direct Button 10" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 1 - Message 9 - Index 2</trigger>
+          <tasks>
+            <task type="Playback Direct Button 11" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 1 - Message 9 - Index 3</trigger>
+          <tasks>
+            <task type="Playback Direct Button 12" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 1 - Message 9 - Index 4</trigger>
+          <tasks>
+            <task type="Playback Direct Button 13" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 1 - Message 9 - Index 5</trigger>
+          <tasks>
+            <task type="Playback Direct Button 14" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 1 - Message 9 - Index 6</trigger>
+          <tasks>
+            <task type="Playback Direct Button 15" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Midi" specifier="Change">Channel 1 - Message 9 - Index 7</trigger>
+          <tasks>
+            <task type="Playback Direct Button 16" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+      </actionlist>
+    </OLDmidimap>
+  </midimaps>
+</show>

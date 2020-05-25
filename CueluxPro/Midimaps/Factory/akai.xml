@@ -1,0 +1,3604 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<show application="Cuelux" revision="1">
+  <midimaps>
+<midimap label="Akai APCmini">
+    <actionlist label="playback buttons" source="Midi">
+        <action label="Playback Button 1">
+            <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 21</trigger>
+            <tasks>
+                <task type="Dashboard Playback Button Grid" identifier="0" function="Control" feature="ButtonSecundair"/>
+            </tasks>
+        </action>
+        <action label="Playback Button 2">
+            <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 22</trigger>
+            <tasks>
+                <task type="Dashboard Playback Button Grid" identifier="1" function="Control" feature="ButtonSecundair"/>
+            </tasks>
+        </action>
+    </actionlist>
+    <actionlist enabled="true" label="feedback buttons" source="Dashboard Playback Button Grid">
+        <action>
+            <trigger type="State" specifier="Change">0</trigger>
+            <tasks>
+                <task type="MIDI" feature="Send Message" function="Control APC40">
+                    <argument type="Midi Address">Channel 0 - Message 9 - Index 21</argument>
+                </task>
+            </tasks>
+        </action>
+    </actionlist>
+    <actionlist label="playback faders" source="Midi">
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 48</trigger>
+            <tasks>
+                <task type="Dashboard Playback Fader" identifier="0" feature="Intensity Pickup" function="Control"/>
+            </tasks>
+        </action>
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 49</trigger>
+            <tasks>
+                <task type="Dashboard Playback Fader" identifier="1" feature="Intensity Pickup" function="Control"/>
+            </tasks>
+        </action>
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 50</trigger>
+            <tasks>
+                <task type="Dashboard Playback Fader" identifier="2" feature="Intensity Pickup" function="Control"/>
+            </tasks>
+        </action>
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 51</trigger>
+            <tasks>
+                <task type="Dashboard Playback Fader" identifier="3" feature="Intensity Pickup" function="Control"/>
+            </tasks>
+        </action>
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 52</trigger>
+            <tasks>
+                <task type="Dashboard Playback Fader" identifier="4" feature="Intensity Pickup" function="Control"/>
+            </tasks>
+        </action>
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 53</trigger>
+            <tasks>
+                <task type="Dashboard Playback Fader" identifier="5" feature="Intensity Pickup" function="Control"/>
+            </tasks>
+        </action>
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 54</trigger>
+            <tasks>
+                <task type="Dashboard Playback Fader" identifier="6" feature="Intensity Pickup" function="Control"/>
+            </tasks>
+        </action>
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 55</trigger>
+            <tasks>
+                <task type="Dashboard Playback Fader" identifier="7" feature="Intensity Pickup" function="Control"/>
+            </tasks>
+        </action>
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 64</trigger>
+            <tasks>
+                <task type="Dashboard Playback Fader" identifier="0" feature="ButtonSecundair" function="Control"/>
+            </tasks>
+        </action>
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 65</trigger>
+            <tasks>
+                <task type="Dashboard Playback Fader" identifier="1" feature="ButtonSecundair" function="Control"/>
+            </tasks>
+        </action>
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 66</trigger>
+            <tasks>
+                <task type="Dashboard Playback Fader" identifier="2" feature="ButtonSecundair" function="Control"/>
+            </tasks>
+        </action>
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 67</trigger>
+            <tasks>
+                <task type="Dashboard Playback Fader" identifier="3" feature="ButtonSecundair" function="Control"/>
+            </tasks>
+        </action>
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 68</trigger>
+            <tasks>
+                <task type="Dashboard Playback Fader" identifier="4" feature="ButtonSecundair" function="Control"/>
+            </tasks>
+        </action>
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 69</trigger>
+            <tasks>
+                <task type="Dashboard Playback Fader" identifier="5" feature="ButtonSecundair" function="Control"/>
+            </tasks>
+        </action>
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 70</trigger>
+            <tasks>
+                <task type="Dashboard Playback Fader" identifier="6" feature="ButtonSecundair" function="Control"/>
+            </tasks>
+        </action>
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 71</trigger>
+            <tasks>
+                <task type="Dashboard Playback Fader" identifier="7" feature="ButtonSecundair" function="Control"/>
+            </tasks>
+        </action>
+    </actionlist>
+    <actionlist enabled="true" label="Feedback faders" source="Dashboard Playback Fader">
+        <action>
+            <trigger type="State" specifier="Change">0</trigger>
+            <tasks>
+                <task type="MIDI" feature="Send Message" function="Control">
+                    <argument type="Midi Address">Channel 0 - Message 09 - Index 64</argument>
+                </task>
+            </tasks>
+        </action>
+    </actionlist>
+    <actionlist label="various" source="Midi">
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 56</trigger>
+            <tasks>
+                <task type="Dashboard Master" feature="LevelPrimair" function="Control"/>
+            </tasks>
+        </action>
+        <action>
+            <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 98</trigger>
+            <tasks>
+                <task type="Dashboard Master" feature="ButtonPrimair" function="Control"/>
+            </tasks>
+        </action>
+    </actionlist>
+</midimap>
+    <OLDmidimap label="Akai APC20">
+      <actionlist label="control" source="Midi">
+        <action label="Action 01">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="0" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 02">
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="1" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 03">
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="2" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 04">
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="3" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 05">
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="4" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 06">
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="5" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 07">
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="6" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 08">
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="7" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 09">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 54</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="8" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 10">
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 54</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="9" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 11">
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 54</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="10" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 12">
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 54</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="11" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 13">
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 54</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="12" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 14">
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 54</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="13" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 15">
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 54</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="14" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 16">
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 54</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="15" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 17">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="16" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 18">
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="17" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 19">
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="18" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 20">
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="19" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 21">
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="20" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 22">
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="21" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 23">
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="22" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 24">
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="23" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 25">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 56</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="24" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 26">
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 56</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="25" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 27">
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 56</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="26" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 28">
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 56</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="27" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 29">
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 56</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="28" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 30">
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 56</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="29" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 31">
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 56</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="30" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 32">
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 56</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="31" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 33">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 57</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="32" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 34">
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 57</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="33" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 35">
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 57</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="34" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 36">
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 57</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="35" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 37">
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 57</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="36" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 38">
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 57</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="37" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 39">
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 57</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="38" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 40">
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 57</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="39" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Playback Fader 1" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 1 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Playback Fader 2" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 2 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Playback Fader 3" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 3 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Playback Fader 4" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 4 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Playback Fader 5" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 5 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Playback Fader 6" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 6 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Playback Fader 7" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 7 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Playback Fader 8" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 48</trigger>
+          <tasks>
+            <task type="Playback Fader 1" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 48</trigger>
+          <tasks>
+            <task type="Playback Fader 2" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 48</trigger>
+          <tasks>
+            <task type="Playback Fader 3" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 48</trigger>
+          <tasks>
+            <task type="Playback Fader 4" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 48</trigger>
+          <tasks>
+            <task type="Playback Fader 5" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 48</trigger>
+          <tasks>
+            <task type="Playback Fader 6" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 48</trigger>
+          <tasks>
+            <task type="Playback Fader 7" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 48</trigger>
+          <tasks>
+            <task type="Playback Fader 8" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 50</trigger>
+          <tasks>
+            <task type="Playback Fader 1" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 50</trigger>
+          <tasks>
+            <task type="Playback Fader 2" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 50</trigger>
+          <tasks>
+            <task type="Playback Fader 3" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 50</trigger>
+          <tasks>
+            <task type="Playback Fader 4" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 50</trigger>
+          <tasks>
+            <task type="Playback Fader 5" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 50</trigger>
+          <tasks>
+            <task type="Playback Fader 6" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 50</trigger>
+          <tasks>
+            <task type="Playback Fader 7" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 50</trigger>
+          <tasks>
+            <task type="Playback Fader 8" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 49</trigger>
+          <tasks>
+            <task type="Playback Fader 1" feature="ButtonTertiair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 49</trigger>
+          <tasks>
+            <task type="Playback Fader 2" feature="ButtonTertiair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 49</trigger>
+          <tasks>
+            <task type="Playback Fader 3" feature="ButtonTertiair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 49</trigger>
+          <tasks>
+            <task type="Playback Fader 4" feature="ButtonTertiair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 49</trigger>
+          <tasks>
+            <task type="Playback Fader 5" feature="ButtonTertiair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 49</trigger>
+          <tasks>
+            <task type="Playback Fader 6" feature="ButtonTertiair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 49</trigger>
+          <tasks>
+            <task type="Playback Fader 7" feature="ButtonTertiair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 49</trigger>
+          <tasks>
+            <task type="Playback Fader 8" feature="ButtonTertiair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 52</trigger>
+          <tasks>
+            <task type="Playback Fader 1" feature="Play State" function="Set">
+              <argument type="Play State">Stop</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 52</trigger>
+          <tasks>
+            <task type="Playback Fader 2" feature="Play State" function="Set">
+              <argument type="Play State">Stop</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 52</trigger>
+          <tasks>
+            <task type="Playback Fader 3" feature="Play State" function="Set">
+              <argument type="Play State">Stop</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 52</trigger>
+          <tasks>
+            <task type="Playback Fader 4" feature="Play State" function="Set">
+              <argument type="Play State">Stop</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 52</trigger>
+          <tasks>
+            <task type="Playback Fader 5" feature="Play State" function="Set">
+              <argument type="Play State">Stop</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 52</trigger>
+          <tasks>
+            <task type="Playback Fader 6" feature="Play State" function="Set">
+              <argument type="Play State">Stop</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 52</trigger>
+          <tasks>
+            <task type="Playback Fader 7" feature="Play State" function="Set">
+              <argument type="Play State">Stop</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 52</trigger>
+          <tasks>
+            <task type="Playback Fader 8" feature="Play State" function="Set">
+              <argument type="Play State">Stop</argument>
+            </task>
+          </tasks>
+        </action>
+        <!--                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 48</trigger>
+                    <tasks>
+                        <task type="Playback Fader 1" feature="LevelSecundair" function ="Control"/>
+                    </tasks>
+				</action>
+                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 49</trigger>
+                    <tasks>
+                        <task type="Playback Fader 2" feature="LevelSecundair" function ="Control"/>
+                    </tasks>
+				</action>
+                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 50</trigger>
+                    <tasks>
+                        <task type="Playback Fader 3" feature="LevelSecundair" function ="Control"/>
+                    </tasks>
+				</action>
+                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 51</trigger>
+                    <tasks>
+                        <task type="Playback Fader 4" feature="LevelSecundair" function ="Control"/>
+                    </tasks>
+				</action>
+                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 52</trigger>
+                    <tasks>
+                        <task type="Playback Fader 5" feature="LevelSecundair" function ="Control"/>
+                    </tasks>
+				</action>
+                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 53</trigger>
+                    <tasks>
+                        <task type="Playback Fader 6" feature="LevelSecundair" function ="Control"/>
+                    </tasks>
+				</action>
+                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 54</trigger>
+                    <tasks>
+                        <task type="Playback Fader 7" feature="LevelSecundair" function ="Control"/>
+                    </tasks>
+				</action>
+                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 55</trigger>
+                    <tasks>
+                        <task type="Playback Fader 8" feature="LevelSecundair" function ="Control"/>
+                    </tasks>
+				</action>  -->
+        <action label="Action 01">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 82</trigger>
+          <tasks>
+            <task type="Playback Button 1" function="Set" feature="Bank">
+              <argument type="Unsigned">0</argument>
+            </task>
+          </tasks>
+        </action>
+        <action label="Action 02">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 83</trigger>
+          <tasks>
+            <task type="Playback Button 1" function="Set" feature="Bank">
+              <argument type="Unsigned">1</argument>
+            </task>
+          </tasks>
+        </action>
+        <action label="Action 03">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 84</trigger>
+          <tasks>
+            <task type="Playback Button 1" function="Set" feature="Bank">
+              <argument type="Unsigned">2</argument>
+            </task>
+          </tasks>
+        </action>
+        <action label="Action 04">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 85</trigger>
+          <tasks>
+            <task type="Playback Button 1" function="Set" feature="Bank">
+              <argument type="Unsigned">3</argument>
+            </task>
+          </tasks>
+        </action>
+        <action label="Action 05">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 86</trigger>
+          <tasks>
+            <task type="Playback Button 1" function="Set" feature="Bank">
+              <argument type="Unsigned">4</argument>
+            </task>
+          </tasks>
+        </action>
+        <!--       <action label="Action 01">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 88</trigger>
+                    <tasks>
+                        <task type="Global Fog" function="Control" feature="ButtonPrimair" />
+                    </tasks>
+                </action>
+                <action label="Action 02">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 89</trigger>
+                    <tasks>
+                        <task type="Global Strobe" function="Control" feature="ButtonPrimair" />
+                    </tasks>
+                </action>
+                <action label="Action 03">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 90</trigger>
+                    <tasks>
+                        <task type="Global Blinder" function="Control" feature="ButtonPrimair" />
+                    </tasks>
+                </action> -->
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 14</trigger>
+          <tasks>
+            <task type="Special" feature="Grand Master" function="Control"/>
+          </tasks>
+        </action>
+        <!--                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 09 - Index 98</trigger>
+                    <tasks>
+                        <task type="Special" function="Control" feature="Tempo Break" />
+                    </tasks>
+                </action>
+                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 99</trigger>
+                    <tasks>
+                        <task type="Special" feature="Tempo Tap" function ="Control"/>
+                    </tasks>
+				</action>
+                <action label="Action 06">
+                    <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 101</trigger>
+                    <tasks>
+                        <task type="Special" function="Decrement" feature="Tempo" />
+                    </tasks>
+                </action>
+                <action label="Action 07">
+                    <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 100</trigger>
+                    <tasks>
+                        <task type="Special" function="Increment" feature="Tempo" />
+                    </tasks>
+                </action> -->
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 81</trigger>
+          <tasks>
+            <task type="Special" feature="Release" function="Set"/>
+          </tasks>
+        </action>
+        <!--				<action>
+                    <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 97</trigger>
+                    <tasks>
+                        <task type="Selection" feature="Previous" function ="Set"/>
+                    </tasks>
+				</action>
+				<action>
+                    <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 96</trigger>
+                    <tasks>
+                        <task type="Selection" feature="Next" function ="Set"/>
+                    </tasks>
+				</action>
+				<action>
+                    <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 95</trigger>
+                    <tasks>
+                        <task type="Selection" feature="Clear" function ="Set"/>
+                    </tasks>
+				</action>
+				<action>
+                    <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 94</trigger>
+                    <tasks>
+                        <task type="Selection" feature="All" function ="Set"/>
+                    </tasks>
+				</action>
+                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 09 - Index 93</trigger>
+                    <tasks>
+                        <task type="Special" function ="Control" feature="Record"/>
+                    </tasks>
+                </action>
+                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 09 - Index 93</trigger>
+                    <tasks>
+                        <task type="Special" function ="Control" feature="Record"/>
+                    </tasks>
+                </action>
+                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 09 - Index 92</trigger>
+                    <tasks>
+                        <task type="Special" function ="Control" feature="Delete"/>
+                    </tasks>
+                </action>
+                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 09 - Index 91</trigger>
+                    <tasks>
+                        <task type="Special" function ="Control" feature="Load"/>
+                    </tasks>
+                </action> -->
+      </actionlist>
+      <actionlist enabled="true" label="feedback" source="System">
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 01 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 0 - Message 9 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 02 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 1 - Message 09 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 03 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 2 - Message 09 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 04 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 3 - Message 09 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 05 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 4 - Message 09 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 06 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 5 - Message 09 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 07 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 6 - Message 09 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 08 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 7 - Message 09 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 09 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 10 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 1 - Message 09 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 11 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 2 - Message 09 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 12 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 3 - Message 09 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 13 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 4 - Message 09 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 14 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 5 - Message 09 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 15 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 6 - Message 09 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 16 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 7 - Message 09 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 17 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 18 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 1 - Message 09 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 19 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 2 - Message 09 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 20 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 3 - Message 09 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 21 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 4 - Message 09 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 22 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 5 - Message 09 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 23 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 6 - Message 09 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 24 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 7 - Message 09 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 25 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 56</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 26 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 1 - Message 09 - Index 56</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 27 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 2 - Message 09 - Index 56</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 28 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 3 - Message 09 - Index 56</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 29 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 4 - Message 09 - Index 56</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 30 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 5 - Message 09 - Index 56</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 31 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 6 - Message 09 - Index 56</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 32 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 7 - Message 09 - Index 56</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 33 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 57</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 34 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 1 - Message 09 - Index 57</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 35 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 2 - Message 09 - Index 57</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 36 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 3 - Message 09 - Index 57</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 37 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 4 - Message 09 - Index 57</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 38 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 5 - Message 09 - Index 57</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 39 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 6 - Message 09 - Index 57</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Direct Button 40 State</trigger>
+          <tasks>
+            <task type="Midi" function="Control APC40">
+              <argument type="Midi Address">Channel 7 - Message 09 - Index 57</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 1 Active</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 2 Active</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 1 - Message 09 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 3 Active</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 2 - Message 09 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 4 Active</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 3 - Message 09 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 5 Active</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 4 - Message 09 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 6 Active</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 5 - Message 09 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 7 Active</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 6 - Message 09 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 8 Active</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 7 - Message 09 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 1 Inactive</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 2 Inactive</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 1 - Message 09 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 3 Inactive</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 2 - Message 09 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 4 Inactive</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 3 - Message 09 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 5 Inactive</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 4 - Message 09 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 6 Inactive</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 5 - Message 09 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 7 Inactive</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 6 - Message 09 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 8 Inactive</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 7 - Message 09 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 01 ButtonPri</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 02 ButtonPri</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 1 - Message 09 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 03 ButtonPri</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 2 - Message 09 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 04 ButtonPri</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 3 - Message 09 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 05 ButtonPri</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 4 - Message 09 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 06 ButtonPri</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 5 - Message 09 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 07 ButtonPri</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 6 - Message 09 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 08 ButtonPri</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 7 - Message 09 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 01 LevelSec</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 02 LevelSec</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 03 LevelSec</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 04 LevelSec</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 51</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 05 LevelSec</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 52</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 06 LevelSec</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 07 LevelSec</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Unsigned" specifier="Change">Playback Fader 08 LevelSec</trigger>
+          <tasks>
+            <task type="Midi" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+      </actionlist>
+    </OLDmidimap>
+    <midimap label="Akai APC40">
+      <actionlist label="Control Button Grid" source="Midi">
+        <action label="Playback Button 1">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="0" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 2">
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="1" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 3">
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="2" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 4">
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="3" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 5">
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="4" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 6">
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="5" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 7">
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="6" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 8">
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="7" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 9">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 54</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="8" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 10">
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 54</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="9" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 11">
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 54</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="a" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 12">
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 54</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="b" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 13">
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 54</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="c" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 14">
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 54</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="d" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 15">
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 54</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="e" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 16">
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 54</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="f" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 17">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="10" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 18">
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="11" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 19">
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="12" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 20">
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="13" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 21">
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="14" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 22">
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="15" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 23">
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="16" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 24">
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="17" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 25">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 56</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="18" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 26">
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 56</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="19" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 27">
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 56</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="1a" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 28">
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 56</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="1b" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 29">
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 56</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="1c" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 30">
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 56</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="1d" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 31">
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 56</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="1e" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 32">
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 56</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="1f" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 33">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 57</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="20" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 34">
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 57</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="21" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 35">
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 57</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="22" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 36">
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 57</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="23" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 37">
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 57</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="24" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 38">
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 57</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="25" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 39">
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 57</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="26" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Playback Button 40">
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 57</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="27" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Select Bank 1">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 82</trigger>
+          <tasks>
+            <task type="Dashboard Bank Button" function="Set" feature="Bank">
+              <argument type="Unsigned">0</argument>
+            </task>
+          </tasks>
+        </action>
+        <action label="Select Bank 2">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 83</trigger>
+          <tasks>
+            <task type="Dashboard Bank Button" function="Set" feature="Bank">
+              <argument type="Unsigned">1</argument>
+            </task>
+          </tasks>
+        </action>
+        <action label="Select Bank 3">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 84</trigger>
+          <tasks>
+            <task type="Dashboard Bank Button" function="Set" feature="Bank">
+              <argument type="Unsigned">2</argument>
+            </task>
+          </tasks>
+        </action>
+        <action label="Select Bank 4">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 85</trigger>
+          <tasks>
+            <task type="Dashboard Bank Button" function="Set" feature="Bank">
+              <argument type="Unsigned">3</argument>
+            </task>
+          </tasks>
+        </action>
+        <action label="Select Bank 5">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 86</trigger>
+          <tasks>
+            <task type="Dashboard Bank Button" function="Set" feature="Bank">
+              <argument type="Unsigned">4</argument>
+            </task>
+          </tasks>
+        </action>
+      </actionlist>
+      <actionlist label="Control Faders" source="Midi">
+        <action label="Fader Track 1">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="0" feature="Intensity Pickup" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 2">
+          <trigger type="Message" specifier="Change">Channel 1 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="1" feature="Intensity Pickup" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 3">
+          <trigger type="Message" specifier="Change">Channel 2 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="2" feature="Intensity Pickup" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 4">
+          <trigger type="Message" specifier="Change">Channel 3 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="3" feature="Intensity Pickup" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 5">
+          <trigger type="Message" specifier="Change">Channel 4 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="4" feature="Intensity Pickup" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 6">
+          <trigger type="Message" specifier="Change">Channel 5 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="5" feature="Intensity Pickup" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 7">
+          <trigger type="Message" specifier="Change">Channel 6 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="6" feature="Intensity Pickup" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 8">
+          <trigger type="Message" specifier="Change">Channel 7 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="7" feature="Intensity Pickup" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 1 Flash">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 48</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="0" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 2 Flash">
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 48</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="1" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 3 Flash">
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 48</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="2" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 4 Flash">
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 48</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="3" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 5 Flash">
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 48</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="4" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 6 Flash">
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 48</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="5" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 7 Flash">
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 48</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="6" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 8 Flash">
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 48</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="7" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 1 Go+">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 50</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="0" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 2 Go+">
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 50</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="1" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 3 Go+">
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 50</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="2" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 4 Go+">
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 50</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="3" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 5 Go+">
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 50</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="4" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 6 Go+">
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 50</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="5" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 7 Go+">
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 50</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="6" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 8 Go+">
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 50</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="7" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 1 Go-">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 49</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="0" feature="ButtonTertiair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 2 Go-">
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 49</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="1" feature="ButtonTertiair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 3 Go-">
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 49</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="2" feature="ButtonTertiair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 4 Go-">
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 49</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="3" feature="ButtonTertiair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 5 Go-">
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 49</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="4" feature="ButtonTertiair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 6 Go-">
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 49</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="5" feature="ButtonTertiair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 7 Go-">
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 49</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="6" feature="ButtonTertiair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 8 Go-">
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 49</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="7" feature="ButtonTertiair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Clip 1 Stop">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 52</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="0" feature="Play State" function="Set">
+              <argument type="Play State">Stop</argument>
+            </task>
+          </tasks>
+        </action>
+        <action label="Fader Clip 2 Stop">
+          <trigger type="Message" specifier="Change">Channel 1 - Message 9 - Index 52</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="1" feature="Play State" function="Set">
+              <argument type="Play State">Stop</argument>
+            </task>
+          </tasks>
+        </action>
+        <action label="Fader Clip 3 Stop">
+          <trigger type="Message" specifier="Change">Channel 2 - Message 9 - Index 52</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="2" feature="Play State" function="Set">
+              <argument type="Play State">Stop</argument>
+            </task>
+          </tasks>
+        </action>
+        <action label="Fader Clip 4 Stop">
+          <trigger type="Message" specifier="Change">Channel 3 - Message 9 - Index 52</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="3" feature="Play State" function="Set">
+              <argument type="Play State">Stop</argument>
+            </task>
+          </tasks>
+        </action>
+        <action label="Fader Clip 5 Stop">
+          <trigger type="Message" specifier="Change">Channel 4 - Message 9 - Index 52</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="4" feature="Play State" function="Set">
+              <argument type="Play State">Stop</argument>
+            </task>
+          </tasks>
+        </action>
+        <action label="Fader Clip 6 Stop">
+          <trigger type="Message" specifier="Change">Channel 5 - Message 9 - Index 52</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="5" feature="Play State" function="Set">
+              <argument type="Play State">Stop</argument>
+            </task>
+          </tasks>
+        </action>
+        <action label="Fader Clip 7 Stop">
+          <trigger type="Message" specifier="Change">Channel 6 - Message 9 - Index 52</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="6" feature="Play State" function="Set">
+              <argument type="Play State">Stop</argument>
+            </task>
+          </tasks>
+        </action>
+        <action label="Fader Clip 8 Stop">
+          <trigger type="Message" specifier="Change">Channel 7 - Message 9 - Index 52</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="7" feature="Play State" function="Set">
+              <argument type="Play State">Stop</argument>
+            </task>
+          </tasks>
+        </action>
+        <action label="Fader Track 1 Speed">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 48</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="0" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 2 Speed">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 49</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="1" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 3 Speed">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 50</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="2" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 4 Speed">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 51</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="3" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 5 Speed">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 52</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="4" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 6 Speed">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="5" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 7 Speed">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 54</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="6" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 8 Speed">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="7" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <!--
+        <action label="Fader Track 1 FX Speed">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 16</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="0" feature="LevelQuadruple" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 2 FX Speed">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 17</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="1" feature="LevelQuadruple" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 3 FX Speed">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 18</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="2" feature="LevelQuadruple" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 4 FX Speed">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 19</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="3" feature="LevelQuadruple" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 5 FX Speed">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 20</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="4" feature="LevelQuadruple" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 6 FX Speed">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 21</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="5" feature="LevelQuadruple" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 7 FX Speed">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 22</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="6" feature="LevelQuadruple" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Fader Track 8 FX Speed">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 23</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="7" feature="LevelQuadruple" function="Control"/>
+          </tasks>
+        </action>
+-->
+        <action label="Device Control Left">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 60</trigger>
+          <tasks>
+            <task type="Dashboard Bank Fader" feature="PageDown" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Device Control Right">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 61</trigger>
+          <tasks>
+            <task type="Dashboard Bank Fader" feature="PageUp" function="Control"/>
+          </tasks>
+        </action>
+        <!--
+        <action label="Action 01">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 88</trigger>
+          <tasks>
+            <task type="Global Fog" function="Control" feature="ButtonPrimair"/>
+          </tasks>
+        </action>
+        <action label="Action 02">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 89</trigger>
+          <tasks>
+            <task type="Global Strobe" function="Control" feature="ButtonPrimair"/>
+          </tasks>
+        </action>
+        <action label="Action 03">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 90</trigger>
+          <tasks>
+            <task type="Global Blinder" function="Control" feature="ButtonPrimair"/>
+          </tasks>
+        </action>
+-->
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 14</trigger>
+          <tasks>
+            <task type="Dashboard Master" feature="Intensity Pickup" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 09 - Index 98</trigger>
+          <tasks>
+            <task type="Dashboard Tempo" feature="Tempo Break" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 99</trigger>
+          <tasks>
+            <task type="Dashboard Tempo" feature="Tempo Tap" function="Control"/>
+          </tasks>
+        </action>
+        <!--
+        <action label="Action 06">
+          <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 101</trigger>
+          <tasks>
+            <task type="Special" function="Decrement" feature="Tempo"/>
+          </tasks>
+        </action>
+        <action label="Action 07">
+          <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 100</trigger>
+          <tasks>
+            <task type="Special" function="Increment" feature="Tempo"/>
+          </tasks>
+        </action>
+-->
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 81</trigger>
+          <tasks>
+            <task type="Dashboard Programmer" feature="Release" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 97</trigger>
+          <tasks>
+            <task type="Selection" feature="Previous" function="Set"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 96</trigger>
+          <tasks>
+            <task type="Selection" feature="Next" function="Set"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 95</trigger>
+          <tasks>
+            <task type="Selection" feature="Clear" function="Set"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 94</trigger>
+          <tasks>
+            <task type="Selection" feature="All" function="Set"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 09 - Index 93</trigger>
+          <tasks>
+            <task type="Dashboard Programmer" feature="Record" function="Control"/>
+          </tasks>
+        </action>
+        <!--
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 09 - Index 93</trigger>
+          <tasks>
+            <task type="Dashboard Programmer" feature="Record" function ="Control"/>
+          </tasks>
+        </action>
+-->
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 09 - Index 92</trigger>
+          <tasks>
+            <task type="Dashboard Programmer" feature="Delete" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 09 - Index 91</trigger>
+          <tasks>
+            <task type="Dashboard Programmer" feature="Load" function="Control"/>
+          </tasks>
+        </action>
+      </actionlist>
+      <actionlist enabled="true" label="Feedback playbacks buttons" source="Playback Button">
+        <action>
+          <trigger type="State" specifier="Change">0</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 0 - Message 9 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">1</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 1 - Message 09 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">2</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 2 - Message 09 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">3</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 3 - Message 09 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">4</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 4 - Message 09 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">5</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 5 - Message 09 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">6</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 6 - Message 09 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">7</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 7 - Message 09 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">8</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">9</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 1 - Message 09 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">10</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 2 - Message 09 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">11</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 3 - Message 09 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">12</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 4 - Message 09 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">13</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 5 - Message 09 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">14</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 6 - Message 09 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">15</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 7 - Message 09 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">16</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">17</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 1 - Message 09 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">18</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 2 - Message 09 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">19</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 3 - Message 09 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">20</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 4 - Message 09 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">21</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 5 - Message 09 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">22</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 6 - Message 09 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">23</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 7 - Message 09 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">24</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 56</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">25</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 1 - Message 09 - Index 56</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">26</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 2 - Message 09 - Index 56</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">27</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 3 - Message 09 - Index 56</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">28</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 4 - Message 09 - Index 56</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">29</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 5 - Message 09 - Index 56</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">30</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 6 - Message 09 - Index 56</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">31</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 7 - Message 09 - Index 56</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">32</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 57</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">33</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 1 - Message 09 - Index 57</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">34</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 2 - Message 09 - Index 57</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">35</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 3 - Message 09 - Index 57</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">36</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 4 - Message 09 - Index 57</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">37</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 5 - Message 09 - Index 57</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">38</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 6 - Message 09 - Index 57</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">39</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control APC40">
+              <argument type="Midi Address">Channel 7 - Message 09 - Index 57</argument>
+            </task>
+          </tasks>
+        </action>
+      </actionlist>
+      <actionlist enabled="true" label="Feedback playbacks buttons" source="Dashboard Playback Fader">
+        <action>
+          <trigger type="State" specifier="Change">0</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">1</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control">
+              <argument type="Midi Address">Channel 1 - Message 09 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">2</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control">
+              <argument type="Midi Address">Channel 2 - Message 09 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">3</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control">
+              <argument type="Midi Address">Channel 3 - Message 09 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">4</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control">
+              <argument type="Midi Address">Channel 4 - Message 09 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">5</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control">
+              <argument type="Midi Address">Channel 5 - Message 09 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">6</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control">
+              <argument type="Midi Address">Channel 6 - Message 09 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">7</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Control">
+              <argument type="Midi Address">Channel 7 - Message 09 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">0</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Inverted Control">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">1</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Inverted Control">
+              <argument type="Midi Address">Channel 1 - Message 09 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">2</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Inverted Control">
+              <argument type="Midi Address">Channel 2 - Message 09 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">3</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Inverted Control">
+              <argument type="Midi Address">Channel 3 - Message 09 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">4</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Inverted Control">
+              <argument type="Midi Address">Channel 4 - Message 09 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">5</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Inverted Control">
+              <argument type="Midi Address">Channel 5 - Message 09 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">6</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Inverted Control">
+              <argument type="Midi Address">Channel 6 - Message 09 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="State" specifier="Change">7</trigger>
+          <tasks>
+            <task type="MIDI" feature="Send Message" function="Inverted Control">
+              <argument type="Midi Address">Channel 7 - Message 09 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="ButtonPrimair" specifier="Change">0</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="ButtonPrimair" specifier="Change">1</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 1 - Message 09 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="ButtonPrimair" specifier="Change">2</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 2 - Message 09 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="ButtonPrimair" specifier="Change">3</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 3 - Message 09 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="ButtonPrimair" specifier="Change">4</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 4 - Message 09 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="ButtonPrimair" specifier="Change">5</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 5 - Message 09 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="ButtonPrimair" specifier="Change">6</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 6 - Message 09 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="ButtonPrimair" specifier="Change">7</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 7 - Message 09 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="LevelSecundair" specifier="Change">0</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 48</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="LevelSecundair" specifier="Change">1</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 49</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="LevelSecundair" specifier="Change">2</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 50</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="LevelSecundair" specifier="Change">3</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 51</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="LevelSecundair" specifier="Change">4</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 52</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="LevelSecundair" specifier="Change">5</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 53</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="LevelSecundair" specifier="Change">6</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 54</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="LevelSecundair" specifier="Change">7</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 55</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="LevelQuadruple" specifier="Change">0</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 16</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="LevelQuadruple" specifier="Change">1</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 17</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="LevelQuadruple" specifier="Change">2</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 18</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="LevelQuadruple" specifier="Change">3</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 19</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="LevelQuadruple" specifier="Change">4</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 20</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="LevelQuadruple" specifier="Change">5</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 21</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="LevelQuadruple" specifier="Change">6</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 22</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="LevelQuadruple" specifier="Change">7</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 11 - Index 23</argument>
+            </task>
+          </tasks>
+        </action>
+      </actionlist>
+      <actionlist enabled="true" label="Feedback button pages" source="Dashboard Bank Button">
+        <action>
+          <trigger type="Page0" specifier="Change">0</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 82</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Page1" specifier="Change">0</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 83</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Page2" specifier="Change">0</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 84</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Page3" specifier="Change">0</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 85</argument>
+            </task>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Page4" specifier="Change">0</trigger>
+          <tasks>
+            <task type="MIDI" function="Control">
+              <argument type="Midi Address">Channel 0 - Message 09 - Index 86</argument>
+            </task>
+          </tasks>
+        </action>
+      </actionlist>
+    </midimap>
+    <OLDmidimap label="Akai LDP8">
+      <actionlist label="control" source="Midi">
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 1</trigger>
+          <tasks>
+            <task type="Playback Button 1" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 2</trigger>
+          <tasks>
+            <task type="Playback Button 2" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 3</trigger>
+          <tasks>
+            <task type="Playback Button 3" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 4</trigger>
+          <tasks>
+            <task type="Playback Button 4" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 5</trigger>
+          <tasks>
+            <task type="Playback Button 5" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 6</trigger>
+          <tasks>
+            <task type="Playback Button 6" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Playback Button 7" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 8</trigger>
+          <tasks>
+            <task type="Playback Button 8" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 36</trigger>
+          <tasks>
+            <task type="Playback Button 1" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 37</trigger>
+          <tasks>
+            <task type="Playback Button 2" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 38</trigger>
+          <tasks>
+            <task type="Playback Button 3" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 39</trigger>
+          <tasks>
+            <task type="Playback Button 4" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 40</trigger>
+          <tasks>
+            <task type="Playback Button 5" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 41</trigger>
+          <tasks>
+            <task type="Playback Button 6" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 42</trigger>
+          <tasks>
+            <task type="Playback Button 7" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 43</trigger>
+          <tasks>
+            <task type="Playback Button 8" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+      </actionlist>
+    </OLDmidimap>
+    <midimap label="Akai MPK49">
+      <!-- Used Generic Preset values from Vyzes MPK49 utility, not tested on device -->
+      <actionlist label="fader level pri" source="Midi">
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 11 - Index 20</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="0" feature="Intensity Pickup" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 11 - Index 21</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="1" feature="Intensity Pickup" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 11 - Index 22</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="2" feature="Intensity Pickup" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 11 - Index 23</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="3" feature="Intensity Pickup" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 11 - Index 24</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="4" feature="Intensity Pickup" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 11 - Index 25</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="5" feature="Intensity Pickup" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 11 - Index 26</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="6" feature="Intensity Pickup" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 11 - Index 27</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="7" feature="Intensity Pickup" function="Control"/>
+          </tasks>
+        </action>
+      </actionlist>
+      <actionlist label="fader level sec" source="Midi">
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 11 - Index 3</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="0" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 11 - Index 9</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="1" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 11 - Index 14</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="2" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 11 - Index 15</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="3" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 11 - Index 16</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="4" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 11 - Index 17</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="5" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 11 - Index 18</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="6" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 11 - Index 19</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="7" feature="LevelSecundair" function="Control"/>
+          </tasks>
+        </action>
+      </actionlist>
+      <actionlist label="fader button pri" source="Midi">
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 28</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="0" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 29</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="1" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 30</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="2" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 31</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="3" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 35</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="4" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 41</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="5" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 46</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="6" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 47</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="7" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+      </actionlist>
+      <actionlist label="fader button sec" source="Midi">
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 94</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="0" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 96</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="1" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 98</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="2" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 100</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="3" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 101</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="4" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 103</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="5" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 105</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="6" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 107</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" identifier="7" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel X - Message 9 - Index 97</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" feature="Bank" function="Decrement"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel X - Message 9 - Index 99</trigger>
+          <tasks>
+            <task type="Dashboard Playback Fader" feature="Bank" function="Increment"/>
+          </tasks>
+        </action>
+      </actionlist>
+      <actionlist label="Playback Buttons" source="Midi">
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 12</trigger>
+          <tasks>
+            <task type="Playback Button 01" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 14</trigger>
+          <tasks>
+            <task type="Playback Button 02" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 16</trigger>
+          <tasks>
+            <task type="Playback Button 03" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 17</trigger>
+          <tasks>
+            <task type="Playback Button 04" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 19</trigger>
+          <tasks>
+            <task type="Playback Button 05" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 21</trigger>
+          <tasks>
+            <task type="Playback Button 06" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 23</trigger>
+          <tasks>
+            <task type="Playback Button 07" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 24</trigger>
+          <tasks>
+            <task type="Playback Button 08" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 26</trigger>
+          <tasks>
+            <task type="Playback Button 09" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 28</trigger>
+          <tasks>
+            <task type="Playback Button 10" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 29</trigger>
+          <tasks>
+            <task type="Playback Button 11" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 31</trigger>
+          <tasks>
+            <task type="Playback Button 12" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 33</trigger>
+          <tasks>
+            <task type="Playback Button 13" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 35</trigger>
+          <tasks>
+            <task type="Playback Button 14" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 36</trigger>
+          <tasks>
+            <task type="Playback Button 15" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 38</trigger>
+          <tasks>
+            <task type="Playback Button 16" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel X - Message 9 - Index 13</trigger>
+          <tasks>
+            <task type="Playback Button 1" feature="Bank" function="Decrement"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel X - Message 9 - Index 15</trigger>
+          <tasks>
+            <task type="Playback Button 1" feature="Bank" function="Increment"/>
+          </tasks>
+        </action>
+      </actionlist>
+      <actionlist label="Specials" source="Midi">
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 45</trigger>
+          <tasks>
+            <task type="Global Fog" function="Control" feature="ButtonPrimair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 46</trigger>
+          <tasks>
+            <task type="Global Strobe" function="Control" feature="ButtonPrimair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 47</trigger>
+          <tasks>
+            <task type="Global Blinder" function="Control" feature="ButtonPrimair"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel X - Message 9 - Index 39</trigger>
+          <tasks>
+            <task type="Special" feature="Blackout" function="Toggle"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel X - Message 9 - Index 40</trigger>
+          <tasks>
+            <task type="Special" feature="Tempo Break" function="Toggle"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel X - Message 9 - Index 41</trigger>
+          <tasks>
+            <task type="Special" feature="Tempo Tap" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel X - Message 9 - Index 36</trigger>
+          <tasks>
+            <task type="Selection" feature="Clear" function="Set"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel X - Message 9 - Index 37</trigger>
+          <tasks>
+            <task type="Selection" feature="Previous" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel X - Message 9 - Index 38</trigger>
+          <tasks>
+            <task type="Selection" feature="Next" function="Control"/>
+          </tasks>
+        </action>
+      </actionlist>
+    </midimap>
+    <OLDmidimap label="Akai MPK mini">
+      <actionlist label="control" source="Midi">
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 5</trigger>
+          <tasks>
+            <task type="Playback Fader 1" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 32</trigger>
+          <tasks>
+            <task type="Playback Fader 1" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 6</trigger>
+          <tasks>
+            <task type="Playback Fader 2" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 33</trigger>
+          <tasks>
+            <task type="Playback Fader 2" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 7</trigger>
+          <tasks>
+            <task type="Playback Fader 3" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 34</trigger>
+          <tasks>
+            <task type="Playback Fader 3" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 8</trigger>
+          <tasks>
+            <task type="Playback Fader 4" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 35</trigger>
+          <tasks>
+            <task type="Playback Fader 4" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 1</trigger>
+          <tasks>
+            <task type="Playback Fader 5" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 36</trigger>
+          <tasks>
+            <task type="Playback Fader 5" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 2</trigger>
+          <tasks>
+            <task type="Playback Fader 6" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 37</trigger>
+          <tasks>
+            <task type="Playback Fader 6" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 3</trigger>
+          <tasks>
+            <task type="Playback Fader 7" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 38</trigger>
+          <tasks>
+            <task type="Playback Fader 7" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 4</trigger>
+          <tasks>
+            <task type="Playback Fader 8" feature="LevelPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 39</trigger>
+          <tasks>
+            <task type="Playback Fader 8" feature="ButtonSecundair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 49</trigger>
+          <tasks>
+            <task type="Special" feature="Tempo Tap" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 51</trigger>
+          <tasks>
+            <task type="Special" feature="Tempo Break" function="Toggle"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 66</trigger>
+          <tasks>
+            <task type="Global Fog" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 68</trigger>
+          <tasks>
+            <task type="Global Strobe" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 70</trigger>
+          <tasks>
+            <task type="Global Blinder" feature="ButtonPrimair" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 64</trigger>
+          <tasks>
+            <task type="Special" feature="Blackout" function="Toggle"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 61</trigger>
+          <tasks>
+            <task type="Playback Fader 1" feature="Bank" function="Decrement"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 63</trigger>
+          <tasks>
+            <task type="Playback Fader 1" feature="Bank" function="Increment"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 54</trigger>
+          <tasks>
+            <task type="Selection" feature="Clear" function="Set"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 56</trigger>
+          <tasks>
+            <task type="Selection" feature="Previous" function="Control"/>
+          </tasks>
+        </action>
+        <action>
+          <trigger type="Message" specifier="Down">Channel 0 - Message 9 - Index 58</trigger>
+          <tasks>
+            <task type="Selection" feature="Next" function="Control"/>
+          </tasks>
+        </action>
+        <action label="Action 01">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 48</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="01" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 02">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 50</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="02" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 03">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 52</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="03" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 04">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 53</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="04" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 05">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 55</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="05" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 06">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 57</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="06" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 07">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 59</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="07" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 08">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 60</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="08" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 09">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 62</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="09" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 10">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 64</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="10" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 11">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 65</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="11" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 12">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 67</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="12" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 13">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 69</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="13" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 14">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 71</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="14" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+        <action label="Action 15">
+          <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 72</trigger>
+          <tasks>
+            <task type="Dashboard Playback Button Grid" identifier="15" function="Control" feature="ButtonSecundair"/>
+          </tasks>
+        </action>
+      </actionlist>
+    </OLDmidimap>
+  </midimaps>
+</show>

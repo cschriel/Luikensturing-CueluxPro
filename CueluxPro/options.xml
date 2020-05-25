@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<visual application="CueluxPro" version="1.4.47">
+    <options>
+        <show_file>C:\Users\Christiaan Schriel\Documents\Visual Productions\CueluxPro\show01.xml</show_file>
+        <menu tab1="off" tab2="on" tab3="off" />
+        <enable_sounds>on</enable_sounds>
+        <enable_keyboard>on</enable_keyboard>
+        <udp_port>7000</udp_port>
+        <osc_port>8000</osc_port>
+        <check_updates>on</check_updates>
+        <auto_save>on</auto_save>
+        <check_data>on</check_data>
+        <url_sync_server>http://sync.visualproductions.nl:80</url_sync_server>
+        <colour_mix_htp>on</colour_mix_htp>
+        <clock_24hours>on</clock_24hours>
+        <track_cursor>on</track_cursor>
+        <bind_ip_override>off</bind_ip_override>
+        <bind_ip>192.168.186.49</bind_ip>
+        <bank_button>0</bank_button>
+        <bank_fader>0</bank_fader>
+        <timecode_source>Internal</timecode_source>
+        <language>English</language>
+        <midi>
+            <device index="0" input="" output="" map="" />
+            <device index="1" input="" output="" map="" />
+        </midi>
+        <audio>
+            <device_input>-1</device_input>
+            <enable_input>off</enable_input>
+        </audio>
+        <tab_colour>4</tab_colour>
+        <tab_options>0</tab_options>
+        <tab_play>0</tab_play>
+        <scroll_monitor>0</scroll_monitor>
+        <screen_size>HD+ (1600×900)</screen_size>
+        <generator_attribute>Dimmer</generator_attribute>
+        <generator_order>Forward</generator_order>
+        <fanning_scale_pan>0.25</fanning_scale_pan>
+        <fanning_scale_tilt>0</fanning_scale_tilt>
+        <last_check_update>2007-01-01</last_check_update>
+        <last_check_data>2007-01-01</last_check_data>
+        <release>00-00-00-00</release>
+        <wait>00-00-00-00</wait>
+        <delay>00-01-00-00</delay>
+        <fade_in>00-00-00-00</fade_in>
+        <fade_out>00-00-00-00</fade_out>
+        <latitude>52.2200012</latitude>
+        <longitude>4.53000021</longitude>
+        <utc>2</utc>
+        <action_source>Playback Button</action_source>
+        <action_task_type>OSC</action_task_type>
+        <action_touch_screen_type>Button</action_touch_screen_type>
+        <pattern_type>Static Fill</pattern_type>
+        <forward_osc forward="false">
+            <forward>192.168.2.18:8001</forward>
+        </forward_osc>
+        <forward_udp forward="false" />
+    </options>
+</visual>

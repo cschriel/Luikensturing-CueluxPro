@@ -1,0 +1,2227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<show application="CueluxPro" version="0.2.0" revision="1">
+    <midimaps>
+        <midimap label="Novation Launchpad">
+            <actionlist enabled="true" label="control playback button" source="MIDI">
+                <action>
+                    <trigger type="Message" specifier="Down">Channel 0 - Message 11 - Index 104</trigger>
+                    <tasks>
+                        <task type="Dashboard Bank Fader" feature="Page" function="Increment"/>
+                    </tasks>
+                </action>
+                <action>
+                    <trigger type="Message" specifier="Down">Channel 0 - Message 11 - Index 105</trigger>
+                    <tasks>
+                        <task type="Dashboard Bank Fader" feature="Page" function="Decrement"/>
+                    </tasks>
+                </action>
+                <action>
+                    <trigger type="Message" specifier="Down">Channel 0 - Message 11 - Index 106</trigger>
+                    <tasks>
+                        <task type="Dashboard Bank Button" feature="Page" function="Increment"/>
+                    </tasks>
+                </action>
+                <action>
+                    <trigger type="Message" specifier="Down">Channel 0 - Message 11 - Index 107</trigger>
+                    <tasks>
+                        <task type="Dashboard Bank Button" feature="Page" function="Decrement"/>
+                    </tasks>
+                </action>
+                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 108</trigger>
+                    <tasks>
+                        <task type="Dashboard Programmer"  feature="Release" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="break tempo">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 110</trigger>
+                    <tasks>
+                        <task type="Dashboard Tempo" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action abel="tempo tap">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 109</trigger>
+                    <tasks>
+                        <task type="Dashboard Tempo" feature="ButtonPrimair" function="Control"/>
+                    </tasks>
+                </action>
+                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 111</trigger>
+                    <tasks>
+                        <task type="Dashboard Master" feature="ButtonPrimair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 02">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 0</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 03">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 1</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="1" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 04">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 2</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="2" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 05">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 3</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="3" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 06">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 4</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="4" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 07">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 5</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="5" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 08">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 6</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="6" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 09">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 7</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="7" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 10">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 16</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="8" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 11">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 17</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="9" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 12">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 18</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="a" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 13">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 19</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="b" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 14">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 20</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="c" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 15">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 21</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="d" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 16">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 22</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="e" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 17">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 23</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="f" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 18">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 32</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="10" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 19">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 33</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="11" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 20">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 34</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="12" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 21">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 35</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="13" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 22">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 36</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="14" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 23">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 37</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="15" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 24">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 38</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="16" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 25">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 39</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="17" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 26">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 48</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="18" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 26">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 49</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="19" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 27">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 50</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="1a" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 28">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 51</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="1b" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 29">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 52</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="1c" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 30">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 53</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="1d" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 31">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 54</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="1e" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 32">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 55</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="1f" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 33">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 64</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="20" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 34">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 65</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="21" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 35">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 66</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="22" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 36">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 67</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="23" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 37">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 68</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="24" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 38">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 69</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="25" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 39">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 70</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="26" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 40">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 71</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="27" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 41">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 80</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="28" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 42">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 81</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="29" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 43">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 82</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="2a" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 44">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 83</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="2b" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 45">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 84</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="2c" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 46">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 85</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="2d" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 47">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 86</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="2e" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 48">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 87</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="2f" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 49">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 96</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="30" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 50">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 97</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="31" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 51">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 98</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="32" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 52">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 99</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="33" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 53">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 100</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="34" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 54">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 101</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="35" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 55">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 102</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="36" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 56">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 103</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="37" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 57">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 112</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="38" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 58">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 113</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="39" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 59">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 114</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="3a" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 60">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 115</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="3b" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 61">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 116</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="3c" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 62">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 117</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="3d" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 63">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 118</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="3e" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 64">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 119</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="3f" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+            </actionlist>
+            <actionlist enabled="true" label="feedback pages" source="Dashboard Playback Fader">
+                <action label="Action 01">
+                    <trigger type="ButtonPrimair" specifier="Change">0</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 8</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 02">
+                    <trigger type="ButtonPrimair" specifier="Change">1</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 24</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 03">
+                    <trigger type="ButtonPrimair" specifier="Change">2</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 40</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 04">
+                    <trigger type="ButtonPrimair" specifier="Change">3</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 56</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 05">
+                    <trigger type="ButtonPrimair" specifier="Change">4</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 72</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 06">
+                    <trigger type="ButtonPrimair" specifier="Change">5</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 88</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 07">
+                    <trigger type="ButtonPrimair" specifier="Change">6</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 104</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 08">
+                    <trigger type="ButtonPrimair" specifier="Change">7</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 120</argument>
+                        </task>
+                    </tasks>
+                </action>
+            </actionlist>
+            <actionlist enabled="true" label="feedback playbacks" source="Playback Button">
+                <action label="Action 01">
+                    <trigger type="State" specifier="Change">0</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 0</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 02">
+                    <trigger type="State" specifier="Change">1</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 1</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 03">
+                    <trigger type="State" specifier="Change">2</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 2</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 04">
+                    <trigger type="State" specifier="Change">3</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 3</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 05">
+                    <trigger type="State" specifier="Change">4</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 4</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 06">
+                    <trigger type="State" specifier="Change">5</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 5</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 07">
+                    <trigger type="State" specifier="Change">6</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 6</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 08">
+                    <trigger type="State" specifier="Change">7</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 7</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 09">
+                    <trigger type="State" specifier="Change">8</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 16</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 10">
+                    <trigger type="State" specifier="Change">9</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 17</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 11">
+                    <trigger type="State" specifier="Change">10</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 18</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 12">
+                    <trigger type="State" specifier="Change">11</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 19</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 13">
+                    <trigger type="State" specifier="Change">12</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 20</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 14">
+                    <trigger type="State" specifier="Change">13</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 21</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 15">
+                    <trigger type="State" specifier="Change">14</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 22</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 16">
+                    <trigger type="State" specifier="Change">15</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 23</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 17">
+                    <trigger type="State" specifier="Change">16</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 32</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 18">
+                    <trigger type="State" specifier="Change">17</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 33</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 19">
+                    <trigger type="State" specifier="Change">18</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 34</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 20">
+                    <trigger type="State" specifier="Change">19</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 35</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 21">
+                    <trigger type="State" specifier="Change">20</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 36</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 22">
+                    <trigger type="State" specifier="Change">21</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 37</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 23">
+                    <trigger type="State" specifier="Change">22</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 38</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 24">
+                    <trigger type="State" specifier="Change">23</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 39</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 25">
+                    <trigger type="State" specifier="Change">24</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 48</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 26">
+                    <trigger type="State" specifier="Change">25</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 49</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 27">
+                    <trigger type="State" specifier="Change">26</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 50</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 28">
+                    <trigger type="State" specifier="Change">27</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 51</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 29">
+                    <trigger type="State" specifier="Change">28</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 52</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 30">
+                    <trigger type="State" specifier="Change">29</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 53</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 31">
+                    <trigger type="State" specifier="Change">30</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 54</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 32">
+                    <trigger type="State" specifier="Change">31</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 55</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 33">
+                    <trigger type="State" specifier="Change">32</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 64</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 34">
+                    <trigger type="State" specifier="Change">33</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 65</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 35">
+                    <trigger type="State" specifier="Change">34</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 66</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 36">
+                    <trigger type="State" specifier="Change">35</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 67</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 37">
+                    <trigger type="State" specifier="Change">36</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 68</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 38">
+                    <trigger type="State" specifier="Change">37</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 69</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 39">
+                    <trigger type="State" specifier="Change">38</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 70</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 40">
+                    <trigger type="State" specifier="Change">39</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 71</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 41">
+                    <trigger type="State" specifier="Change">40</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 80</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 42">
+                    <trigger type="State" specifier="Change">41</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 81</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 43">
+                    <trigger type="State" specifier="Change">42</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 82</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 44">
+                    <trigger type="State" specifier="Change">43</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 83</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 45">
+                    <trigger type="State" specifier="Change">44</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 84</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 46">
+                    <trigger type="State" specifier="Change">45</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 85</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 47">
+                    <trigger type="State" specifier="Change">46</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 86</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 48">
+                    <trigger type="State" specifier="Change">47</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 87</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 49">
+                    <trigger type="State" specifier="Change">48</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 96</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 50">
+                    <trigger type="State" specifier="Change">49</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 97</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 51">
+                    <trigger type="State" specifier="Change">50</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 98</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 52">
+                    <trigger type="State" specifier="Change">51</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 99</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 53">
+                    <trigger type="State" specifier="Change">52</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 100</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 54">
+                    <trigger type="State" specifier="Change">53</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 101</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 55">
+                    <trigger type="State" specifier="Change">54</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 102</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 56">
+                    <trigger type="State" specifier="Change">55</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 103</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 57">
+                    <trigger type="State" specifier="Change">56</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 112</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 58">
+                    <trigger type="State" specifier="Change">57</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 113</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 59">
+                    <trigger type="State" specifier="Change">58</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 114</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 60">
+                    <trigger type="State" specifier="Change">59</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 115</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 61">
+                    <trigger type="State" specifier="Change">60</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 116</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 62">
+                    <trigger type="State" specifier="Change">61</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 117</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 63">
+                    <trigger type="State" specifier="Change">62</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 118</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 64">
+                    <trigger type="State" specifier="Change">63</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 119</argument>
+                        </task>
+                    </tasks>
+                </action>
+            </actionlist>
+            <actionlist enabled="true" label="feedback master" source="Dashboard Master">
+                <action label="Action 01">
+                    <trigger type="ButtonPrimair" specifier="Change"></trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 11 - Index 111</argument>
+                        </task>
+                    </tasks>
+                </action>
+            </actionlist>
+            <actionlist enabled="true" label="feedback tempo" source="Dashboard Tempo">
+                <action label="Action 01">
+                    <trigger type="ButtonSecundair" specifier="Change"></trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 11 - Index 110</argument>
+                        </task>
+                    </tasks>
+                </action>
+            </actionlist>
+            <actionlist enabled="true" label="feedback release" source="Dashboard Prgrammer">
+                <action label="Action 01">
+                    <trigger type="Release" specifier="Change"></trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 11 - Index 108</argument>
+                        </task>
+                    </tasks>
+                </action>
+            </actionlist>
+            <actionlist enabled="true" label="control Fader Flash" source="MIDI">
+                <action label="Action 01">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 8</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Fader" feature="ButtonPrimair" function="control" identifier="0">
+
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 02">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 24</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Fader" feature="ButtonPrimair" function="control" identifier="1">
+
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 03">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 40</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Fader" feature="ButtonPrimair" function="control" identifier="2">
+
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 04">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 56</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Fader" feature="ButtonPrimair" function="control" identifier="3">
+
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 05">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 72</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Fader" feature="ButtonPrimair" function="control" identifier="4">
+
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 06">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 88</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Fader" feature="ButtonPrimair" function="control" identifier="5">
+
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 07">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 104</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Fader" feature="ButtonPrimair" function="control" identifier="6">
+
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 08">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 120</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Fader" feature="ButtonPrimair" function="control" identifier="7">
+                        </task>
+                    </tasks>
+                </action>
+            </actionlist>
+        </midimap>
+        <midimap label="Novation Launchpad MK2">
+            <actionlist enabled="true" label="control playback button" source="MIDI">
+                <action>
+                    <trigger type="Message" specifier="Down">Channel 0 - Message 11 - Index 104</trigger>
+                    <tasks>
+                        <task type="Dashboard Bank Fader" feature="Page" function="Increment"/>
+                    </tasks>
+                </action>
+                <action>
+                    <trigger type="Message" specifier="Down">Channel 0 - Message 11 - Index 105</trigger>
+                    <tasks>
+                        <task type="Dashboard Bank Fader" feature="Page" function="Decrement"/>
+                    </tasks>
+                </action>
+                <action>
+                    <trigger type="Message" specifier="Down">Channel 0 - Message 11 - Index 106</trigger>
+                    <tasks>
+                        <task type="Dashboard Button Fader" feature="Page" function="Increment"/>
+                    </tasks>
+                </action>
+                <action>
+                    <trigger type="Message" specifier="Down">Channel 0 - Message 11 - Index 107</trigger>
+                    <tasks>
+                        <task type="Dashboard Button Fader" feature="Page" function="Decrement"/>
+                    </tasks>
+                </action>
+                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 108</trigger>
+                    <tasks>
+                        <task type="Dashboard Programmer"  feature="Release" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="break tempo">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 110</trigger>
+                    <tasks>
+                        <task type="Dashboard Tempo" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action abel="tempo tap">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 109</trigger>
+                    <tasks>
+                        <task type="Dashboard Tempo" feature="ButtonPrimair" function="Control"/>
+                    </tasks>
+                </action>
+                <action>
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 11 - Index 111</trigger>
+                    <tasks>
+                        <task type="Dashboard Master" feature="ButtonPrimair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 02">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 81</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="0" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 03">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 82</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="1" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 04">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 83</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="2" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 05">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 84</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="3" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 06">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 85</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="4" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 07">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 86</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="5" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 08">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 87</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="6" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 09">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 88</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="7" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 10">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 71</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="8" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 11">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 72</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="9" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 12">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 73</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="a" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 13">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 74</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="b" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 14">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 75</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="c" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 15">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 76</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="d" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 16">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 77</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="e" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 17">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 78</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="f" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 18">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 61</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="10" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 19">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 62</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="11" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 20">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 63</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="12" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 21">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 64</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="13" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 22">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 65</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="14" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 23">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 66</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="15" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 24">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 67</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="16" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 25">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 68</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="17" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 26">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 51</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="18" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 26">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 52</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="19" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 27">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 53</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="1a" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 28">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 54</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="1b" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 29">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 55</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="1c" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 30">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 56</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="1d" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 31">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 57</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="1e" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 32">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 58</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="1f" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 33">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 41</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="20" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 34">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 42</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="21" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 35">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 43</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="22" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 36">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 44</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="23" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 37">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 45</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="24" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 38">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 46</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="25" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 39">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 47</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="26" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 40">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 48</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="27" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 41">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 31</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="28" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 42">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 32</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="29" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 43">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 33</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="2a" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 44">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 34</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="2b" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 45">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 35</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="2c" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 46">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 36</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="2d" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 47">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 37</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="2e" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 48">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 38</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="2f" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 49">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 21</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="30" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 50">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 22</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="31" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 51">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 23</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="32" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 52">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 24</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="33" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 53">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 25</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="34" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 54">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 26</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="35" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 55">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 27</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="36" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 56">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 28</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="37" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 57">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 11</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="38" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 58">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 12</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="39" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 59">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 13</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="3a" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 60">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 14</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="3b" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 61">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 15</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="3c" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 62">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 16</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="3d" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 63">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 17</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="3e" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+                <action label="Action 64">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 18</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Button Grid" identifier="3f" feature="ButtonSecundair" function="Control"/>
+                    </tasks>
+                </action>
+            </actionlist>
+            <actionlist enabled="true" label="feedback pages" source="Dashboard Playback Fader">
+                <action label="Action 01">
+                    <trigger type="ButtonPrimair" specifier="Change">0</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 89</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 02">
+                    <trigger type="ButtonPrimair" specifier="Change">1</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 79</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 03">
+                    <trigger type="ButtonPrimair" specifier="Change">2</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 69</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 04">
+                    <trigger type="ButtonPrimair" specifier="Change">3</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 59</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 05">
+                    <trigger type="ButtonPrimair" specifier="Change">4</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 49</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 06">
+                    <trigger type="ButtonPrimair" specifier="Change">5</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 39</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 07">
+                    <trigger type="ButtonPrimair" specifier="Change">6</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 29</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 08">
+                    <trigger type="ButtonPrimair" specifier="Change">7</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 19</argument>
+                        </task>
+                    </tasks>
+                </action>
+            </actionlist>
+            <actionlist enabled="true" label="feedback playbacks" source="Playback Button">
+                <action label="Action 01">
+                    <trigger type="State" specifier="Change">0</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 81</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 02">
+                    <trigger type="State" specifier="Change">1</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 82</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 03">
+                    <trigger type="State" specifier="Change">2</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 83</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 04">
+                    <trigger type="State" specifier="Change">3</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 84</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 05">
+                    <trigger type="State" specifier="Change">4</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 85</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 06">
+                    <trigger type="State" specifier="Change">5</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 86</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 07">
+                    <trigger type="State" specifier="Change">6</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 87</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 08">
+                    <trigger type="State" specifier="Change">7</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 88</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 09">
+                    <trigger type="State" specifier="Change">8</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 71</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 10">
+                    <trigger type="State" specifier="Change">9</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 72</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 11">
+                    <trigger type="State" specifier="Change">10</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 73</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 12">
+                    <trigger type="State" specifier="Change">11</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 74</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 13">
+                    <trigger type="State" specifier="Change">12</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 75</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 14">
+                    <trigger type="State" specifier="Change">13</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 76</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 15">
+                    <trigger type="State" specifier="Change">14</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 77</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 16">
+                    <trigger type="State" specifier="Change">15</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 78</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 17">
+                    <trigger type="State" specifier="Change">16</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 61</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 18">
+                    <trigger type="State" specifier="Change">17</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 62</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 19">
+                    <trigger type="State" specifier="Change">18</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 63</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 20">
+                    <trigger type="State" specifier="Change">19</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 64</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 21">
+                    <trigger type="State" specifier="Change">20</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 65</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 22">
+                    <trigger type="State" specifier="Change">21</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 66</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 23">
+                    <trigger type="State" specifier="Change">22</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 67</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 24">
+                    <trigger type="State" specifier="Change">23</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 68</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 25">
+                    <trigger type="State" specifier="Change">24</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 51</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 26">
+                    <trigger type="State" specifier="Change">25</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 52</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 27">
+                    <trigger type="State" specifier="Change">26</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 53</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 28">
+                    <trigger type="State" specifier="Change">27</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 54</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 29">
+                    <trigger type="State" specifier="Change">28</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 55</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 30">
+                    <trigger type="State" specifier="Change">29</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 56</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 31">
+                    <trigger type="State" specifier="Change">30</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 57</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 32">
+                    <trigger type="State" specifier="Change">31</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 58</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 33">
+                    <trigger type="State" specifier="Change">32</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 41</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 34">
+                    <trigger type="State" specifier="Change">33</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 42</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 35">
+                    <trigger type="State" specifier="Change">34</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 43</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 36">
+                    <trigger type="State" specifier="Change">35</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 44</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 37">
+                    <trigger type="State" specifier="Change">36</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 45</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 38">
+                    <trigger type="State" specifier="Change">37</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 46</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 39">
+                    <trigger type="State" specifier="Change">38</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 47</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 40">
+                    <trigger type="State" specifier="Change">39</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 48</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 41">
+                    <trigger type="State" specifier="Change">40</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 31</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 42">
+                    <trigger type="State" specifier="Change">41</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 32</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 43">
+                    <trigger type="State" specifier="Change">42</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 33</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 44">
+                    <trigger type="State" specifier="Change">43</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 34</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 45">
+                    <trigger type="State" specifier="Change">44</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 35</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 46">
+                    <trigger type="State" specifier="Change">45</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 36</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 47">
+                    <trigger type="State" specifier="Change">46</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 37</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 48">
+                    <trigger type="State" specifier="Change">47</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 38</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 49">
+                    <trigger type="State" specifier="Change">48</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 21</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 50">
+                    <trigger type="State" specifier="Change">49</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 22</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 51">
+                    <trigger type="State" specifier="Change">50</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 23</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 52">
+                    <trigger type="State" specifier="Change">51</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 24</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 53">
+                    <trigger type="State" specifier="Change">52</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 25</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 54">
+                    <trigger type="State" specifier="Change">53</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 26</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 55">
+                    <trigger type="State" specifier="Change">54</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 27</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 56">
+                    <trigger type="State" specifier="Change">55</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 28</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 57">
+                    <trigger type="State" specifier="Change">56</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 11</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 58">
+                    <trigger type="State" specifier="Change">57</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 12</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 59">
+                    <trigger type="State" specifier="Change">58</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 13</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 60">
+                    <trigger type="State" specifier="Change">59</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 14</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 61">
+                    <trigger type="State" specifier="Change">60</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 15</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 62">
+                    <trigger type="State" specifier="Change">61</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 16</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 63">
+                    <trigger type="State" specifier="Change">62</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 17</argument>
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 64">
+                    <trigger type="State" specifier="Change">63</trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 9 - Index 18</argument>
+                        </task>
+                    </tasks>
+                </action>
+            </actionlist>
+            <actionlist enabled="true" label="feedback master" source="Dashboard Master">
+                <action label="Action 01">
+                    <trigger type="ButtonPrimair" specifier="Change"></trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 11 - Index 111</argument>
+                        </task>
+                    </tasks>
+                </action>
+            </actionlist>
+            <actionlist enabled="true" label="feedback tempo" source="Dashboard Tempo">
+                <action label="Action 01">
+                    <trigger type="ButtonSecundair" specifier="Change"></trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 11 - Index 110</argument>
+                        </task>
+                    </tasks>
+                </action>
+            </actionlist>
+            <actionlist enabled="true" label="feedback release" source="Dashboard Prgrammer">
+                <action label="Action 01">
+                    <trigger type="Release" specifier="Change"></trigger>
+                    <tasks>
+                        <task type="MIDI" feature="Send Message" function="Control Launchpad">
+                            <argument type="Midi Address">Channel 0 - Message 11 - Index 108</argument>
+                        </task>
+                    </tasks>
+                </action>
+            </actionlist>
+            <actionlist enabled="true" label="control Fader Flash" source="MIDI">
+                <action label="Action 01">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 89</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Fader" feature="ButtonPrimair" function="control" identifier="0">
+
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 02">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 79</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Fader" feature="ButtonPrimair" function="control" identifier="1">
+
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 03">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 69</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Fader" feature="ButtonPrimair" function="control" identifier="2">
+
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 04">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 59</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Fader" feature="ButtonPrimair" function="control" identifier="3">
+
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 05">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 49</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Fader" feature="ButtonPrimair" function="control" identifier="4">
+
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 06">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 39</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Fader" feature="ButtonPrimair" function="control" identifier="5">
+
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 07">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 29</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Fader" feature="ButtonPrimair" function="control" identifier="6">
+
+                        </task>
+                    </tasks>
+                </action>
+                <action label="Action 08">
+                    <trigger type="Message" specifier="Change">Channel 0 - Message 9 - Index 19</trigger>
+                    <tasks>
+                        <task type="Dashboard Playback Fader" feature="ButtonPrimair" function="control" identifier="7">
+                        </task>
+                    </tasks>
+                </action>
+            </actionlist>
+        </midimap>
+    </midimaps>
+</show>
